@@ -1,0 +1,35 @@
+- {name: Android, slug: android}
+- {name: battery powered, slug: battery-powered}
+- {name: camera, slug: camera}
+- {name: combinable, slug: combinable}
+- {name: concealed hood in the neck-collar, slug: concealed-hood}
+- {name: convertible, slug: convertible}
+- {name: double-wall, slug: double-wall}
+- {name: dust resistant, slug: dust-resistant}
+- {name: fire resistant, slug: fire-resistant}
+- {name: fixed hood, slug: fixed-hood}
+- {name: GPS, slug: gps}
+- {name: high flow, slug: high-flow}
+- {name: hood, slug: hood}
+- {name: moisture-resistant, slug: moisture-resistant}
+- {name: packable, slug: packable}
+- {name: powered by AA / LR06 batteries, slug: powered-by-aa-lr06-batteries}
+- {name: powered by AAA / LR03 batteries, slug: powered-by-aaa-lr03-batteries}
+- {name: powered by dynamo hub, slug: powered-by-dynamo-hub}
+- {name: powered by dynamo, slug: powered-by-dynamo}
+- {name: powered by kinetic energy, slug: powered-by-kinetic-energy}
+- {name: powered by solar energy, slug: powered-by-solar-energy}
+- {name: radio, slug: radio}
+- {name: reflective, slug: reflective}
+- {name: removable hood, slug: removable-hood}
+- {name: removable liner, slug: removable-liner}
+- {name: removable lining, slug: removable-lining}
+- {name: reversible, slug: reversible}
+- {name: shock resistant, slug: shock-resistant}
+- {name: single wheel, slug: single-wheel}
+- {name: two wheels, slug: two-wheels}
+- {name: USB charging, slug: usb-charging}
+- {name: water-resistant, slug: water-resistant}
+- {name: waterproof, slug: waterproof}
+- {name: windbreaker, slug: windbreaker}
+- {name: zipped pockets, slug: zipped-pockets}

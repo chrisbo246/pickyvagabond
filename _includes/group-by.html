@@ -1,0 +1,11 @@
+
+{% assign collection = site.collections | where: 'label', page.collection | first %}
+{% assign docs = site.types %}
+{% assign groups = docs | group_by: "category" | sort: "name" %}
+{% for group in groups %}
+{% assign collection = site.collections | where: 'label', page.collection | first %}
+<h2>{{ group.name }}</h2>
+{% for post in group.items %}
+{% include post-preview.html %}
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,11 @@
+- {name: bicycle, slug: cycling}
+- {name: camping car, slug: camping-car}
+- {name: camping, slug: camping}
+- {name: Fish, slug: fishing}
+- {name: hitchhiking, slug: hitchhiking}
+- {name: horse, slug: horse-riding}
+- {name: motorcycle, slug: motorcycling}
+- {name: outdoor, slug: outdoor}
+- {name: rowing, slug: rowing}
+- {name: travel, slug: travel}
+- {name: trekking, slug: trekking}

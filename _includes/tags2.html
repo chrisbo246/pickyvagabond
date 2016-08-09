@@ -1,0 +1,26 @@
+
+{% assign items = "brands,types,purposes,activities,users,qualities,features,matters" | split: "," %}
+<p>items: {{ items }}</p>
+{% for item in items %}
+{% assign posts = site[item] %}
+{% assign tags = page[item] %}
+<p>item: {{ item }}</p>
+<p>posts: {{ posts }}</p>
+<p>tags: {{ tags }}</p>
+{% if posts and tags %}
+<h3>{{ site.collections[item].title }}</h3>
+<ul class="list-inline">
+    {% for tag in tags %}
+    <li>
+        {% for post in posts %}
+        {% if post.label == tag %}
+        <span class="label label-primary"><a href="{{ post.path }}">{{ post.title }}</a></span>
+        {% else %}
+        <span class="label label-default">{{ tag }}</span>
+        {% endif %}
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+{% endfor %}

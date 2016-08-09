@@ -1,0 +1,6 @@
+{% assign content = content | strip_newlines %}
+{% if content != "" %}
+{{ content }}
+{% else if page.description %}
+{{ page.description }}
+{% endif %}

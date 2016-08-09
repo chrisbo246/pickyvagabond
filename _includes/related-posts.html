@@ -1,0 +1,7 @@
+
+{% assign collection = site.collections | where: 'label', page.collection | first %}
+{% for post in posts %}
+{% if post[page.collection] contains page.slug %}
+{% include post-preview.html %}
+{% endif %}
+{% endfor %}

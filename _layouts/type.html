@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <form data-persist="garlic" method="post">
+        {% include post-header.html %}
+        <div class="container-fluid">
+            <div class="post-content" itemprop="articleBody">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% if site.brands %}<li><a href="#brands" data-toggle="tab">Brands</a></li>{% endif %}
+                    {% if site.features %}<li><a href="#features" data-toggle="tab">Features</a></li>{% endif %}
+                    {% if site.purposes %}<li><a href="#purposes" data-toggle="tab">Purposes</a></li>{% endif %}
+                    {% if site.tips %}<li><a href="#tips" data-toggle="tab">Tips</a></li>{% endif %}
+                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="overview" class="tab-pane fade active in">
+                        <!--Traduction francaise
+                        Aspects pratiques
+                        Usages détournés
+                        Alternatives
+                        Marques (triées par popularité)
+                    -->
+                        {% include text.html %}
+                    </div>
+                    <div id="products" class="tab-pane fade">
+                        {% assign posts = site.products %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="purposes" class="tab-pane fade">
+                        {% assign posts = site.purposes %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="brands" class="tab-pane fade">
+                        {% assign posts = site.brands %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="features" class="tab-pane fade">
+                        {% assign posts = site.features %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="tips" class="tab-pane fade">
+                        {% assign posts = site.tips %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="tags" class="tab-pane fade">
+                        {% include tags.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</article>

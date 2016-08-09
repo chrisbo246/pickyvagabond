@@ -1,0 +1,155 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: pickyvagabond
+email: chrisbo246@gmail.com
+description: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+#baseurl: "/pickyvagabond"
+url: "https://pickyvagabond.github.io" # the base hostname & protocol for your site
+twitter_username: pickyvagabond
+github_username:  chrisbo246
+
+# Build settings
+markdown: kramdown
+
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+collections:
+  activities:
+    title: "Activities"
+    output: true
+    #permalink: /activities/:path/
+  brands:
+    title: "Brands"
+    output: true
+    #permalink: /brands/:path/
+  features:
+    title: "Features"
+    output: true
+    #permalink: /features/:path/
+  matters:
+    title: "Matters"
+    output: true
+    #permalink: /matters/:path/
+  products:
+    title: "Products"
+    output: true
+    #permalink: /products/:path/
+  purposes:
+    title: "Purposes"
+    output: true
+    #permalink: /purposes/:path/
+  qualities:
+    title: "Qualities"
+    output: true
+    #permalink: /qualities/:path/
+  selections:
+    title: "Selections"
+    output: true
+    #permalink: /selections/:path/
+  tips:
+    title: "Tips"
+    output: true
+    #permalink: /tips/:path/
+  types:
+    title: "Product types"
+    output: true
+    #permalink: /types/:path/
+  users:
+    title: "Users"
+    output: true
+    #permalink: /users/:path/
+
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      #type: "posts"
+    values:
+      layout: "default"
+      lang: "en"
+  - scope:
+      path: ""
+      type: activities
+    values:
+      layout: activity
+  - scope:
+      path: ""
+      type: brands
+    values:
+      layout: brand
+  - scope:
+      path: ""
+      type: features
+    values:
+      layout: feature
+  - scope:
+      path: ""
+      type: matters
+    values:
+      layout: matter
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: product
+  - scope:
+      path: ""
+      type: purposes
+    values:
+      layout: purpose
+  - scope:
+      path: ""
+      type: qualities
+    values:
+      layout: quality
+  - scope:
+      path: ""
+      type: selections
+    values:
+      layout: selection
+  - scope:
+      path: ""
+      type: types
+    values:
+      layout: type
+  - scope:
+      path: ""
+      type: tips
+    values:
+      layout: tip
+  - scope:
+      path: ""
+      type: users
+    values:
+      layout: user
+
+
+# jekyll-seo-tag
+author: pickyvagabond
+twitter:
+  username: pickyvagabond
+facebook:
+  app_id: 1234
+  publisher: 1234
+  admins: 1234
+logo: /assets/images/logo.jpg
+#social:
+#  name:
+#  links: []
+google_site_verification: "zqEqsiPlmpNz2yZJ3A8ythPCkPXaR-v4P8sX5KW3Hd0"

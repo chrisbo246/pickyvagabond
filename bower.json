@@ -1,0 +1,24 @@
+{
+  "name": "pickyvagabond",
+  "authors": [
+    "Chrisbo <chrisbo246@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.4",
+    "bootstrap-sass": "^3.3.6",
+    "lunr.js": "lunr#^0.7.1",
+    "garlicjs": "^1.2.4"
+  }
+}

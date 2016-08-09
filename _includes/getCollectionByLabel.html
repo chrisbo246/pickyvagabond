@@ -1,0 +1,6 @@
+{% assign collectionName = "myCollection" %}
+{% for c in site.collections %}
+    {% if c.label == collectionName %}
+        {% assign collection = c %}
+    {% endif %}
+{% endfor %}

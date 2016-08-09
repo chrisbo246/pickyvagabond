@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="home">
+
+
+  <h2>Getting started</h2>
+  <p>Start building your packing list? Follow the guide to save time and money.</p>
+  <ol>
+  <li>Get the list of <a href="purposes/">purposes</a> required by your main activities.</li>
+  <li>Get possible <a href="types/">product types</a> for each purpose and learn how to choose them.</li>
+  <li>Choose among recommended <a href="products/">products</a>.</li>
+  <li>Or discover good <a href="brands/">brands</a> all over the world.</li>
+  </ol>
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

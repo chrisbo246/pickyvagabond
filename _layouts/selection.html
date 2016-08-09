@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="container-fluid">
+        <form data-persist="garlic" method="post">
+            <header class="post-header">
+                <h1 class="post-title">{{ page.title }}</h1>
+                selection layout
+            </header>
+            <div class="post-content" itemprop="articleBody">
+                <form class="controls" id="#Filters">
+                    <button id="#Reset">Clear Filters</button>
+                </form>
+                <div id="Container" class="container">
+                    {% include text.html %}
+                    <h2>Sélection de produits</h2>
+                    <div class="fail-message"><span>Aucun produit ne correspond à votre sélection</span></div>
+                    {% for post in site.posts %}
+                    {% if 'product' == post.layout %}
+                    {% for tag in post.tags %}
+                    {% if tag == page.tag %}
+                    <div class="mix {% for tag2 in post.tags %}{{ tag2 }} {% endfor %}">
+                        {% if post.image %}
+                        <a href="{{ post.url }}">
+                            <img src="{{ post.image.url }}" width="100" class="img-rounded" title="{{ post.image.title }}" />
+                        </a>
+                        {% endif %}
+                        <a href="{{ post.url }}" title="Fiche produit">{{ post.title }}</a>
+                        {% if post.dealers %}
+                        <ul>
+                            {% for dealer in post.dealers %}
+                            <li><a href="{{ dealer.url }}" target="_blank">{{ dealer.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </form>
+    </div>
+</article>

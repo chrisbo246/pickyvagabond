@@ -1,0 +1,12 @@
+- {name: aluminium, slug: aluminium}
+- {name: cotton, slug: cotton}
+- {name: down, slug: down}
+- {name: leather, slug: leather}
+- {name: plastic, slug: plastic}
+- {name: polycotton, slug: polycotton}
+- {name: stainless steel, slug: stainless-steel}
+- {name: steel, slug: steel}
+- {name: synthetic, slug: synthetic}
+- {name: titanium, slug: titanium}
+- {name: wood, slug: wood}
+- {name: wool, slug: wool}

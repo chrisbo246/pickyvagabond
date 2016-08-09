@@ -1,0 +1,12 @@
+<p>Page slug: {{ page.slug }}</p>
+<p>Page title: {{ page.title }}</p>
+<p>Page collection: {{ page.collection }}</p>
+<p>Page path: {{ page.path }}</p>
+<p>Page url: {{ page.url }}</p>
+<p>Page files: {{ page.files }}</p>
+
+{% assign collection = site.collections | where: 'label', page.collection | first %}
+<p>Collection label: {{ collection.label }}</p>
+<p>Collection title: {{ collection.title }}</p>
+<!--<p>Collection relative_directory: {{ collection.relative_directory }}</p>
+<p>Collection directory: {{ collection.directory }}</p>-->

@@ -1,0 +1,59 @@
+
+/* Square crop and center image */
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.img-wrapper img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+// Landscape + contain
+.img-wrapper img,
+.img-wrapper.img-wrapper-landscape img {
+    width: auto;
+}
+// Landscape + cover
+.img-wrapper.img-wrapper-cover img,
+.img-wrapper.img-wrapper-cover.img-landscape img {
+    height: 100%;
+}
+
+
+
+// Portrait + contain
+.img-wrapper-portrait img {
+    height: auto;
+}
+// Portrait + cover
+.img-wrapper-portrait img {
+    width: 100%;
+}
+
+
+
+// Smaller thumbnail
+.img-wrapper-xs {
+    width: 75px;
+    height: 75px;
+}
+// Thumbnail (default 150px x 150px max)
+.img-wrapper-sm {
+    width: 150px;
+    height: 150px;
+}
+// Medium resolution (default 300px x 300px max)
+.img-wrapper-md {
+    width: 300px;
+    height: 300px;
+}
+// Large resolution (default 640px x 640px max)
+.img-wrapper-lg {
+    width: 640px;
+    height: 640px;
+}

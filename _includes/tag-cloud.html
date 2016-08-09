@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-12">
+        <form class="controls" id="#Filters">
+            <fieldset class="form-inline filter-group checkboxes">
+                <legend>Site tags</legend>
+                {% for tag in site.tags | sort %}
+                <div class="form-group" >
+                    <input type="checkbox" value=".{{ tag | first }}" />
+                    <label style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%">{{ tag | first }}</label>
+                </div>
+                {% endfor %}
+            </fieldset>
+            <button id="#Reset" class="btn btn-default btn-xs">Clear Filters</button>
+        </form>
+    </div>
+</div>

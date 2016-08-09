@@ -1,0 +1,34 @@
+- {name: be visible, slug: be-visible}
+- {name: bivouac, slug: bivouac}
+- {name: cold protection, slug: cold-protection}
+- {name: communication, slug: communication}
+- {name: cook, slug: cook}
+- {name: cut hair, slug: cut-hair}
+- {name: cut, slug: cut}
+- {name: dress, slug: dress}
+- {name: drink, slug: drink}
+- {name: eat, slug: eat}
+- {name: entertainment, slug: entertainment}
+- {name: feed, slug: food}
+- {name: fishing, slug: fishing}
+- {name: hiking, slug: hiking}
+- {name: inflate, slug: inflate}
+- {name: light up, slug: light-up}
+- {name: listen to music, slug: listen-to-music}
+- {name: move, slug: move}
+- {name: orientation, slug: orientation}
+- {name: power supply, slug: power-supply}
+- {name: rain protection, slug: rain-protection}
+- {name: run, slug: run}
+- {name: shave, slug: shave}
+- {name: shelter, slug: shelter}
+- {name: shower, slug: shower}
+- {name: sleep, slug: sleep}
+- {name: theft protection, slug: theft-protection}
+- {name: tinker, slug: tinker}
+- {name: tourism, slug: tourism}
+- {name: transport equipment, slug: transport-equipment}
+- {name: trekking, slug: trekking}
+- {name: wash, slug: wash}
+- {name: water transportation, slug: water-transportation}
+- {name: work, slug: work}

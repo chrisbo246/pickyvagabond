@@ -1,0 +1,6 @@
+- {name: boys, slug: boys}
+- {name: girls, slug: girls}
+- {name: mens, slug: men}
+- {name: unisex adults, slug: unisex-adults}
+- {name: unisex kids, slug: unisex-kids}
+- {name: womens, slug: women}

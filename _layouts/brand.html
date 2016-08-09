@@ -1,0 +1,74 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <form data-persist="garlic" method="post">
+        {% include post-header.html %}
+        <div class="container-fluid">
+            <!--
+            <header class="post-header clearfix">
+                <h1 class="post-title pull-left">{{ page.title }}</h1>
+                <a class="btn btn-primary btn-sm pull-right" href="https://docs.google.com/forms/d/1ab_sGNpcn_hR6S67Y4Ih6VPOOx7mUt80CqGk1S__gyc/viewform?usp=send_form" target="_blank">Submit changes</a>
+                brand layout
+            </header>
+        -->
+
+            <div class="post-content" itemprop="articleBody">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% if site.types %}<li><a href="#types" data-toggle="tab">Product types</a></li>{% endif %}
+                    {% if site.activities %}<li><a href="#activities" data-toggle="tab">Activities</a></li>{% endif %}
+                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="overview" class="tab-pane fade active in">
+                        {% include text.html %}
+                        <!--
+                        {% if page.logo %}<p><img src="{{ page.image.medium }}" class="img-rounded" title="Logo" /></p>{% endif %}
+                    -->
+                        <p>{% if page.country %}Country: {{ page.country }}</p>{% endif %}
+                        <p>Links:
+                            {% if page.website %}<a href="{{ page.website }}" target="_blank">Website</a>{% endif %}
+                            {% if page.shop %}<a href="{{ page.shop }}" target="_blank">Shop</a>{% endif %}
+                            {% if page.store-finder %}<a href="{{ page.about }}" target="_blank">Store finder</a>{% endif %}
+                            {% if page.about %}<a href="{{ page.about }}" target="_blank">About</a>{% endif %}
+                        </p>
+                        <!--
+                        {% if page.product-categories %}
+                        Products:
+                        <ul class="list-inline">
+                            {% for category in page.product-categories %}
+                            <li>
+                                {% if category.url %}
+                                <a href="{{ category.url }}" target="_blank">{{ category.name }}</a>
+                                {% else %}
+                                {{ category.name }}
+                                {% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    -->
+                        {{ content }}
+                    </div>
+                    <div id="types" class="tab-pane fade">
+                        {% assign posts = site.types %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="products" class="tab-pane fade">
+                        {% assign posts = site.products %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="activities" class="tab-pane fade">
+                        {% assign posts = site.activities %}
+                        {% include related-posts.html %}
+                    </div>
+                    <div id="tags" class="tab-pane fade">
+                        {% include tags.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</article>

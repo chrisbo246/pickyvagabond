@@ -1,0 +1,28 @@
+<div class="media"
+{% for collection in site.collections %}
+{% if post[collection.label] %}
+data-{{ collection.label }}="{{ post[collection.label] }}"
+{% endif %}
+{% endfor %}
+ >
+    <div class="media-left">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="img-wrapper img-wrapper-xs img-wrapper-cover">
+            {% if post.image.small %}
+            {% assign url = post.image.small %}
+            {% else if post.image.medium %}
+            {% assign url = post.image.medium %}
+            {% else if post.image.large %}
+            {% assign url = post.image.large %}
+            {% else if post.image %}
+            {% assign url = post.image %}
+            {% endif %}
+            {% if url %}<img class="media-object" src="{{ url }}" alt="{{ post.image.alt }}" width="75" height="75" />{% endif %}
+        </a>
+    </div>
+    <div class="media-body">
+        <h4 class="media-heading">{% include checkbox.html %}<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <!--{% if post.date %}<small class="post-meta text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}-->
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+        {% if post.pros or post.cons %}{% include pros-cons.html %}{% endif %}
+    </div>
+</div>

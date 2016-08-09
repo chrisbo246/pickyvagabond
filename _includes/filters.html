@@ -1,0 +1,15 @@
+<form class="form-inline" data-persist="garlic">
+    {% assign collections = "activities,users" | split: "," %}
+    {% for label in collections %}
+    <div class="form-group">
+        {% assign collection = site.collections | where: 'label', label | first %}
+        <label for="{{ label }}_filter">{{ collection.title }}</label>
+        <select id="{{ label }}_filter" data-collection="{{ label }}" class="form-control">
+            {% for doc in site[label] %}
+            <option value="{{ doc.slug }}">{{ doc.title }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    {% endfor %}
+    <input type="reset" id="reset_filters" class="btn btn-primary garlic-auto-save pull-right" value="Reset" />
+</form>

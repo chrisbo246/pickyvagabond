@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <form data-persist="garlic" method="post">
+        {% include post-header.html %}
+        <div class="container-fluid">
+            <!--
+            <header class="post-header clearfix">
+                <h1 class="post-title pull-left">{{ page.title }}</h1>
+                <a class="btn btn-primary btn-sm pull-right" href="https://docs.google.com/forms/d/1GkW8fvEJrjKBelEMq2GdcGmVDu22_IwNBJQ74eXV6QI/viewform?usp=send_form" target="_blank">Submit changes</a>
+            </header>
+        -->
+            <div class="post-content" itemprop="articleBody">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">Overview</a></li>
+                    {% if site.brands %}<li><a href="#brands" data-toggle="tab">Brand</a></li>{% endif %}
+                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade active in">
+                        {% include text.html %}
+                        {% include pros-cons.html %}
+                        <h3>Best price at</h3>
+                        {% if page.dealers %}
+                        <ul class="list-unstyled">
+                            {% for dealer in page.dealers %}
+                            <li><a href="{{ dealer.url }}" target="_blank">{{ dealer.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+                    <div id="brands" class="tab-pane fade">
+                        {% for post in site.brands %}
+                        {% if page.brand == post.slug or page.brands contains post.slug %}
+                        {% if post.images.medium %}
+                        <p><img src="{{ post.images.medium }}" class="img-rounded" title="{{ post.title }}" /></p>
+                        {% endif %}
+                        {% if post.country %}
+                        <p>Origin: {{ post.country }}</p>
+                        {% endif %}
+                        <p>Links:
+                            {% if post.website %}<a href="{{ post.website }}" target="_blank">Website</a>{% endif %}
+                            {% if post.shop %}<a href="{{ post.shop }}" target="_blank">Shop</a>{% endif %}
+                        </p>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div id="tags" class="tab-pane fade">
+                        {% include tags.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</article>
