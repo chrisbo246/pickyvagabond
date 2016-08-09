@@ -19,6 +19,7 @@ github_username:  chrisbo246
 # Build settings
 markdown: kramdown
 
+repository: chrisbo246/pickyvagabond
 
 gems:
   - jekyll-seo-tag
