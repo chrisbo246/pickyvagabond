@@ -12,7 +12,7 @@ description: >
   The broke bikepacker guide.
 #baseurl: "" # the subpath of your site, e.g. /blog
 baseurl: "/pickyvagabond"
-url: "https://chrisbo246.github.io" # the base hostname & protocol for your site
+url: "https://chrisbo246.github.io/pickyvagabond" # the base hostname & protocol for your site
 twitter_username: pickyvagabond
 github_username:  chrisbo246
 
