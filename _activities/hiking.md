@@ -1,6 +1,6 @@
 ---
-title:  "Hiking"
+title: "Hiking"
 description: "Travel with just a backpack."
-image: https://pixabay.com/static/uploads/photo/2015/03/26/10/43/hiking-691846_960_720.jpg
+image: https://images-eu.ssl-images-amazon.com/images/G/08/products/Sports/2.Test_HP/lifestyle/Camping
 purposes: [rain-protection, sun-protection, water-transport, gear-transport, dress]
 ---

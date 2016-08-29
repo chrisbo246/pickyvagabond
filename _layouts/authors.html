@@ -1,0 +1,20 @@
+{% for author in site.data.authors %}
+<div class="media">
+    {% if author.gravatar.avatar %}
+    <div class="media-left">
+        {% if author.gravatar.profile %}<a href="{{ author.gravatar.profile }}" class="img-wrapper img-wrapper-xs img-wrapper-cover">{% endif %}
+            <img class="media-object" src="{{ author.gravatar.avatar }}?s=80" alt="{{ author.display_name }}" width="80" height="80" />
+        {% if author.gravatar.profile %}</a>{% endif %}
+    </div>
+    {% endif %}
+    <div class="media-body">
+        <h4 class="media-heading">
+            {% if author.gravatar.profile %}<a href="{{ author.gravatar.profile }}">{% endif %}
+                {{ author.display_name }}
+            {% if author.gravatar.profile %}</a>{% endif %}
+        </h4>
+        {% if author.description %}<p>{{ author.description }}</p>{% endif %}
+        {% if author.website %}<p><a href="{{ author.website }}">Website</a></p>{% endif %}
+    </div>
+</div>
+{% endfor %}

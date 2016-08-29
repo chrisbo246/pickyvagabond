@@ -1,5 +1,5 @@
 ---
-title:  "Vaude Campo Compact tent"
+title: "Vaude Campo Compact tent"
 description: "An basic but spacious and relatively reliable tent with a very affordable price."
 brands: [vaude]
 name: Campo Compact
@@ -7,7 +7,8 @@ types: [tent]
 purposes: [shelter]
 activities: [camping]
 features: [freestanding, double-wall, alloy-poles, alloy-pegs]
-image: http://ecx.images-amazon.com/images/I/51LHoFjbGpL._SL1181_.jpg
+image: http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg
 pros:
  - Compact and discrete
  - High door

@@ -17,12 +17,10 @@ layout: default
                         {% include text.html %}
                     </div>
                     <div id="products" class="tab-pane fade">
-                        {% assign posts = site.products %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.products %}
                     </div>
                     <div id="activities" class="tab-pane fade">
-                        {% assign posts = site.activities %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.activities %}
                     </div>
                     <div id="tags" class="tab-pane fade">
                         {% include tags.html %}

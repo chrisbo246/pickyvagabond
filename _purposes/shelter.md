@@ -1,10 +1,9 @@
 ---
-title:  "Shelter"
+title: "Shelter"
 title-fr: "S'abriter"
-excerpt: ""
-image:
-  small: http://northcountrytrail.org/cla/wp-content/uploads/2012/08/Shelter.jpg
-  medium: http://northcountrytrail.org/cla/wp-content/uploads/2012/08/Shelter.jpg
-  large: http://northcountrytrail.org/cla/wp-content/uploads/2012/08/Shelter.jpg
+description: "A night out by staying out of the weather."
+image: http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg
 activities: [camping]
+purposes: [camping]
 ---

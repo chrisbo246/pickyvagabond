@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="container-fluid">
+    <header class="page-header">
+        <h1>{{ page.title }}</h1>
+    </header>
+    <ul class="list-unstyled">
+        {% for post in site.helps %}
+        {% include post-preview.html post=post %}
+        {% endfor %}
+    </ul>
+</div>

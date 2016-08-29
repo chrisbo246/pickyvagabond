@@ -1,7 +1,7 @@
 ---
-layout: features
+layout: collection
 title: Features
 permalink: /features/
-menu: 4
+menu: 0
 menu_position: 6
 ---

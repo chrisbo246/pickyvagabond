@@ -16,7 +16,7 @@
                 <span class="icon-bar"></span>
             </button>
             <div class="-navbar-text navbar-center">
-                <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <a class="navbar-brand" href="{{ site.github.baseurl }}/">
                     {{ site.title }}
                 </a>
             </div>
@@ -27,22 +27,22 @@
                 {% for p in navigation_pages %}
                 {% if p.menu_position %}
                 <li>
-                    <a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                        {% if my_page.iconclass %}<span class="{{ my_page.iconclass }}"></span>{% endif %}
+                    <a href="{{ p.url | prepend: site.github.baseurl }}" {% if p.url == page.url %}class="active"{% endif %}>
+                        {% if p.iconclass %}<span class="{{ p.iconclass }}"></span>{% endif %}
                         {{ p.title }}
                     </a>
                 </li>
                 {% endif %}
                 {% endfor %}
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Search by <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         {% assign navigation_pages = site.html_pages | where: 'menu', 2 | sort: 'menu_position' %}
                         {% for p in navigation_pages %}
                         {% if p.menu_position %}
                         <li>
-                            <a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                                {% if my_page.iconclass %}<span class="{{ my_page.iconclass }}"></span>{% endif %}
+                            <a href="{{ p.url | prepend: site.github.baseurl }}" {% if p.url == page.url %}class="active"{% endif %}>
+                                {% if p.iconclass %}<span class="{{ p.iconclass }}"></span>{% endif %}
                                 {{ p.title }}
                             </a>
                         </li>
@@ -57,8 +57,8 @@
                         {% for p in navigation_pages %}
                         {% if p.menu_position %}
                         <li>
-                            <a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                                {% if my_page.iconclass %}<span class="{{ my_page.iconclass }}"></span>{% endif %}
+                            <a href="{{ p.url | prepend: site.github.baseurl }}" {% if p.url == page.url %}class="active"{% endif %}>
+                                {% if p.iconclass %}<span class="{{ p.iconclass }}"></span>{% endif %}
                                 {{ p.title }}
                             </a>
                         </li>
@@ -75,8 +75,8 @@
                         {% for p in navigation_pages %}
                         {% if p.menu_position %}
                         <li>
-                            <a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="active"{% endif %}>
-                                {% if my_page.iconclass %}<span class="{{ my_page.iconclass }}"></span>{% endif %}
+                            <a href="{{ p.url | prepend: site.github.baseurl }}" {% if p.url == page.url %}class="active"{% endif %}>
+                                {% if p.iconclass %}<span class="{{ p.iconclass }}"></span>{% endif %}
                                 {{ p.title }}
                             </a>
                         </li>

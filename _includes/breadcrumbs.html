@@ -1,0 +1,18 @@
+{% assign page_slug = page.url | remove_first: '/' | split: '/' %}
+{% assign slug_first = page_slug[0] %}
+{% assign slug = site.data.slugs[slug_first] %}
+
+<nav class="breadcrumbs">
+    <div class="container-fluid">
+        <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+            <a href="{{ site.github.url }}" class="breadcrumb__item" itemprop="url">
+                <span itemprop="title">Home</span>
+            </a> <span class="breadcrumb__sep">×</span>
+        </span>
+        <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+            <a href="/{{ page_slug[0] }}/" class="breadcrumb__item" itemprop="url">
+                <span itemprop="title">{{ slug.name }}</span>
+            </a>
+        </span>
+    </div>
+</nav>

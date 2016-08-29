@@ -1,15 +1,39 @@
+{{ page | jsonify }}
+
 <form class="form-inline" data-persist="garlic">
-    {% assign collections = "activities,users" | split: "," %}
+    {% assign collections = "activities,users,qualities" | split: "," %}
     {% for label in collections %}
     <div class="form-group">
         {% assign collection = site.collections | where: 'label', label | first %}
         <label for="{{ label }}_filter">{{ collection.title }}</label>
-        <select id="{{ label }}_filter" data-collection="{{ label }}" class="form-control">
+        <select id="{{ label }}_filter" data-filter="{{ label }}" class="form-control filter" multiple="multiple">
+            <option value="" selected>All</option>
             {% for doc in site[label] %}
             <option value="{{ doc.slug }}">{{ doc.title }}</option>
             {% endfor %}
         </select>
     </div>
     {% endfor %}
+
+    {% if page.collection %}
+    {% assign categories = '' | split: '|' %}
+    {% for doc in site[page.collection] %}
+    {% for category in doc.categories %}
+    {% assign categories = categories | push: category %}
+    {% endfor %}
+    {% endfor %}
+    {% assign categories = categories | uniq | sort %}
+    {% assign label = 'categories' %}
+    <div class="form-group">
+        <label for="{{ label }}_filter">Category</label>
+        <select id="{{ label }}_filter" data-collection="{{ label }}" class="form-control filter">
+            <option value="" selected>All</option>
+            {% for category in categories %}
+            <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    {% endif %}
+
     <input type="reset" id="reset_filters" class="btn btn-primary garlic-auto-save pull-right" value="Reset" />
 </form>

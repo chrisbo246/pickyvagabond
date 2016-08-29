@@ -1,0 +1,39 @@
+locales:
+  # English ---------------------------------------------
+  en: &DEFAULT_EN
+    overview: "Overview"
+    toc: "Table of Contents"
+    written_by: "Written by"
+    updated: "Updated"
+    share: "Share on"
+  en_US:
+    <<: *DEFAULT_EN     # use en for en_US
+  en_UK:
+    <<: *DEFAULT_EN     # use en for en_UK
+
+  # German translations ---------------------------------
+  de: &DEFAULT_DE
+    <<: *DEFAULT_EN     # load English values as default
+    overview: "&Uuml;bersicht"
+    toc: "Inhalt"
+    written_by: "Verfasst von"
+    updated: "Zuletzt aktualisiert:"
+    share: ""
+  de_DE:
+    <<: *DEFAULT_DE     # use de translation for de_DE
+
+  # French translations ---------------------------------
+  fr: &DEFAULT_FR
+    <<: *DEFAULT_EN     # load English values as default
+    overview: "Aperçu"
+    toc: "Table des matières"
+    written_by: "Écrit par"
+    updated: "Mis à jour"
+    share: "Partager sur"
+  fr_FR:
+    <<: *DEFAULT_FR     # use fr translation for fr_FR
+
+# Config
+# locale: fr_FR
+# Use
+# {{ site.data.languages.locales[site.locale].updated }}

@@ -1,11 +1,13 @@
 ---
-title:  "Tent"
+title: "Tent"
 title-fr: "Tente"
 description: "Closed or half-closed canvas shelter."
-image: /images/thumbnails/types/tent-lg.jpg
+image: http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg
 activities: [camping]
 brands: [vaude]
 purposes: [shelter]
+types:
 ---
 Base layer
 Technical	Casual	Long-sleeved	Sleeveless

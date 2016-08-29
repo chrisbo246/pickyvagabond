@@ -1,5 +1,5 @@
 ---
-title:  "Carinthia brenta"
+title: "Carinthia brenta"
 description: "Military grade winter sleeping bag (-5° confort)."
 brands: [carinthia]
 name: Brenta
@@ -7,7 +7,8 @@ types: [sleeping-bag]
 purposes: [sleep]
 activities: [camping]
 features: [synthetic-filling, poly-lining]
-image: http://www.aventurenordique.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/carinthia-brenta_02.jpg
+image: http://ecx.images-amazon.com/images/I/41-u2-8TLkL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/41-u2-8TLkL.jpg
 pros:
  - Compact and discrete
  - High door

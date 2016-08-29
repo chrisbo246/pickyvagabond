@@ -1,18 +1,26 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="msvalidate.01" content="93EAF08B55AC3C1EAD6FC56407B2D32A" />
-  <meta name='yandex-verification' content='417bd8d59fedca40' />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msvalidate.01" content="93EAF08B55AC3C1EAD6FC56407B2D32A" />
+    <meta name='yandex-verification' content='417bd8d59fedca40' />
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="stylesheet" href="{{ site.github.baseurl }}/css/main.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.baseurl | prepend: site.github.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.github.baseurl | prepend: site.github.url }}">
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-  {% seo %}
+    <!--{ % seo % }-->
+
+    <style type="text/css">
+    {% capture criticalcss %}
+    {% include critical.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+    </style>
+
 </head>

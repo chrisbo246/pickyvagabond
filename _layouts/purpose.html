@@ -1,30 +1,32 @@
 ---
 layout: default
 ---
+{% assign content = page.content | strip_newlines %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <form data-persist="garlic" method="post">
         {% include post-header.html %}
         <div class="container-fluid">
             <div class="post-content" itemprop="articleBody">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-                    <!--<li><a href="#products" data-toggle="tab">Products</a></li>
-                    <li><a href="#types" data-toggle="tab">Types</a></li>-->
-                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                    {% if page.content %}<li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>{% endif %}
+                    {% if site.types %}<li><a href="#types" data-toggle="tab">Types</a></li>{% endif %}
+                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% comment %}<li><a href="#tags" data-toggle="tab">Tags</a></li>{% endcomment %}
                 </ul>
                 <div class="tab-content">
                     <div id="overview" class="tab-pane fade active in">
-                        {% include text.html %}
-                        {% assign posts = site.types %}
-                        {% include related-posts.html %}
-                    </div>
-                    <div id="products" class="tab-pane fade">
-                        {% assign posts = site.products %}
-                        {% include related-posts.html %}
+                        {{ content }}
+
+                        <br/>
+
+                        {% include related-posts.html posts=site.purposes %}
                     </div>
                     <div id="types" class="tab-pane fade">
-                        {% assign posts = site.types %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.types %}
+                    </div>
+                    <div id="products" class="tab-pane fade">
+                        {% include related-posts.html posts=site.products %}
                     </div>
                     <div id="tags" class="tab-pane fade">
                         {% include tags.html %}

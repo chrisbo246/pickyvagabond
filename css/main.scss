@@ -7,7 +7,8 @@ $icon-font-path: '../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
 
 @import
         "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
-        "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss"
+        "../bower_components/select2/src/scss/core.scss",
+        "../bower_components/select2-bootstrap-theme/src/build.scss"
 ;
 
 // Import partials from `sass_dir` (defaults to `_sass`)

@@ -15,15 +15,13 @@ layout: default
                 <div class="tab-content">
                     <div id="overview" class="tab-pane fade active in">
                         {% include text.html %}
-                        {% include pros-cons.html %}
+                        {% include post-pros-cons.html post=page %}
                     </div>
                     <div id="types" class="tab-pane fade">
-                        {% assign posts = site.types %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.types %}
                     </div>
                     <div id="tips" class="tab-pane fade">
-                        {% assign posts = site.tips %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.tips %}
                     </div>
                     <div id="tags" class="tab-pane fade">
                         {% include tags.html %}

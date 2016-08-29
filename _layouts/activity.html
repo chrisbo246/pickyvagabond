@@ -18,16 +18,13 @@ layout: default
                         {% include text.html %}
                     </div>
                     <div id="brands" class="tab-pane fade">
-                        {% assign posts = site.brands %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.brands %}
                     </div>
                     <div id="types" class="tab-pane fade">
-                        {% assign posts = site.types %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.types %}
                     </div>
                     <div id="purposes" class="tab-pane fade">
-                        {% assign posts = site.purposes %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.purposes %}
                     </div>
                     <div id="tags" class="tab-pane fade">
                         {% include tags.html %}

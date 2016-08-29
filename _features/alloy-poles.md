@@ -1,7 +1,8 @@
 ---
 title: "Alloy poles"
 description: "Strong and lightweight aluminum poles."
-image: 
+image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
 types: [tent]
 pros:
  - Strong

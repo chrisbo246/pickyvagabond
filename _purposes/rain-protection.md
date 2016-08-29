@@ -1,6 +1,8 @@
 ---
-title:  "Rain protection"
+title: "Rain protection"
 description: ""
-image: http://30dayadventures.ca/wp-content/uploads/2015/11/2015-04-umbrella-guy-rain.jpg
-activities: [cycling, hiking]
+image: http://ecx.images-amazon.com/images/I/41IMFwNtbkL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/41IMFwNtbkL.jpg
+activities: [hiking, cycling, biking]
+purposes: [hiking, cycling, biking]
 ---

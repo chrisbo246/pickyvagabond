@@ -15,26 +15,58 @@ layout: default
 
             <div class="post-content" itemprop="articleBody">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% if page.content %}<li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>{% endif %}
                     {% if site.types %}<li><a href="#types" data-toggle="tab">Product types</a></li>{% endif %}
-                    {% if site.activities %}<li><a href="#activities" data-toggle="tab">Activities</a></li>{% endif %}
-                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% comment %}<li><a href="#tags" data-toggle="tab">Tags</a></li>{% endcomment %}
                 </ul>
                 <div class="tab-content">
                     <div id="overview" class="tab-pane fade active in">
-                        {% include text.html %}
+
+                        {% comment%}
+                        {% if page.logo %}
+                        <p><img src="{{ page.logo }}" alt="{{ page.title }} logo" height="40" /></p>
+                        {% else if page.website %}
+                        <p class="text-muted">Logo <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q=logo+{{page.title | url_encode}}&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch={{ page.website | replace: 'http://', '' | replace: 'https://', ''  | replace: 'www.', '' }}&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-search"></span></a></p>
+                        {% endif %}
+                        {% endcomment%}
+
+                        <ul class="list-inline">
+
+                            {% if page.website %}
+                            <li><a href="{{ page.website }}" target="_blank"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
+                            {% else %}
+                            <li><span class="glyphicon glyphicon-globe"></span> Website <a class="text-muted" href="https://www.google.com/#as_q={{page.title | url_encode}}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=title&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-search"></span></a></li>
+                            {% endif %}
+
+                            {% if page.shop %}
+                            <li><a href="{{ page.shop }}" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span> Shop</a></li>
+                            {% else %}
+                            <li><span class="glyphicon glyphicon-shopping-cart"></span> Shop <a class="text-muted" href="https://www.google.com/#as_q={{page.title | url_encode}}+shop&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=title&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-shopping-search"></span></a></li>
+                            {% endif %}
+
+                            {% if page.store-finder %}
+                            <li><a href="{{ page.about }}" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> Store finder</a></li>
+                            {% endif %}
+
+                            {% if page.about %}
+                            <li><a href="{{ page.about }}" target="_blank"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
+                            {% endif %}
+
+                            {% if page.wiki %}
+                            <li><a href="{{ page.wiki }}" target="_blank"><span class="glyphicon glyphicon-link"></span> Wikipedia</a></li>
+                            {% else %}
+                            <li><span class="glyphicon glyphicon-link"></span> Wikipedia <a class="text-muted" href="https://en.wikipedia.org/w/index.php?title=Special:Search&profile=advanced&profile=advanced&fulltext=Search&search={{page.title | url_encode}}" target="_blank"><span class="glyphicon glyphicon-search"></span></a></li>
+                            {% endif %}
+
+                        </ul>
+
+                        <dl class="dl-horizontal">
+                            {% if page.country %}<dt>Country</dt><dd>{{ page.country }}</dd>{% endif %}
+                        </dl>
+
                         <!--
-                        {% if page.logo %}<p><img src="{{ page.image.medium }}" class="img-rounded" title="Logo" /></p>{% endif %}
-                    -->
-                        <p>{% if page.country %}Country: {{ page.country }}</p>{% endif %}
-                        <p>Links:
-                            {% if page.website %}<a href="{{ page.website }}" target="_blank">Website</a>{% endif %}
-                            {% if page.shop %}<a href="{{ page.shop }}" target="_blank">Shop</a>{% endif %}
-                            {% if page.store-finder %}<a href="{{ page.about }}" target="_blank">Store finder</a>{% endif %}
-                            {% if page.about %}<a href="{{ page.about }}" target="_blank">About</a>{% endif %}
-                        </p>
-                        <!--
+                        {% comment%}
                         {% if page.product-categories %}
                         Products:
                         <ul class="list-inline">
@@ -49,20 +81,15 @@ layout: default
                             {% endfor %}
                         </ul>
                         {% endif %}
+                        {% endcomment%}
                     -->
                         {{ content }}
                     </div>
                     <div id="types" class="tab-pane fade">
-                        {% assign posts = site.types %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.types %}
                     </div>
                     <div id="products" class="tab-pane fade">
-                        {% assign posts = site.products %}
-                        {% include related-posts.html %}
-                    </div>
-                    <div id="activities" class="tab-pane fade">
-                        {% assign posts = site.activities %}
-                        {% include related-posts.html %}
+                        {% include related-posts.html posts=site.products %}
                     </div>
                     <div id="tags" class="tab-pane fade">
                         {% include tags.html %}

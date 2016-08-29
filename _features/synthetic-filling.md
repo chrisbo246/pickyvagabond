@@ -1,7 +1,8 @@
 ---
 title: "Synthetic filling"
 description: "Synthetic insulation."
-image: 
+image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
 types: [sleeping-bag, insulated-jacket, insulated-pants, insulated-gloves]
 pros:
   - Cheap

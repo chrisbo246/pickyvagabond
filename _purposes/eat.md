@@ -1,6 +1,8 @@
 ---
-title:  "Eat"
+title: "Eat"
 description: ""
-image: https://pixabay.com/static/uploads/photo/2014/12/15/13/40/meat-569073_960_720.jpg
+image: http://ecx.images-amazon.com/images/I/41WlFe%2BB6FL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/41WlFe%2BB6FL.jpg
 activities: [camping]
+purposes: [camping]
 ---

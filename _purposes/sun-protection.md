@@ -1,6 +1,8 @@
 ---
-title:  "Sun protection"
-description: ""
-image: https://pixabay.com/static/uploads/photo/2016/03/27/21/17/man-1284310_960_720.jpg
+title: "Sun protection"
+description: "Protect your eyes and avoid sunburn."
+image: http://ecx.images-amazon.com/images/I/4113Io9bSVL.jpg
+amazon-image: http://ecx.images-amazon.com/images/I/4113Io9bSVL.jpg
 activities: [cycling, hiking]
+purposes: [cycling, hiking]
 ---

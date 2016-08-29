@@ -5,11 +5,10 @@
 
         if (results.length) { // Are there any results?
             var appendString = '';
-
             for (var i = 0; i < results.length; i++) {  // Iterate over the results
                 var item = store[results[i].ref];
                 appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
-                appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+                appendString += '<p>' + item.content.substring(0, 150) + ((item.content.length > 150) ? '&#8230;' : '') + '</p></li>';
             }
 
             searchResults.innerHTML = appendString;
@@ -44,6 +43,11 @@
             this.field('author');
             this.field('category');
             this.field('content');
+            this.field('description');
+            this.field('excerpt');
+            this.field('types');
+            this.field('brands');
+            this.field('purposes');
         });
 
         for (var key in window.store) { // Add the data to lunr
@@ -52,7 +56,12 @@
                 'title': window.store[key].title,
                 'author': window.store[key].author,
                 'category': window.store[key].category,
-                'content': window.store[key].content
+                'content': window.store[key].content,
+                'description': window.store[key].description,
+                'excerpt': window.store[key].excerpt,
+                'types': window.store[key].types,
+                'brands': window.store[key].brands,
+                'purposes': window.store[key].purposes
             });
 
             var results = idx.search(searchTerm); // Get lunr to perform a search
