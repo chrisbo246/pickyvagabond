@@ -15,7 +15,7 @@
             {% include selection-checkbox.html post=post %}
         </div>
         <div class="media-left">
-            <a href="{{ post.url | prepend: site.github.baseurl }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
+            <a href="{{ post.url | prepend: site.github.url }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
                 {% if post.image %}
                 {% include image.html src=post.image width=50 height=50 alt=post.title class="media-object" %}
                 {% endif %}
@@ -25,7 +25,7 @@
 
             {% include initial-anchor.html title=post.title %}
             <h4 class="media-heading">
-                <a href="{{ post.url | prepend: site.github.baseurl }}">
+                <a href="{{ post.url | prepend: site.github.url }}">
                     {{ post.title }}
                     {% if post.alt-names.size > 0 %}<small>(also {{ post.alt-names | join: ', '}})</small>{% endif %}
                 </a>

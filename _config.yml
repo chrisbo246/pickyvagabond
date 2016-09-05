@@ -25,9 +25,7 @@ repository: chrisbo246/pickyvagabond
 
 # jekyll-github-metadata
 github:
-  baseurl: ""
   url: http://localhost:4000
-  repository: chrisbo246/pickyvagabond
 
 array: []
 

@@ -48,7 +48,7 @@ layout: default
 {% include selection-checkbox.html post=post %}
 </div>
 <div class="media-left">
-<a href="{{ post.url | prepend: site.github.baseurl }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
+<a href="{{ post.url | prepend: site.github.url }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
 {% if post.image %}
 {% include image.html src=post.image width=50 height=50 alt=post.title class="media-object" %}
 {% endif %}
@@ -57,7 +57,7 @@ layout: default
 <div class="media-body">
 {% include initial-anchor.html title=post.title %}
 <h4 class="media-heading">
-<a href="{{ post.url | prepend: site.github.baseurl }}">{{ post.title }}</a>
+<a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
 </h4>
 {% if post.category %}<span class="label label-default">{{ post.category }}</span>{% endif %}
 {% if post.categories %}<span class="label label-primary">{% for category in post.categories %}{{ category }}{% endfor %}</span>{% endif %}

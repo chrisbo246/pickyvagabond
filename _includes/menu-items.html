@@ -3,7 +3,7 @@
 {% for p in navigation_pages %}
 {% if p.menu-position %}
 <li>
-    <a href="{{ p.url | prepend: site.github.baseurl }}" {% if p.url == page.url %}class="active"{% endif %}>
+    <a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="active"{% endif %}>
         {% if p.iconclass %}<span class="{{ p.iconclass }}"></span>{% endif %}
         {% if p.menu-title %}{{ p.menu-title }}{% else %}{{ p.title }}{% endif %}
     </a>
