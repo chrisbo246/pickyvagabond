@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-<div class="container-fluid post">
-    <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
+<div class="container-fluid">
+    <header class="page-header">
+        <h1>{{ page.title }}</h1>
     </header>
+
+    {% comment %}
     <div class="row">
         <div class="col-md-12">
             <div class="well">
@@ -20,7 +22,7 @@ layout: default
                     <div class="form-group">
                         <select id="search-collection" class="form-control">
                             {% for collection in site.collections %}
-                            <option value="{{ collection.label }}">{{ collection.label }}</option>
+                            <option value="{{ collection.label }}">{{ collection.title }}</option>
                             {% endfor %}
                         </select>
                     </div>
@@ -30,6 +32,7 @@ layout: default
         </div>
     </div>
 </div>
+{% endcomment %}
 
 <script>
 window.store = {

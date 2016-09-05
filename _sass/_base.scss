@@ -106,3 +106,24 @@ a[href="#top"] {
     font-size: .7em;
     width: auto;
 }
+
+
+.label-post {
+  @include label-variant($label-default-bg);
+}
+
+.label-type {
+  @include label-variant($label-primary-bg);
+}
+
+.label-purpose {
+  @include label-variant($label-success-bg);
+}
+
+.label-brand {
+  @include label-variant($label-info-bg);
+}
+
+.label-product {
+  @include label-variant($label-warning-bg);
+}

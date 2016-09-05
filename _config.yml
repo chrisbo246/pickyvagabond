@@ -21,9 +21,10 @@ locale: en
 #twitter_username: pickyvagabond
 #github_username:  chrisbo246
 
+# jekyll-github-metadata
 repository: chrisbo246/pickyvagabond
 
-# jekyll-github-metadata
+# github
 github:
   url: http://localhost:4000
 
