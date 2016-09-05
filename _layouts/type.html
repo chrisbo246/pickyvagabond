@@ -3,22 +3,31 @@ layout: default
 ---
 {% assign content = page.content | strip_newlines %}
 
+{% if page.collection and page.slug %}
+{% assign types = site.types | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% assign products = site.products | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% assign purposes = site.purposes | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% assign brands = site.brands | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% assign tips = site.tips | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% endif %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <form data-persist="garlic" method="post">
         {% include post-header.html %}
         <div class="container-fluid">
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
-                    {% if site.brands %}<li><a href="#brands" data-toggle="tab">Brands</a></li>{% endif %}
-                    {% if site.features %}<li><a href="#features" data-toggle="tab">Features</a></li>{% endif %}
-                    {% if site.purposes %}<li><a href="#purposes" data-toggle="tab">Purposes</a></li>{% endif %}
-                    {% if site.tips %}<li><a href="#tips" data-toggle="tab">Tips</a></li>{% endif %}
-                    {% comment %}<li><a href="#tags" data-toggle="tab">Tags</a></li>{% endcomment %}
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>
+                    <li role="tab" data-toggle="tab"><a href="#wikipedia" data-toggle="tab">Wikipedia</a></li>
+                    {% if products.size > 0 %}<li role="tab" data-toggle="tab"><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% if brands.size > 0 %}<li role="tab" data-toggle="tab"><a href="#brands" data-toggle="tab">Brands</a></li>{% endif %}
+                    {% if purposes.size > 0 %}<li role="tab" data-toggle="tab"><a href="#purposes" data-toggle="tab">Purposes</a></li>{% endif %}
+                    {% if tips.size > 0 %}<li role="tab" data-toggle="tab"><a href="#tips" data-toggle="tab">Tips</a></li>{% endif %}
+                    <li role="tab" data-toggle="tab"><a href="#tags" data-toggle="tab">Tags</a></li>
+                    <li role="tab" data-toggle="tab" class="contribute"><a href="#contribution" data-toggle="tab">Contribute</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="overview" class="tab-pane fade active in">
+                    <div id="overview" class="tab-pane fade active in" role="tabpanel">
                         <!--Traduction francaise
                         Aspects pratiques
                         Usages détournés
@@ -29,26 +38,49 @@ layout: default
 
                         <br/>
 
-                        {% include related-posts.html posts=site.types %}
+                        {% if types.size > 0 %}
+                        {% include collection-list.html posts="types" title="Related product types" %}
+                        {% endif %}
+
                     </div>
-                    <div id="products" class="tab-pane fade">
-                        {% include related-posts.html posts=site.products %}
+
+                    <div id="wikipedia" class="tab-pane fade" role="tabpanel">
+                        {% include wikipedia.html url=page.wiki query=page.title %}
                     </div>
-                    <div id="purposes" class="tab-pane fade">
-                        {% include related-posts.html posts=site.purposes %}
+
+                    {% if products.size > 0 %}
+                    <div id="products" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=products type="products" %}
                     </div>
-                    <div id="brands" class="tab-pane fade">
-                        {% include related-posts.html posts=site.brands %}
+                    {% endif %}
+
+                    {% if purposes.size > 0 %}
+                    <div id="purposes" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=purposes type="purposes" %}
                     </div>
-                    <div id="features" class="tab-pane fade">
-                        {% include related-posts.html posts=site.features %}
+                    {% endif %}
+
+                    {% if brands.size > 0 %}
+                    <div id="brands" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=brands type="brands" %}
                     </div>
-                    <div id="tips" class="tab-pane fade">
-                        {% include related-posts.html posts=site.tips %}
+                    {% endif %}
+
+                    {% if tips.size > 0 %}
+                    <div id="tips" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=tips type="tips" %}
                     </div>
-                    <div id="tags" class="tab-pane fade">
-                        {% include tags.html %}
+                    {% endif %}
+
+                    <div id="tags" class="tab-pane fade" role="tabpanel">
+                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
+                        {% include tags.html collections=collections %}
                     </div>
+
+                    <div id="contribution" class="tab-pane fade" role="tabpanel">
+                    {% include search-links.html query=page.title %}
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -1,0 +1,89 @@
+
+//@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+// Bootstrap variables
+//$brand-success: #5cb85c !default;
+//$gray-base: #000 !default;
+//$gray-light: lighten($gray-base, 46.7%) !default; // #777
+//$text-muted: $gray-light !default;
+
+.radio,
+.checkbox {
+   label {
+      position: relative;
+      padding-left: 1em;
+   }
+   input[type=radio],
+   input[type=checkbox] {
+      position: absolute;
+      margin-left: -100em;
+      margin-right: 100em;
+      font-size: 1em;
+   }
+   input[type=radio]:before,
+   input[type=checkbox]:before {
+      font-family: 'Glyphicons Halflings';
+      content: "\f096";
+      position: relative;
+      position: absolute;
+      left: 99em;
+   }
+   &.disabled input[type=radio]:before,
+   &.disabled input[type=checkbox]:before {
+      color: $text-muted;
+      cursor: not-allowed;
+   }
+
+}
+
+.radio-success,
+.checkbox-success {
+   input[type=radio]:checked,
+   input[type=checkbox]:checked {
+      color: $brand-success;
+   }
+}
+
+.radio,
+.radio-glyphicon {
+   input[type=radio]:before {
+      content: "\e088";
+   }
+   input[type=radio]:checked:before {
+      content: "\e089";
+   }
+}
+
+.checkbox,
+.checkbox-glyphicon {
+   input[type=checkbox]:before {
+      content: "\e157";
+   }
+   input[type=checkbox]:checked:before {
+      content: "\e067";
+   }
+}
+
+.radio-fontawesome {
+   input[type=radio] {
+      &:before {
+         font-family: FontAwesome;
+         content: "\f10c";
+      }
+      &:checked:before {
+         content: "\f111";
+      }
+   }
+}
+
+.checkbox-fontawesome {
+   input[type=checkbox] {
+      &:before {
+         font-family: FontAwesome;
+         content: "\f096";
+      }
+      &:checked:before {
+         content: "\f046";
+      }
+   }
+}

@@ -1,6 +1,6 @@
 ---
 title: "Horsing"
-description: ""
-image:
-purposes:
+description: ~
+image: ~
+purposes: ~
 ---

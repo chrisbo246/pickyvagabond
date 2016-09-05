@@ -5,13 +5,7 @@ layout: default
     <header class="page-header">
         <h1>{{ page.title }}</h1>
     </header>
-    {% if page.feature.visible == true %}
-    {% include featured.html %}
-    {% endif %}
-    <ul class="list-unstyled">
-        {% for post in site.posts %}
-        {% include post-preview.html post=post %}
-        {% endfor %}
-    </ul>
+    {% include post-list.html posts=site.posts %}
+
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.github.baseurl }}">via RSS</a></p>
 </div>

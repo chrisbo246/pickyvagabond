@@ -1,16 +1,16 @@
 ---
 title: Freetime
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code: FR
-country: France
-logo:
-website: http://www.freetime.fr
-shop: http://www.freetime.fr
-store-finder:
-about:  http://www.freetime.fr/about/
-wiki: https://en.wikipedia.org/wiki/Freetime
+countries: [france]
+logo: ~
+website: "http://www.freetime.fr"
+shop: "http://www.freetime.fr"
+store-finder: ~
+about: "http://www.freetime.fr/about/"
+wiki: "https://en.wikipedia.org/wiki/Freetime"
 ---

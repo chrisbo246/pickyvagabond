@@ -1,16 +1,16 @@
 ---
 title: Orvis
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code:
-country:
-logo:
-website: http://www.orvis.com
-shop: http://www.orvis.com
-store-finder:
-about:  http://www.orvis.com/about/
-wiki: https://en.wikipedia.org/wiki/Orvis
+countries: []
+logo: ~
+website: "http://www.orvis.com"
+shop: "http://www.orvis.com"
+store-finder: ~
+about: "http://www.orvis.com/about/"
+wiki: "https://en.wikipedia.org/wiki/Orvis"
 ---

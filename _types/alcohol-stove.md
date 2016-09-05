@@ -1,10 +1,8 @@
 ---
 title: "Alcohol stove"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/41gFvGqzjXL.jpg"
 brands: []
-purposes: [heat-the-meal]
+purposes: [cook, heat-the-meal]
 types: [camping-stove]
 ---

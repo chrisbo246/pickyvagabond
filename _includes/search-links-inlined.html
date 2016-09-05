@@ -1,0 +1,41 @@
+{% if include.post %}
+{% assign post = include.post %}
+{% else %}
+{% assign post = page %}
+{% endif %}
+
+{% unless post.website or post.shop or post.wiki or post.image %}
+<dl class="dl-horizontal contribute">
+    <dt>Missing</dt>
+    <dd>
+        <ul class="list-inline">
+            {% unless post.website %}
+            <li>
+                <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Website</a>
+            </li>
+            {% endunless %}
+            {% unless post.shop %}
+            <li>
+                <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Shop</a>
+            </li>
+            {% endunless %}
+            {% unless post.wiki %}
+            <li>
+                <a class="contribute" href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=wikipedia.org&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Wikipedia</a>
+            </li>
+            {% endunless %}
+            {% unless post.image %}
+            <li>
+                {% if post.type == 'brands' %}
+                <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q={{ post.title | url_encode }}+logo&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch={% if post.website %}{{ post.website }}{% endif %}&safe=images&as_filetype=&as_rights=" target="_blank">Logo (Google)</a>
+                /
+                <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q={{ post.title | url_encode }}+logo&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch=wikimedia.org&safe=images&as_filetype=&as_rights=" target="_blank">Logo (wiki)</a>
+                /
+                <a href="https://www.amazon.com/s/?field-keywords={{ post.title | url_encode }}" target="_blank">Product image</a>
+                {% endif %}
+            <li>
+            {% endunless %}
+        </ul>
+    </dd>
+</dl>
+{% endunless %}

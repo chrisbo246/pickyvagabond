@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
         <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
@@ -9,8 +8,6 @@ layout: default
         post layout
     </header>
     <div class="post-content" itemprop="articleBody">
-        {% include text.html %}
+        {{ content | strip_newlines }}
     </div>
 </article>
-
-{% include related.html %}

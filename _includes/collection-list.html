@@ -1,0 +1,73 @@
+
+{% if include.posts %}
+{% assign posts = include.posts %}
+{% else if include.type and site[include.type].size > 0 %}
+{% assign posts = site[include.type] | where_exp: 'item', 'item[include.type] contains page.slug' | sort: 'title' %}
+{% endif %}
+
+{% if posts and posts.size > 0 %}
+<form class="radio-glyphicon checkbox-success" data-persist="garlic" method="post">
+    {% for post in posts %}
+
+    <div class="media filter-item" {% include filter-item-class.html post=post %} >
+
+        <div class="pull-left">
+            {% include selection-checkbox.html post=post %}
+        </div>
+        <div class="media-left">
+            <a href="{{ post.url | prepend: site.github.baseurl }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
+                {% if post.image %}
+                {% include image.html src=post.image width=50 height=50 alt=post.title class="media-object" %}
+                {% endif %}
+            </a>
+        </div>
+        <div class="media-body">
+
+            {% include initial-anchor.html title=post.title %}
+            <h4 class="media-heading">
+                <a href="{{ post.url | prepend: site.github.baseurl }}">
+                    {{ post.title }}
+                    {% if post.alt-names.size > 0 %}<small>(also {{ post.alt-names | join: ', '}})</small>{% endif %}
+                </a>
+
+                {% if post[post.collection].size > 0 %}
+                {% assign parents = site[post.collection] | where_exp: 'item', 'post[post.collection] contains item.slug' %}
+                {% if parents.size > 0 %}
+                <small>
+                    <span> (</span>
+                        {% for parent in parents %}
+                        <a href="{{ parent.url }}">{{ parent.title }}</a>
+                        {% unless forloop.last %}<span>, </span>{% endunless%}
+                        {% endfor %}
+                    <span>)</span>
+                </small>
+                {% endif %}
+                {% endif %}
+
+            </h4>
+            <!--{% if post.date %}<small class="post-meta text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}-->
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% else %}
+            <p>{{ post.excerpt }}</p>
+            {% endif %}
+
+            {% assign childs = site[post.collection] | where_exp: 'item', 'item[post.collection] contains post.slug' %}
+            {% if childs.size > 0 %}
+            <small>
+                <span>See also </span>
+                    {% for child in childs %}
+                    <a href="{{ child.url }}">{{ child.title }}</a>
+                    {% unless forloop.last %}<span>, </span>{% endunless%}
+                    {% endfor %}
+            </small>
+            {% endif %}
+
+            {% include search-links-inlined.html post=post %}
+
+        </div>
+    </div>
+
+    {% endfor %}
+</form>
+{% endif %}

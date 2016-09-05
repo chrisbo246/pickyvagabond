@@ -6,16 +6,17 @@ layout: default
         {% include post-header.html %}
         <div class="container-fluid">
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>
+                    <li><a href="#tags" data-toggle="tab" role="tab" data-toggle="tab">Tags</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="overview" class="tab-pane fade active in">
+                    <div id="overview" class="tab-pane fade active in" role="tabpanel">
                         {% include text.html %}
                     </div>
-                    <div id="tags" class="tab-pane fade">
-                        {% include tags.html %}
+                    <div id="tags" class="tab-pane fade" role="tabpanel">
+                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
+                        {% include tags.html collections=collections %}
                     </div>
                 </div>
             </div>

@@ -1,44 +1,58 @@
 
-{% if page.amazon-image %}
-{% capture image-src %}{{ page.amazon-image | replace: '._SS40_.jpg', '.jpg' | replace: '._AC_SY200_.jpg', '.jpg' | replace: '.jpg', '._SS160_.jpg' }}{% endcapture %}
-{% else if page.image %}
-{% assign image-src = page.image %}
-{% endif %}
-
-
 <div class="container-fluid">
-    <div class="entry-header-heading">
-        {% if image-src %}
-        <div class="img-wrapper img-wrapper-md pull-right">
-            <img src="{{ image-src }}" alt="{{ page.title }}" />
-        </div>
-        {% else %}
-        <div class="pull-right">
-            <p class="text-muted">Image <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={{ page.title | url_encode }}" target="_blank"><span class="glyphicon glyphicon-search"></span></a></p>
-        </div>
-        {% endif %}
+    {% if page.image %}
+    <div class="img-wrapper img-wrapper-sm pull-right">
+        {% include image.html src=page.image width=80 height=80 alt=page.title %}
+    </div>
+    {% endif %}
+    {% comment %}
+    <ul class="list-inline pull-right">
+        <li>
+            <a href="http://prose.io/#{{site.repository}}/edit/master/{{page.path}}" target="_blank" title="Github account required">
+            <span class="glyphicon glyphicon-edit"></span> Editor</a>
+        </li>
+        {% unless page.image %}
+        <li>
+            <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={{ page.title | url_encode }}" target="_blank" title="Search images on Amazon">
+            <span class="glyphicon glyphicon-search"></span> Image</a>
+        </li>
+        {% endunless %}
+    </ul>
+    {% endcomment %}
+    <div class="-page-header clearfix">
         <div class="pull-left">
-            {% include selection-checkbox.html post=page %}
+            <form class="radio-glyphicon checkbox-success" data-persist="garlic" method="post">
+                {% include selection-checkbox.html post=page %}
+            </form>
         </div>
-        <h1>{{ page.title }}</h1>
-        {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
-        <a href="http://prose.io/#{{site.repository}}/edit/master/{{page.path}}" target="_blank"><span class="glyphicon glyphicon-edit"></span> Edit</a>
-        {% comment%}
-        <p class="meta text-muted"><small>
-            {% if page.author %}
-            <span class="author">By {% include author-link.html %}</span>
-            {% endif %}
-            <time class="pubdate updated" datetime="{{ page.date }}" itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</time>
-        </small></p>
-        {% endcomment%}
+        <h1>
+            {{ page.title }}
+            {% if post.alt-names %}<small>(also {{ post.alt-names | join: ', '}})</small>{% endif %}
+        </h1>
+        {% if page.description %}
+        <p class="lead">{{ page.description }}</p>
+        {% endif %}
+
     </div>
 </div>
+
 {% if page.image.credit %}
-<small class="image-credit text-muted">Image source: <a href="{{ page.image.credit-link }}">{{ page.image.credit }}</a></small><!-- image-credit -->
+<small class="image-credit text-muted">Image source:
+<a href="{{ page.image.credit-link }}">{{ page.image.credit }}</a></small>
 {% endif %}
 
 
-{% comment %}
+
+{% comment%}
+<!--
+<p class="text-muted"><small>
+    {% if page.author %}
+    <span class="author">By {% include author-link.html %}</span>
+    {% endif %}
+    <time class="pubdate updated" datetime="{{ page.date }}" itemprop="dateCreated">{{ page.date | date: "%-d %B %Y" }}</time>
+</small></p>
+
+
 <div class="text__container container-fluid">
     <div class="row">
         <div class="col-md-12">
@@ -56,4 +70,5 @@
         </div>
     </div>
 </div>
+-->
 {% endcomment %}

@@ -1,7 +1,7 @@
 ---
 title: "Cycling"
 description: "Travel by bicycle."
-image: purposes/cycling.jpg
-remote-image: https://images-eu.ssl-images-amazon.com/images/G/08/products/Sports/2.Test_HP/lifestyle/Velo
-purposes:
+image: "https://images-na.ssl-images-amazon.com/images/I/51vO3XYyWML.jpg"
+purposes: ~
+wiki: "https://en.wikipedia.org/wiki/Cycling"
 ---

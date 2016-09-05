@@ -16,14 +16,17 @@
         <input type="checkbox" name="{{ type }}[]" value="{{ post.slug }}" title="Add to my selection" />
     </label>
 </div>
+{% endif %}
+
+
 
 {% comment %}
+<!--
 <div class="label label-default checkbox pull-right">
     <label>
         <input type="checkbox" name="{{ post.collection }}[]" value="{{ post.slug }}" />
         Filter
     </label>
 </div>
+-->
 {% endcomment %}
-
-{% endif %}

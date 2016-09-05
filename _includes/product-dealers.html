@@ -1,0 +1,38 @@
+{% if include.post %}
+{% assign post = include.post %}
+{% else %}
+{% assign post = page %}
+{% endif %}
+
+{% if post.dealers.size > 0 %}
+
+{% if include.title %}
+<h3>{{ include.title }}</h3>
+{% endif %}
+<form class="form-inline" data-persist="garlic">
+    <div class="form-group">
+        <label for="user_country_code" class="hidden">Website</label>
+        <select id="user_country_code" class="form-control input-sm select2" placeholder="Website" title="Some dealers have multiple local websites. Display the approprate link.">
+            {% include select-options-country.html %}
+        </select>
+        <span class="help-block"></span>
+    </div>
+    <ul class="list-unstyled">
+        {% for dealer in post.dealers %}
+        <li><a class="dealer" href="{{ dealer.url }}" target="_blank">{{ dealer.name }}</a></li>
+        {% endfor %}
+    </ul>
+</form>
+{% else %}
+
+<div class="alert alert-dismissible alert-info">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Too bad!</strong>We have not yet listed any dealers for this product. Perhaps you could start with a little research?
+</div>
+
+{% endif %}
+<ul class="list-inline">
+    <li><small>Search "{{ post.title }}" on </small></li>
+    <li><small><a href="https://www.amazon.com/s/?field-keywords={{ post.title | url_encode }}" target="_blank">Amazon</a></small></li>
+    <li><small><a href="https://www.google.com/search?as_q={{ post.title | url_encode }}" target="_blank">Google</a></small></li>
+</ul>

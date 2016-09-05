@@ -44,9 +44,9 @@ window.store = {
         "url": "{{ post.url | xml_escape }}",
         "description": "{{ post.description | xml_escape }}",
         "excerpt": "{{ post.excerpt | strip_html | strip_newlines }}",
-        "types": "{{ post.types | join ' ' }}",
-        "brands": "{{ post.brands | join ' ' }}",
-        "purposes": "{{ post.purposes | join ' ' }}"
+        "types": "{{ post.types | join: ' ' }}",
+        "brands": "{{ post.brands | join: ' ' }}",
+        "purposes": "{{ post.purposes | join: ' ' }}"
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
     {% unless forloop.last %},{% endunless %}

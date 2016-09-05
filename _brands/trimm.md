@@ -1,17 +1,16 @@
 ---
 title: Trimm
-description:
-image:
+description: ~
+image: ~
 categories: []
-purposes: []
+brands: []
+purposes: [outdoor]
 types: []
-country-code: CZ
-country: Czech republic
-logo:
-website: http://www.trimm.cz
-shop: http://www.trimm.cz
-store-finder:
-about:  http://www.trimm.cz/about/
-wiki: https://en.wikipedia.org/wiki/Trimm
+countries: [czech-republic]
+logo: ~
+website: "http://www.trimm.cz"
+shop: "http://www.trimm.cz"
+store-finder: ~
+about: "http://www.trimm.cz/about/"
+wiki: "https://en.wikipedia.org/wiki/Trimm"
 ---
-Outdoor products

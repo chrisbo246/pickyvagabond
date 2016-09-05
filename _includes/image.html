@@ -1,0 +1,24 @@
+
+{% if include.src %}
+{% assign src = include.src %}
+{% if include.src contains '.images-amazon.com/images/I/' or include.src contains '.ssl-images-amazon.com/images/I/' %}
+{% assign array = include.src | split: '._' %}
+{% if array.size > 1 %}
+{% assign src = array[0] | append: '.jpg' %}
+{% endif %}
+{% if include.width %}
+{% assign src = src | replace: '.jpg', '._SS' | append: include.width | append: '_.jpg' %}
+{% endif %}
+{% endif %}
+
+<img data-src="{{ src }}" class="lazyload"
+{% if include.alt %} alt="{{ include.alt }}"{% endif %}
+{% if include.title %} title="{{ include.title }}"{% endif %}
+{% if include.class %} class="{{ include.class }}"{% endif %}
+{% comment %}
+{% if include.width %} width="{{ include.width }}"{% endif %}
+{% if include.height %} height="{{ include.height }}"{% endif %}
+{% endcomment %}
+/>
+
+{% endif %}

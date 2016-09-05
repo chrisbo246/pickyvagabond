@@ -1,16 +1,16 @@
 ---
 title: MINOURA
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: [bicycle-bag]
-country-code: JP
-country: Japan
-logo:
-website: http://www.minoura.jp
-shop: http://www.minoura.jp
-store-finder:
-about:  http://www.minoura.jp/about/
-wiki: https://en.wikipedia.org/wiki/MINOURA
+countries: [japan]
+logo: ~
+website: "http://www.minoura.jp"
+shop: "http://www.minoura.jp"
+store-finder: ~
+about: "http://www.minoura.jp/about/"
+wiki: "https://en.wikipedia.org/wiki/MINOURA"
 ---

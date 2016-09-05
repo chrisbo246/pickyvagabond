@@ -1,16 +1,16 @@
 ---
 title: Stanley
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code: US
-country: USA
-logo:
-website:
-shop: http://www.shopstanley-pmi.com
-store-finder:
-about: 
-wiki: https://en.wikipedia.org/wiki/Stanley
+countries: [united-states]
+logo: ~
+website: ~
+shop: "http://www.shopstanley-pmi.com"
+store-finder: ~
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Stanley"
 ---

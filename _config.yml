@@ -6,11 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: PICKYVAGABOND
+title: PICKYVAGABOND - Helps you with your packing list
 email: pickyvagabond@gmail.com
 description: >
-  The broke bikepacker guide.
-
+  You think of the great escape but do not know where to start your packing list?
+  Follow the guide to save time and money!
 locale: en
 
 #baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,6 +23,7 @@ locale: en
 
 repository: chrisbo246/pickyvagabond
 
+# jekyll-github-metadata
 github:
   baseurl: ""
   url: http://localhost:4000
@@ -42,7 +43,7 @@ exclude:
 # https://pages.github.com/versions/
 gems:
   - jekyll-github-metadata
-  - jekyll-mentions
+#  - jekyll-mentions
 #  - jekyll-picture-tag
   - jekyll-redirect-from
   - jekyll-seo-tag
@@ -54,21 +55,21 @@ gems:
 
 
 collections:
-  activities:
-    title: "Activities"
-    output: true
   brands:
     title: "Brands"
     output: true
+  countries:
+    title: "Countries"
+    output: false
   features:
     title: "Features"
-    output: true
+    output: false
   helps:
     title: "Helps"
     output: true
   matters:
     title: "Matters"
-    output: true
+    output: false
   products:
     title: "Products"
     output: true
@@ -77,10 +78,7 @@ collections:
     output: true
   qualities:
     title: "Qualities"
-    output: true
-  selections:
-    title: "Selections"
-    output: true
+    output: false
   tips:
     title: "Tips"
     output: true
@@ -89,7 +87,7 @@ collections:
     output: true
   users:
     title: "Users"
-    output: true
+    output: false
 
 
 defaults:
@@ -101,14 +99,14 @@ defaults:
       lang: "en"
   - scope:
       path: ""
-      type: activities
-    values:
-      layout: activity
-  - scope:
-      path: ""
       type: brands
     values:
       layout: brand
+  - scope:
+      path: ""
+      type: countries
+    values:
+      layout: country
   - scope:
       path: ""
       type: helps
@@ -139,11 +137,6 @@ defaults:
       type: qualities
     values:
       layout: quality
-  - scope:
-      path: ""
-      type: selections
-    values:
-      layout: selection
   - scope:
       path: ""
       type: tips

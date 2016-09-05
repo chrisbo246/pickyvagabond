@@ -1,0 +1,21 @@
+{% if page.collection and label == page.collection %}
+
+{% assign slugs = '' | split: ' ' %}
+{% assign docs = '' | split: ' ' %}
+{% for doc in site[label] %}
+{% for slug in doc[label] %}
+{% assign slugs = slugs | push: slug %}
+{% endfor %}
+{% endfor %}
+
+{% if slugs.size != 0 %}
+{% assign slugs = slugs | uniq | sort %}
+{% assign docs = site[label] | where_exp: 'item', 'slugs contains item.slug' %}
+{% if docs.size > 0 %}
+{% for doc in docs %}
+{% assign docs = docs | push: doc %}
+{% endfor %}
+{% endif %}
+{% endif %}
+
+{% endif %}

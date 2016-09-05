@@ -1,10 +1,8 @@
 ---
 title: "Washbag"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/418Kwd6Q9TL._AC_US480_QL65_.jpg"
 brands: []
-purposes: [wash]
-types:
+purposes: [laundry, wash]
+types: [bag]
 ---

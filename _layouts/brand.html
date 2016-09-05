@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+{% assign content = page.content | strip_newlines %}
+
+{% if page.collection and page.slug %}
+{% assign products = site.products | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% assign types = site.types | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% endif %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <form data-persist="garlic" method="post">
         {% include post-header.html %}
@@ -14,86 +21,45 @@ layout: default
         -->
 
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs">
-                    {% if page.content %}<li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>{% endif %}
-                    {% if site.types %}<li><a href="#types" data-toggle="tab">Product types</a></li>{% endif %}
-                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
-                    {% comment %}<li><a href="#tags" data-toggle="tab">Tags</a></li>{% endcomment %}
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    {% if page.content %}<li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>{% endif %}
+                    <li role="tab" data-toggle="tab"><a href="#wikipedia" data-toggle="tab">Wikipedia</a></li>
+                    {% if types.size > 0 %}<li><a href="#types" data-toggle="tab" role="tab" data-toggle="tab">Product types</a></li>{% endif %}
+                    {% if products.size > 0 %}<li><a href="#products" data-toggle="tab" role="tab" data-toggle="tab">Products</a></li>{% endif %}
+                    <li><a href="#tags" data-toggle="tab" role="tab" data-toggle="tab">Tags</a></li>
+                    <li role="tab" data-toggle="tab" class="contribute"><a href="#contribution" data-toggle="tab">Contribute</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="overview" class="tab-pane fade active in">
 
-                        {% comment%}
-                        {% if page.logo %}
-                        <p><img src="{{ page.logo }}" alt="{{ page.title }} logo" height="40" /></p>
-                        {% else if page.website %}
-                        <p class="text-muted">Logo <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q=logo+{{page.title | url_encode}}&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch={{ page.website | replace: 'http://', '' | replace: 'https://', ''  | replace: 'www.', '' }}&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-search"></span></a></p>
-                        {% endif %}
-                        {% endcomment%}
-
-                        <ul class="list-inline">
-
-                            {% if page.website %}
-                            <li><a href="{{ page.website }}" target="_blank"><span class="glyphicon glyphicon-globe"></span> Website</a></li>
-                            {% else %}
-                            <li><span class="glyphicon glyphicon-globe"></span> Website <a class="text-muted" href="https://www.google.com/#as_q={{page.title | url_encode}}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=title&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-search"></span></a></li>
-                            {% endif %}
-
-                            {% if page.shop %}
-                            <li><a href="{{ page.shop }}" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span> Shop</a></li>
-                            {% else %}
-                            <li><span class="glyphicon glyphicon-shopping-cart"></span> Shop <a class="text-muted" href="https://www.google.com/#as_q={{page.title | url_encode}}+shop&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=title&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-shopping-search"></span></a></li>
-                            {% endif %}
-
-                            {% if page.store-finder %}
-                            <li><a href="{{ page.about }}" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> Store finder</a></li>
-                            {% endif %}
-
-                            {% if page.about %}
-                            <li><a href="{{ page.about }}" target="_blank"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
-                            {% endif %}
-
-                            {% if page.wiki %}
-                            <li><a href="{{ page.wiki }}" target="_blank"><span class="glyphicon glyphicon-link"></span> Wikipedia</a></li>
-                            {% else %}
-                            <li><span class="glyphicon glyphicon-link"></span> Wikipedia <a class="text-muted" href="https://en.wikipedia.org/w/index.php?title=Special:Search&profile=advanced&profile=advanced&fulltext=Search&search={{page.title | url_encode}}" target="_blank"><span class="glyphicon glyphicon-search"></span></a></li>
-                            {% endif %}
-
-                        </ul>
-
-                        <dl class="dl-horizontal">
-                            {% if page.country %}<dt>Country</dt><dd>{{ page.country }}</dd>{% endif %}
-                        </dl>
-
-                        <!--
-                        {% comment%}
-                        {% if page.product-categories %}
-                        Products:
-                        <ul class="list-inline">
-                            {% for category in page.product-categories %}
-                            <li>
-                                {% if category.url %}
-                                <a href="{{ category.url }}" target="_blank">{{ category.name }}</a>
-                                {% else %}
-                                {{ category.name }}
-                                {% endif %}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
-                        {% endcomment%}
-                    -->
-                        {{ content }}
+                    <div id="overview" class="tab-pane fade active in" role="tabpanel">
+                        {% include brand-details.html %}
                     </div>
-                    <div id="types" class="tab-pane fade">
-                        {% include related-posts.html posts=site.types %}
+
+                    <div id="wikipedia" class="tab-pane fade" role="tabpanel">
+                        {% include wikipedia.html url=page.wiki query=page.title %}
                     </div>
-                    <div id="products" class="tab-pane fade">
-                        {% include related-posts.html posts=site.products %}
+
+                    {% if types.size > 0 %}
+                    <div id="types" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=types type="types" %}
                     </div>
-                    <div id="tags" class="tab-pane fade">
-                        {% include tags.html %}
+                    {% endif %}
+
+                    {% if products.size > 0 %}
+                    <div id="products" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=products type="products" %}
                     </div>
+                    {% endif %}
+
+                    <div id="tags" class="tab-pane fade" role="tabpanel">
+                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
+                        {% include tags.html collections=collections %}
+                    </div>
+
+                    <div id="contribution" class="tab-pane fade" role="tabpanel">
+                    {% include search-links.html query=page.title %}
+                    </div>
+
                 </div>
             </div>
         </div>

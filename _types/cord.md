@@ -1,10 +1,8 @@
 ---
 title: "Cord"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/51kWfRMCA7L.jpg"
 brands: []
 purposes: [laundry, dry-laundry, fasten]
-types:
+types: []
 ---

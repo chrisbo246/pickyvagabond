@@ -1,16 +1,16 @@
 ---
 title: HIGH POINT
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code: CZ
-country: Czech republic
-logo:
-website: http://www.highpoint.cz
-shop: http://www.highpoint.cz
-store-finder:
-about:  http://www.highpoint.cz/about/
-wiki: https://en.wikipedia.org/wiki/HIGH POINT
+countries: [czech-republic]
+logo: ~
+website: "http://www.highpoint.cz"
+shop: "http://www.highpoint.cz"
+store-finder: ~
+about: "http://www.highpoint.cz/about/"
+wiki: "https://en.wikipedia.org/wiki/HIGH POINT"
 ---

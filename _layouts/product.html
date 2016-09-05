@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+{% assign content = page.content | strip_newlines %}
+
+{% if page.collection and page.slug %}
+{% assign brands = site.brands | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% assign purposes = site.purposes | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% endif %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <form data-persist="garlic" method="post">
         {% include post-header.html %}
@@ -12,43 +19,41 @@ layout: default
             </header>
         -->
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#home" data-toggle="tab">Overview</a></li>
-                    {% if site.brands %}<li><a href="#brands" data-toggle="tab">Brand</a></li>{% endif %}
-                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li class="active" role="tab" data-toggle="tab"><a href="#home" data-toggle="tab">Overview</a></li>
+                    {% if brands.size > 0 %}<li role="tab" data-toggle="tab"><a href="#brands" data-toggle="tab">Brand</a></li>{% endif %}
+                    {% if purposes.size > 0 %}<li><a href="#purposes" data-toggle="tab" role="tab" data-toggle="tab">Purposes</a></li>{% endif %}
+                    <li role="tab" data-toggle="tab"><a href="#tags" data-toggle="tab">Tags</a></li>
+                    <li role="tab" data-toggle="tab" class="contribute"><a href="#contribution" data-toggle="tab">Contribute</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="home" class="tab-pane fade active in">
-                        {% include text.html %}
-                        {% include post-pros-cons.html post=page %}
-                        <h3>Best price at</h3>
-                        {% if page.dealers %}
-                        <ul class="list-unstyled">
-                            {% for dealer in page.dealers %}
-                            <li><a href="{{ dealer.url }}" target="_blank">{{ dealer.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                        {% endif %}
+                    <div id="home" class="tab-pane fade active in" role="tabpanel">
+                        {{ content }}
+                        {% include post-pros-cons.html %}
+                        {% include product-dealers.html title='Dealers' %}
                     </div>
-                    <div id="brands" class="tab-pane fade">
-                        {% for post in site.brands %}
-                        {% if page.brand == post.slug or page.brands contains post.slug %}
-                        {% if post.images.medium %}
-                        <p><img src="{{ post.images.medium }}" class="img-rounded" title="{{ post.title }}" /></p>
-                        {% endif %}
-                        {% if post.country %}
-                        <p>Origin: {{ post.country }}</p>
-                        {% endif %}
-                        <p>Links:
-                            {% if post.website %}<a href="{{ post.website }}" target="_blank">Website</a>{% endif %}
-                            {% if post.shop %}<a href="{{ post.shop }}" target="_blank">Shop</a>{% endif %}
-                        </p>
-                        {% endif %}
-                        {% endfor %}
+
+                    {% if brands.size > 0 %}
+                    <div id="brands" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=brands type="brands" %}
                     </div>
-                    <div id="tags" class="tab-pane fade">
-                        {% include tags.html %}
+                    {% endif %}
+
+                    {% if purposes.size > 0 %}
+                    <div id="purposes" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=purposes type="purposes" %}
                     </div>
+                    {% endif %}
+
+                    <div id="tags" class="tab-pane fade" role="tabpanel">
+                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
+                        {% include tags.html collections=collections %}
+                    </div>
+
+                    <div id="contribution" class="tab-pane fade" role="tabpanel">
+                    {% include search-links.html query=page.title %}
+                    </div>
+                    
                 </div>
             </div>
         </div>

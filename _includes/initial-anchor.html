@@ -1,0 +1,9 @@
+{% if include.title %}
+
+{% assign letter = include.title | slice: 0 | downcase %}
+{% unless letters contains letter %}
+<a name="{{ letter }}"></a>
+{% assign letters = letters | push: letter %}
+{% endunless %}
+
+{% endif %}

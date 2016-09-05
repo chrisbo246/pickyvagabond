@@ -1,74 +1,21 @@
-<!--
-{% if page.tags %}
-<h3>Tags</h3>
+
+{% if include.collections and include.collections.size > 0 %}
+{% for label in include.collections %}
+
+{% if page[label].size > 0 %}
+{% assign collection = site.collections | where: 'label', label | first %}
+{% assign docs = collection.docs | where_exp: 'item', 'page[label] contains item.slug' %}
+
+{% if docs.size > 0 %}
+<h3>{{ collection.title }}</h3>
 <ul class="list-inline">
-{% for tag in page.tags %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endfor %}
-</ul>
-{% endif %}
--->
-{% if page.types %}
-<h3>Product types</h3>
-<ul class="list-inline">
-{% for tag in page.types %}
-<li><span class="label label-default">{{ tag }}</span></li>
+{% for doc in docs %}
+<li><span class="label label-default"><a href="{{ doc.url }}">{{ doc.title }}</a></span></li>
 {% endfor %}
 </ul>
 {% endif %}
 
-{% if page.functions %}
-<h3>Functions</h3>
-<ul class="list-inline">
-{% for tag in page.functions %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endfor %}
-</ul>
 {% endif %}
 
-{% if page.activities %}
-<h3>Activities</h3>
-<ul class="list-inline">
-{% for tag in page.activities %}
-{% if site.activities.tag == %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endif %}
 {% endfor %}
-</ul>
-{% endif %}
-
-{% if page.users %}
-<h3>Users</h3>
-<ul class="list-inline">
-{% for tag in page.users %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if page.qualities %}
-<h3>Qualities</h3>
-<ul class="list-inline">
-{% for tag in page.qualities %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if page.features %}
-<h3>Features</h3>
-<ul class="list-inline">
-{% for tag in page.features %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endfor %}
-</ul>
-{% endif %}
-
-{% if page.matters %}
-<h3>Matters</h3>
-<ul class="list-inline">
-{% for tag in page.matters %}
-<li><span class="label label-default">{{ tag }}</span></li>
-{% endfor %}
-</ul>
 {% endif %}

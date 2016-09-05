@@ -1,9 +1,7 @@
 ---
 title: "Laundry bag"
 description: "Separate laundry and clean garments."
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+image: "https://images-na.ssl-images-amazon.com/images/I/41aizfUQDbL._AC_US400_QL65_.jpg"
 brands: []
 purposes: [laundry]
 types: [bag]

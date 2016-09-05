@@ -6,9 +6,7 @@ iconclass: "glyphicon glyphicon-envelope"
 menu: 4
 menu_position: 2
 ---
-
 <h2>{{ site.title }}</h2>
-
 <h2>Authors</h2>
 {% for author in site.authors %}
 <div class="meta">

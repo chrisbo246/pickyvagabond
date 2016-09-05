@@ -1,5 +1,4 @@
 #Contribute!
-
 * fork repository
 * `npm install`
 * add your changes to garlic.js

@@ -1,98 +1,83 @@
 ---
 layout: default
 ---
+{% assign content = page.content | strip_newlines %}
+{% if page.collection %}
+{% assign posts = site[page.collection] | sort: 'title' %}
+{% endif %}
+
+
 <div class="container-fluid">
     <header class="page-header">
         <h1>{{ page.title }}</h1>
     </header>
     <div class="row">
-        <div class="col-md-12">
-
-            {{ content }}
-
-            {% if page.filters and page.filters.size != 0 %}
-            <div class="well">
-                <form class="form-inline" data-persist="garlic">
-                    {% for label in page.filters %}
-                    <div class="form-group">
-                        {% assign collection = site.collections | where: 'label', label | first %}
-                        <label for="{{ label }}_filter">{{ collection.title }}</label>
-                        <select id="{{ label }}_filter" data-filter="{{ label }}" class="form-control filter" multiple="multiple">
-                            <!--<option value="" selected>All</option>-->
-                            {% assign docs = site[label] %}
-                            {% for doc in docs %}
-                            <option value="{{ doc.slug }}">{{ doc.title }}</option>
-                            {% endfor %}
-                        </select>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+            <div id="sidebar">
+                {% if posts and posts.size > 0 %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Filters</h3>
                     </div>
-                    {% endfor %}
-                    <div class="form-group">
-                        <label>
-                            <input type="checkbox" class="selection-filter" />
-                            My selection
-                        </label>
-                    </div>
-                    <button type="button" class="btn btn-primary pull-right filter-reset"><span class="glyphicon glyphicon-remove"></span> Reset</button>
-                </form>
-            </div>
-            {% endif %}
-
-            {% if page.collection %}
-            <form data-persist="garlic" method="post">
-                {% comment %}
-                {% assign posts = site[page.collection] | where_exp: 'item', '!item[page.collection]' | sort: 'title' %}
-                {% endcomment %}
-                {% assign posts = site[page.collection] | sort: 'title' %}
-                {% for post in posts %}
-                <div class="media filter-item" {% for collection in site.collections %} {% if post[collection.label] %} data-{{ collection.label }}="{{ post[collection.label] | join: ' ' }}" {% endif %} {% endfor %} >
-                    <div class="pull-left">
-                        {% include selection-checkbox.html post=post %}
-                    </div>
-                    <div class="media-left">
-                        <a href="{{ post.url | prepend: site.github.baseurl }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
-                            {% if post.amazon-image %}
-                            {% assign image-src = post.amazon-image | replace: '._SS40_.jpg', '.jpg' | replace: '._AC_SY200_.jpg', '.jpg' | replace: '.jpg', '._SS80_.jpg' %}
-                            {% else if post.image %}
-                            {% assign image-src = post.image %}
-                            {% else if post.image %}
-                            {% assign image-src = post.slug | append: '.jpg' | prepend: '/' | prepend: post.collection %}
-                            {% endif %}
-
-                            {% if image-src %}<img class="media-object" src="{{ image-src }}" />{% endif %}
-
-                            {% comment %}{% picture {{ post.slug | append: '.jpg' | prepend: '/' | prepend: post.collection }} class="media-object" alt="{{ post.title }}" %}{% endcomment %}
-
-                        </a>
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">
-                            <a href="{{ post.url | prepend: site.github.baseurl }}">{{ post.title }}</a>
-                        </h4>
-                        {% if post.category %}<span class="label label-default">{{ post.category }}</span>{% endif %}
-                        {% if post.categories %}<span class="label label-primary">{% for category in post.categories %}{{ category }}{% endfor %}</span>{% endif %}
-                        {% if post.tags %}<span class="label label-info">{% for tag in post.tags %}{{ tag }}{% endfor %}</span>{% endif %}
-                        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-                        {% include post-pros-cons.html post=post %}
-
-                        {% comment %}
-                        {% assign posts2 = site[page.collection] | where_exp: 'item', 'item[page.collection] contains post.slug'  | sort: 'title' %}
-                        {% endcomment %}
-                        {% assign posts2 = site[page.collection] | sort: 'title' %}
-                        <ul class="list-inline">
-                        {% for post2 in posts2 %}
-                        {% if post2[page.collection] contains post.slug %}
-                        <li><a href="{{ post2.url }}">{{ post2.title }}</a></li>
-                        {% endif %}
-                        {% endfor %}
-                        </ul>
-
-
+                    <div class="panel-body clearfix">
+                        {% include initial-links.html posts=posts %}
+                        {% include filter-form.html filters=page.filters %}
                     </div>
                 </div>
-                {% endfor %}
-            </form>
+                {% endif %}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            {{ content }}
+            {% if posts and posts.size > 0 %}
+            {% include collection-list.html posts=posts type="posts" %}
             {% endif %}
-
         </div>
     </div>
 </div>
+
+
+
+{% comment %}
+<!--
+
+<form class="radio-glyphicon checkbox-success" data-persist="garlic" method="post">
+{% for post in posts %}
+<div class="media filter-item" {% for collection in site.collections %}data-{{ collection.label }}="{% if page.collection == collection.label %}{{ post.slug }} {% endif %}{% if post[collection.label] %}{{ post[collection.label] | join: ' ' }}{% endif %}" {% endfor %} >
+<div class="pull-left">
+{% include selection-checkbox.html post=post %}
+</div>
+<div class="media-left">
+<a href="{{ post.url | prepend: site.github.baseurl }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
+{% if post.image %}
+{% include image.html src=post.image width=50 height=50 alt=post.title class="media-object" %}
+{% endif %}
+</a>
+</div>
+<div class="media-body">
+{% include initial-anchor.html title=post.title %}
+<h4 class="media-heading">
+<a href="{{ post.url | prepend: site.github.baseurl }}">{{ post.title }}</a>
+</h4>
+{% if post.category %}<span class="label label-default">{{ post.category }}</span>{% endif %}
+{% if post.categories %}<span class="label label-primary">{% for category in post.categories %}{{ category }}{% endfor %}</span>{% endif %}
+{% if post.description %}<p>{{ post.description }}</p>{% endif %}
+{% if post.tags %}<small>{% for tag in post.tags %}<span class="label label-default">{{ tag }}</span>{% endfor %}</small>{% endif %}
+{% include post-pros-cons.html post=post %}
+
+{% assign posts2 = site[page.collection] | sort: 'title' %}
+<ul class="list-inline">
+{% for post2 in posts2 %}
+{% if post2[page.collection] contains post.slug %}
+<li><a href="{{ post2.url }}">{{ post2.title }}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
+
+</div>
+</div>
+{% endfor %}
+</form>
+-->
+{% endcomment %}

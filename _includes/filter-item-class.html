@@ -1,0 +1,33 @@
+{% if include.post %}
+{% assign post = include.post %}
+
+{% for collection in site.collections %}
+c-label: {{ collection.label }}
+
+{% if post[collection.label].size > 0 %}
+{% assign array = post[collection.label] %}
+{% else %}
+{% assign array = '' | split: ' ' %}
+{% endif %}
+
+{% if post.collection == collection.label %}
+{% assign array = array | push: post.slug %}
+{% endif %}
+
+{% if collection.label == post.collection and post[collection.label].size > 0 %}
+{% assign docs = collection.docs | where_exp: 'item', 'post[collection.label] contains item.slug' %}
+{% for doc in docs %}
+{% if doc[collection.label].size > 0 %}
+{% for item in doc[collection.label] %}
+{% assign array = array | push: item %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+{% endif %}
+
+{% if array.size > 0 %}
+data-{{ collection.label }}="{{ array | join: ' ' }}"
+{% endif %}
+
+{% endfor %}
+{% endif %}

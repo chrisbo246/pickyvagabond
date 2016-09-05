@@ -4,6 +4,7 @@
 @charset "utf-8";
 
 $icon-font-path: '../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
+$brand-primary: #33cc00;
 
 @import
         "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
@@ -16,5 +17,8 @@ $icon-font-path: '../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
         "base",
         "layout",
         "images",
+        "checkboxes",
+        "scrollbar",
+        "wikipedia",
         "syntax-highlighting"
 ;

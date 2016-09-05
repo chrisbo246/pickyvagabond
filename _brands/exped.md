@@ -1,16 +1,16 @@
 ---
 title: Exped
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
-types: []
-country-code:
-country:
-logo:
-website: http://www.exped.com
-shop: http://www.exped.com
-store-finder:
-about:  http://www.exped.com/about/
-wiki: https://en.wikipedia.org/wiki/Exped
+types: [sleeping-bag, tent]
+countries: [germany]
+logo: ~
+website: "http://www.exped.com"
+shop: "http://www.exped.com"
+store-finder: ~
+about: "http://www.exped.com/about/"
+wiki: "https://en.wikipedia.org/wiki/Exped"
 ---

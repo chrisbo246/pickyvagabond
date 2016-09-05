@@ -1,13 +1,16 @@
 ---
 title: Kriega
-description:
-image:
+description: ~
+image: ~
+categories: []
+brands: []
 purposes: []
 types: []
-country-code: FR
-country:
-logo:
-website: http://kriega.fr
-shop: http://kriega.fr
-store-finder:
-about: http://kriega.fr/about/
+countries: [france]
+logo: ~
+website: "http://kriega.fr"
+shop: "http://kriega.fr"
+store-finder: ~
+about: "http://kriega.fr/about/"
+wiki: ~
+---

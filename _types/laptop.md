@@ -1,10 +1,8 @@
 ---
 title: "Laptop"
-description: ""
-image: http://ecx.images-amazon.com/images/I/41tmP7bDNEL.jpg
-amazon-image: http://ecx.images-amazon.com/images/I/41tmP7bDNEL.jpg
-activities: []
+description: ~
+image: "http://ecx.images-amazon.com/images/I/41tmP7bDNEL.jpg"
 brands: []
 purposes: [internet]
-types:
+types: []
 ---

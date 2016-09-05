@@ -1,10 +1,8 @@
 ---
 title: "Vacuum bottle"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/31IOpfd8NQL.jpg"
 brands: []
 purposes: [drink-transport, food-heat-preservation]
-types:
+types: []
 ---

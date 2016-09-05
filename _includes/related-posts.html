@@ -1,11 +1,10 @@
-{% comment %}
-{% assign collection = site.collections | where: 'label', page.collection | first %}
-{% assign posts = include.posts | where_exp: 'item', 'item[page.collection] contains page.slug' %}
-{% endcomment %}
 
-{% assign posts = include.posts %}
-{% for post in posts %}
-{% if post[page.collection] contains page.slug %}
-{% include post-preview.html post=post %}
+{% if page.collection and page.slug and include.posts.size > 0 %}
+{% assign posts = include.posts | where_exp: 'item', 'item[page.collection] contains page.slug' %}
+{% if posts.size > 0 %}
+{% if include.title %}
+<h3>{{ include.title }}</h3>
 {% endif %}
-{% endfor %}
+{% include post-list.html posts=posts %}
+{% endif %}
+{% endif %}

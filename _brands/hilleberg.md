@@ -1,16 +1,16 @@
 ---
 title: Hilleberg
-description:
-image:
+description: ~
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nammatjknoydart.jpg/220px-Nammatjknoydart.jpg"
 categories: []
+brands: []
 purposes: []
-types: []
-country-code:
-country:
-logo:
-website: http://www.hilleberg.com
-shop: http://www.hilleberg.com
-store-finder:
-about:  http://www.hilleberg.com/about/
-wiki: https://en.wikipedia.org/wiki/Hilleberg
+types: [rucksack, tent]
+countries: [sweden]
+logo: ~
+website: "http://www.hilleberg.se/"
+shop: ~
+store-finder: ~
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Hilleberg"
 ---

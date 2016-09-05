@@ -1,16 +1,16 @@
 ---
 title: Linder
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code: DE
-country: Germany
-logo:
-website: http://www.linder.de
-shop: http://www.linder.de
-store-finder:
-about:  http://www.linder.de/about/
-wiki: https://en.wikipedia.org/wiki/Linder
+countries: [germany]
+logo: ~
+website: "http://www.linder.de"
+shop: "http://www.linder.de"
+store-finder: ~
+about: "http://www.linder.de/about/"
+wiki: "https://en.wikipedia.org/wiki/Linder"
 ---

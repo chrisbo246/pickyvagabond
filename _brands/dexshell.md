@@ -1,15 +1,14 @@
 ---
 title: DexShell
-description:
-image:
-purposes: []
-types: []
-country-code:
-country:
-logo:
-website:
-shop: 
-store-finder:
-about:
+description: ~
+image: ~
+purposes: [dress, rain-protection, heavy-rain-protection]
+types: [waterproof-socks, waterproof-gloves]
+countries: []
+logo: ~
+website: ~
+shop: ~
+store-finder: ~
+about: ~
+wiki: ~
 ---
-Waterproof Coolvent Lite Socks-Element Repellent Socks, Gloves, Headwear I

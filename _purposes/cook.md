@@ -1,8 +1,6 @@
 ---
 title: "Cook"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: "Prepare hot meals."
+image: "https://images-na.ssl-images-amazon.com/images/I/41ew4l7v-RL.jpg"
 purposes: [camping]
 ---

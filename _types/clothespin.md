@@ -1,10 +1,8 @@
 ---
 title: "Clothespin"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/41k3s+ZZOwL.jpg"
 brands: []
 purposes: [laundry, dry-laundry]
-types:
+types: []
 ---

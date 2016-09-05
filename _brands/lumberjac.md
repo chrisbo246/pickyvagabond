@@ -1,16 +1,16 @@
 ---
 title: LumberJac
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code:
-country:
-logo:
-website: http://lumberjac.com
-shop: http://lumberjac.com
-store-finder:
-about:  http://lumberjac.com/about/
-wiki: https://en.wikipedia.org/wiki/LumberJac
+countries: []
+logo: ~
+website: "http://lumberjac.com"
+shop: "http://lumberjac.com"
+store-finder: ~
+about: "http://lumberjac.com/about/"
+wiki: "https://en.wikipedia.org/wiki/LumberJac"
 ---

@@ -1,8 +1,7 @@
 ---
 title: "Windbreaker"
-description: ""
-image:
-activities: []
+description: ~
+image: ~
 brands: []
 purposes: [dress, cold-protection]
 types: [jacket]

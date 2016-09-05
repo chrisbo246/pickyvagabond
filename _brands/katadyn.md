@@ -1,16 +1,16 @@
 ---
 title: Katadyn
-description:
-image:
+description: ~
+image: ~
 categories: []
-purposes: []
-types: []
-country-code: CH
-country: Switzerland
-logo:
-website: http://shop.katadyn.com
-shop: http://shop.katadyn.com
-store-finder:
-about:  http://shop.katadyn.com/about/
-wiki: https://en.wikipedia.org/wiki/Katadyn
+brands: []
+purposes: [hydration]
+types: [water-filter]
+countries: [united-states]
+logo: ~
+website: ~
+shop: "http://shop.katadyn.com"
+store-finder: ~
+about: "http://shop.katadyn.com/about/"
+wiki: ~
 ---

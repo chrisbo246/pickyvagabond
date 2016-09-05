@@ -1,0 +1,11 @@
+{% if include.posts.size > 0 and include.slugs.size > 0 %}
+{% assign posts = include.posts | where_exp: 'item', 'include.slugs contains item.slug' %}
+<form class="form-inline radio-glyphicon checkbox-success" data-persist="garlic" method="post">
+    <div class="col-sm-4 col-md-3 col-lg-2">
+        {% for post in posts %}
+        {% include selection-checkbox.html post=post %}
+        {{ post.title }}
+        {% endfor %}
+    </div>
+</form>
+{% endif %}

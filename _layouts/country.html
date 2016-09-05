@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <form data-persist="garlic" method="post">
+        {% include post-header.html %}
+        <div class="post-content" itemprop="articleBody">
+            {{ content | strip_newlines }}
+        </div>
+    </form>
+</article>

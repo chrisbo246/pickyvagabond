@@ -1,17 +1,16 @@
 ---
 title: PowerFilm
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
-types: [solar-charger]
-country-code:
-country:
-logo:
-website: http://www.powerfilmsolar.com
-shop: http://www.powerfilmsolar.com
-store-finder:
-about:  http://www.powerfilmsolar.com/about/
-wiki: https://en.wikipedia.org/wiki/PowerFilm
+types: [solar-charger, solar-panel]
+countries: []
+logo: ~
+website: "http://www.powerfilmsolar.com"
+shop: "http://www.powerfilmsolar.com"
+store-finder: ~
+about: "http://www.powerfilmsolar.com/about/"
+wiki: "https://en.wikipedia.org/wiki/PowerFilm"
 ---
-Lightweight, thin, flexible solar panels

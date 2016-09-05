@@ -1,29 +1,14 @@
+
+<script>
+var baseurl = '{{ site.github.baseurl }}';
+</script>
 <script src="{{ site.github.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ site.github.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="{{ site.github.baseurl }}/bower_components/garlicjs/dist/garlic.min.js"></script>
 <script src="{{ site.github.baseurl }}/bower_components/select2/dist/js/select2.min.js"></script>
-
+<script src="{{ site.github.baseurl }}/bower_components/lazysizes/lazysizes.min.js"></script>
+<script src="{{ site.github.baseurl }}/scripts/dealerLocalizer.js"></script>
 <script src="{{ site.github.baseurl }}/scripts/filters.js"></script>
-
-<script type="text/javascript">
-$(function() {
-
-    // Save and restore form inputs to the local storage
-    $('form[data-persist="garlic"]').find(':input').garlic({
-        onPersist: function (elem, storedValue) {
-            console.log('Persisted', elem, storedValue);
-        },
-        onRetrieve: function (elem, retrievedValue) {
-            console.log('Retrieved', elem, retrievedValue);
-        }
-    });
-
-    // Advanced select
-    $(".select2, .filter").select2({
-        theme: 'bootstrap'
-    });
-
-    $('.destroy-local-storage').garlic('destroy');
-
-});
-</script>
+<script src="{{ site.github.baseurl }}/scripts/geolocation.js"></script>
+<script src="{{ site.github.baseurl }}/scripts/wikipedia.js"></script>
+<script src="{{ site.github.baseurl }}/scripts/main.js"></script>

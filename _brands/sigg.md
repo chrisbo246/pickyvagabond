@@ -1,14 +1,14 @@
 ---
 title: SIGG
-description:
-image:
+description: ~
+image: ~
 purposes: []
 types: []
-country-code: CH
-country:
-logo:
-website: https://www.sigg.com
-shop: https://www.sigg.com
-store-finder:
-about: https://www.sigg.com/about/
+countries: [switzerland]
+logo: ~
+website: "https://www.sigg.com"
+shop: "https://www.sigg.com"
+store-finder: ~
+about: "https://www.sigg.com/about/"
+wiki: ~
 ---

@@ -1,16 +1,16 @@
 ---
 title: YETI
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: [yet-warmth-unlimited]
 purposes: []
 types: []
-country-code:
-country:
-logo:
-website: http://www.yetiworld.com
-shop: http://www.yetiworld.com
-store-finder:
-about:  http://www.yetiworld.com/about/
-wiki: https://en.wikipedia.org/wiki/YETI
+countries: [poland]
+logo: ~
+website: "http://www.yetiworld.com"
+shop: "http://www.yetiworld.com"
+store-finder: ~
+about: "http://www.yetiworld.com/about/"
+wiki: "https://en.wikipedia.org/wiki/YETI"
 ---

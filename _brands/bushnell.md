@@ -1,15 +1,16 @@
 ---
 title: Bushnell
-description:
-image:
+description: ~
+image: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/BushnellCorpLogo.jpeg/220px-BushnellCorpLogo.jpeg"
 categories: []
+brands: []
 purposes: []
 types: []
-country-code:
-country:
-logo:
-website: http://www.bushnell.eu
-shop: http://www.bushnell.eu
-store-finder:
-about:  http://www.bushnell.eu/about/
-wiki: https://en.wikipedia.org/wiki/Bushnell
+countries: [japan]
+logo: "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/BushnellCorpLogo.jpeg/220px-BushnellCorpLogo.jpeg"
+website: "http://www.bushnell.com/"
+shop: ~
+store-finder: ~
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Bushnell_Corporation"
+---

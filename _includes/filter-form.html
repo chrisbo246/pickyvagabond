@@ -1,0 +1,24 @@
+{% if include.filters and include.filters.size > 0 %}
+<form class="-form-inline radio-glyphicon checkbox-success" data-persist="garlic">
+    {% for label in include.filters %}
+    <div class="form-group">
+        {% assign collection = site.collections | where: 'label', label | first %}
+        <label for="{{ label }}_filter">{{ collection.title }}</label>
+        <select id="{{ label }}_filter" data-filter="{{ label }}" class="form-control input-sm filter" multiple="multiple">
+            <!--<option value="" selected>All</option>-->
+            {% assign docs = site[label] %}
+            {% for doc in docs %}
+            <option value="{{ doc.slug }}">{{ doc.title }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    {% endfor %}
+    <div class="form-group">
+        <label>
+            <input type="checkbox" class="selection-filter" />
+            My selection
+        </label>
+    </div>
+    <button type="button" class="btn btn-primary pull-right filter-reset"><span class="glyphicon glyphicon-remove"></span> Reset</button>
+</form>
+{% endif %}

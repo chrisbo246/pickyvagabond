@@ -1,10 +1,8 @@
 ---
 title: "Fork"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: [camping]
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/315+Glkh8aL.jpg"
 brands: []
 purposes: [eat]
-types:
+types: [cutlery]
 ---

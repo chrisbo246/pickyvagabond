@@ -1,10 +1,8 @@
 ---
 title: "Daypack"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
+description: "Small capacity backpack ideal for walks."
+image: "https://images-na.ssl-images-amazon.com/images/I/31rRshVi9GL.jpg"
 brands: []
 purposes: [equipment-transport]
-types:
+types: [backpack]
 ---

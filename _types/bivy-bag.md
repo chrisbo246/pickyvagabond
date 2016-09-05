@@ -1,11 +1,11 @@
 ---
 title: "Bivy bag"
 title-fr: "Sac de bivouac"
+alt-names: [Bivouac sack, Bivy sack]
 description: "Waterproof outer layer for the sleeping bag."
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: [camping]
+image: "https://images-na.ssl-images-amazon.com/images/I/317uXL3NWrL.jpg"
 brands: [carinthia, mammuth]
-purposes: [sleep, shelter]
-types:
+purposes: [sleep, sleep-outside, bivouac, shelter]
+types: [bivouac-shelter]
+wiki: "https://en.wikipedia.org/wiki/Bivouac_sack"
 ---

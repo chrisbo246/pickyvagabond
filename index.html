@@ -2,31 +2,48 @@
 layout: default
 ---
 
-<div class="home">
-
-
-  <h2>Getting started</h2>
-  <p>Start building your packing list? Follow the guide to save time and money.</p>
-  <ol>
-  <li>Get the list of <a href="purposes/">purposes</a> required by your main activities.</li>
-  <li>Get possible <a href="types/">product types</a> for each purpose and learn how to choose them.</li>
-  <li>Choose among recommended <a href="products/">products</a>.</li>
-  <li>Or discover good <a href="brands/">brands</a> all over the world.</li>
-  </ol>
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.github.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.github.baseurl }}">via RSS</a></p>
-
+<div class="container">
+    <div class="jumbotron">
+        <h1>Helps you with your packing list</h1>
+        <p class="lead">You think of the great escape but do not know where to start your packing list?<br/>Follow the guide to save time and money!</p>
+        <h4>Start picking your first purposes</h4>
+        {% assign slugs = 'cycling hiking camping bivouac cook' | split: ' ' %}
+        {% include custom-selection.html posts=site.purposes slugs=slugs %}
+        <br/>
+        <p><a class="btn btn-primary btn-lg" href="purposes/" role="button">Let's go!</a></p>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="row-same-height">
+            <div class="col-md-3 col-md-height text-center">
+                <div>
+                    <span class="glyphicon glyphicon-check text-6x text-muted hidden-xs" aria-hidden="true"></span>
+                    <h3>Purposes</h3>
+                    <p>Make a list of <a href="purposes/">purposes</a> required by your trip so you do not forget anything.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-height text-center">
+                <div>
+                    <span class="glyphicon glyphicon-info-sign text-6x text-muted hidden-xs" aria-hidden="true"></span>
+                    <h3>Product types</h3>
+                    <p>Get every possible <a href="types/">product types</a> by purpose and read useful tips about each one.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-height text-center">
+                <div>
+                    <span class="glyphicon glyphicon-shopping-cart text-6x text-muted hidden-xs" aria-hidden="true"></span>
+                    <h3>Product selections</h3>
+                    <p>Choose among a selection of cheap and efficient <a href="products/">products</a> to save time and money.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-height text-center">
+                <div>
+                    <span class="glyphicon glyphicon-search text-6x text-muted hidden-xs" aria-hidden="true"></span>
+                    <h3>Brands</h3>
+                    <p>Continue your search by discovering little known  <a href="brands/">brands</a> that are worth visiting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

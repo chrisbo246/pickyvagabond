@@ -1,14 +1,14 @@
 ---
 title: Marck
-description:
-image:
+description: ~
+image: ~
 purposes: []
 types: []
-country-code:
-country:
-logo:
-website: http://www.marck.fr
-shop: http://www.marck.fr
-store-finder:
-about: http://www.marck.fr/about/
+countries: []
+logo: ~
+website: "http://www.marck.fr"
+shop: "http://www.marck.fr"
+store-finder: ~
+about: "http://www.marck.fr/about/"
+wiki: ~
 ---

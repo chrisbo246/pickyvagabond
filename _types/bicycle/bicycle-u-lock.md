@@ -1,9 +1,7 @@
 ---
 title: "Bicycle U lock"
 description: "Attach your bike to avoid you do steal."
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: [cycling]
+image: "https://images-na.ssl-images-amazon.com/images/I/41kV9491VCL.jpg"
 brands: []
 purposes: [cycling, bicycle-theft-protection]
 types: [lock, bicycle-lock]

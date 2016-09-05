@@ -1,9 +1,7 @@
 ---
 title: "Reflective armbands"
 description: "An ideal complement for your jersey in cold weather."
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: [cycling]
+image: "https://images-na.ssl-images-amazon.com/images/I/41mHnNY8WCL.jpg"
 brands: []
 purposes: [cycling, road-visibility]
 ---

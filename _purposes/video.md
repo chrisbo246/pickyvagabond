@@ -1,8 +1,6 @@
 ---
 title: "Video"
-description: "Film your trip."
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: []
-purposes:
+description: "Film your epic trip."
+image: "https://images-na.ssl-images-amazon.com/images/I/51xtoYZlZZL.jpg"
+purposes: ~
 ---

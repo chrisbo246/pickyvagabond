@@ -1,10 +1,8 @@
 ---
 title: "Motorcycle bag"
-description: ""
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-activities: [motorcycle]
+description: ~
+image: "https://images-na.ssl-images-amazon.com/images/I/51Rj-5TZ6IL.jpg"
 brands: []
 purposes: [equipment-transport]
-types:
+types: [bag]
 ---

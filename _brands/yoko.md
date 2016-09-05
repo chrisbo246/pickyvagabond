@@ -1,16 +1,16 @@
 ---
 title: YOKO
-description:
-image:
+description: ~
+image: ~
 categories: []
+brands: []
 purposes: []
 types: []
-country-code:
-country:
-logo:
-website: http://www.yokointernational.com
-shop: http://www.yokointernational.com
-store-finder:
-about:  http://www.yokointernational.com/about/
-wiki: https://en.wikipedia.org/wiki/YOKO
+countries: []
+logo: ~
+website: "http://www.yokointernational.com"
+shop: "http://www.yokointernational.com"
+store-finder: ~
+about: "http://www.yokointernational.com/about/"
+wiki: "https://en.wikipedia.org/wiki/YOKO"
 ---

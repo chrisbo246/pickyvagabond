@@ -1,15 +1,14 @@
 ---
 title: SealSkinz
-description:
-image:
-purposes: []
-types: []
-country-code: SE
-country: Sweden
-logo:
-website: https://www.sealskinz.com
-shop: https://www.sealskinz.com
-store-finder:
-about: https://www.sealskinz.com/about/
+description: ~
+image: ~
+purposes: [cold-protection, rain-protection]
+types: [waterproof-socks, thermal-socks]
+countries: [sweden]
+logo: ~
+website: "https://www.sealskinz.com"
+shop: "https://www.sealskinz.com"
+store-finder: ~
+about: "https://www.sealskinz.com/about/"
+wiki: ~
 ---
-Thermal &amp; Waterproof Socks :

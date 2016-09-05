@@ -9,9 +9,7 @@ layout: default
         </header>
         <div class="row">
             <div class="col-md-12">
-                {% for post in site.tips %}
-                {% include post-preview.html post=post %}
-                {% endfor %}
+                {% include collection-list.html posts=site.tips type="tips" %}
             </div>
         </div>
     </form>

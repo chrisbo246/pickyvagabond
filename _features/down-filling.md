@@ -2,12 +2,11 @@
 title: "Down filling"
 description: "Duck or goose feather insulation."
 image: # http://ecx.images-amazon.com/images/I/{id}.jpg
-amazon-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
 types: [sleeping-bag, insulated-jacket, insulated-pants]
-pros:
+pros: ~
   - Extremely lightweight
   - Very compressible
-cons:
+cons: ~
   - Expensive
   - Absorbs moisture (if no waterproof treatment)
   - Long drying

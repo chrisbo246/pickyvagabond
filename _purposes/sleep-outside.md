@@ -1,8 +1,6 @@
 ---
-title: "Sleep"
+title: "Sleep outside"
 description: "Spend the night warm when camping."
-image: http://ecx.images-amazon.com/images/I/31qytkYhzpL.jpg
-amazon-image: http://ecx.images-amazon.com/images/I/31qytkYhzpL.jpg
-activities: []
-purposes:
+image: "http://ecx.images-amazon.com/images/I/31qytkYhzpL.jpg"
+purposes: ~
 ---

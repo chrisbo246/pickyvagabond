@@ -6,24 +6,25 @@ layout: default
         {% include post-header.html %}
         <div class="container-fluid">
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs">
-                    <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-                    {% if site.products %}<li><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
-                    {% if site.activity %}<li><a href="#activity" data-toggle="tab">Activity</a></li>{% endif %}
-                    <li><a href="#tags" data-toggle="tab">Tags</a></li>
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>
+                    {% if site.products %}<li role="tab" data-toggle="tab"><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
+                    {% if site.activity %}<li role="tab" data-toggle="tab"><a href="#activity" data-toggle="tab">Activity</a></li>{% endif %}
+                    <li role="tab" data-toggle="tab"><a href="#tags" data-toggle="tab">Tags</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="overview" class="tab-pane fade active in">
+                    <div id="overview" class="tab-pane fade active in" role="tabpanel">
                         {% include text.html %}
                     </div>
-                    <div id="products" class="tab-pane fade">
+                    <div id="products" class="tab-pane fade" role="tabpanel">
                         {% include related-posts.html posts=site.products %}
                     </div>
-                    <div id="activities" class="tab-pane fade">
+                    <div id="activities" class="tab-pane fade" role="tabpanel">
                         {% include related-posts.html posts=site.activities %}
                     </div>
-                    <div id="tags" class="tab-pane fade">
-                        {% include tags.html %}
+                    <div id="tags" class="tab-pane fade" role="tabpanel">
+                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
+                        {% include tags.html collections=collections %}
                     </div>
                 </div>
             </div>

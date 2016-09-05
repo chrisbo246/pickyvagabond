@@ -2,8 +2,8 @@
 layout: collection
 title: Products
 permalink: /products/
-menu: 0
-menu_position: 1
+menu: 2
+menu-position: 4
 collection: products
-filters: [purposes, types]
+filters: [purposes, types, brands]
 ---
