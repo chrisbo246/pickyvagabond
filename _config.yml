@@ -39,6 +39,13 @@ exclude:
   - bower_components/select2-bootstrap-theme/docs/*
   - bower_components/*/tests/*
 
+keep_files:
+  - assets
+  - bower_components
+  - images
+  - scripts
+
+
 
 # https://pages.github.com/versions/
 gems:
