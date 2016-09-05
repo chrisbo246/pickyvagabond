@@ -3,7 +3,7 @@ title: POC Sports
 description: ~
 image: "http://www.pocsports.com/static/images/poc-logo.png"
 categories: []
-brands: [blackdiamond]
+brands: [blackdiamondequipment]
 purposes: []
 types: [ski-helmet, snowboard-helmet, bicycle-helmet, apparel, sunglasses]
 countries: [sweden]
