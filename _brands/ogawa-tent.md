@@ -2,12 +2,12 @@
 title: Ogawa Tent
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [camp]
 types: [tent]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

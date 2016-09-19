@@ -2,12 +2,12 @@
 title: Nordica
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [tecnica]
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

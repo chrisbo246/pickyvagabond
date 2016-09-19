@@ -2,12 +2,12 @@
 title: Sorel
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [columbia]
-purposes: []
+purposes: [hike, mountaineer]
 types: [shoes, hiking-shoes, boots, mountaineering-boots]
 countries: [canada]
-logo: ~
 website: "http://www.sorel.com/"
 shop: ~
 store-finder: ~

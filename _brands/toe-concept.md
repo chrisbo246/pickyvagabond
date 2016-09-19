@@ -2,12 +2,12 @@
 title: "T.O.E Concept"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.arcadis-toe.com"
 shop: "http://www.arcadis-toe.com"
 store-finder: ~

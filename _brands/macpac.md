@@ -2,12 +2,12 @@
 title: Macpac
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [new-zealand]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

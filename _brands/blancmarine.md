@@ -1,13 +1,13 @@
 ---
 title: BlancMarine
 description: ~
-image: ~
+image: "/images/brands/blancmarine.png"
+remote-image: "http://www.blancmarine.com/img/velo-pliant-blanc-marine-logo-1446643224.jpg"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: "http://www.blancmarine.com/img/velo-pliant-blanc-marine-logo-1446643224.jpg"
 website: "http://www.blancmarine.com"
 shop: "http://www.blancmarine.com"
 store-finder: ~

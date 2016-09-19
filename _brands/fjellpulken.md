@@ -2,12 +2,12 @@
 title: Fjellpulken
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [norway]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

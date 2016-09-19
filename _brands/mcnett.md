@@ -2,11 +2,11 @@
 title: McNett Tactical
 description: ~
 image: ~
+remote-image: ~
 brands: []
 purposes: []
 types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

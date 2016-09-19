@@ -2,12 +2,12 @@
 title: PHD Mountain Software
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [sleeping-bag, down-sleeping-bag, down-jacket]
 countries: [united-kingdom]
-logo: ~
 website: "http://www.phdesigns.co.uk/"
 shop: ~
 store-finder: ~

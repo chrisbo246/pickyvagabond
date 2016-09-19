@@ -8,7 +8,7 @@
 {% endfor %}
 {% endfor %}
 
-{% if slugs.size != 0 %}
+{% if slugs.size > 0 %}
 {% assign slugs = slugs | uniq | sort %}
 {% assign docs = site[label] | where_exp: 'item', 'slugs contains item.slug' %}
 {% if docs.size > 0 %}

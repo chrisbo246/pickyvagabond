@@ -4,12 +4,17 @@
 @charset "utf-8";
 
 $icon-font-path: '../bower_components/bootstrap-sass/assets/fonts/bootstrap/';
-$brand-primary: #33cc00;
+$flag-icon-css-path: '../bower_components/flag-icon-css/flags' !default;
+//$brand-primary: #33cc00;
+//$brand-primary: #556B2F;
+$brand-primary: #808000;
 
 @import
         "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
         "../bower_components/select2/src/scss/core.scss",
-        "../bower_components/select2-bootstrap-theme/src/build.scss"
+        "../bower_components/select2-bootstrap-theme/src/build.scss",
+        "../bower_components/flag-icon-css/sass/_flag-icon.scss",
+        "../bower_components/animate.css/animate.min.css"
 ;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -19,6 +24,6 @@ $brand-primary: #33cc00;
         "images",
         "checkboxes",
         "scrollbar",
-        "wikipedia",
+        "mediawiki",
         "syntax-highlighting"
 ;

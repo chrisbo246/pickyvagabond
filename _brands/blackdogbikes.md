@@ -1,11 +1,11 @@
 ---
 title: Black Dog Bikes
 description: ~
-image: ~
-purposes: [cycling]
+image: "/images/brands/blackdogbikes.png"
+remote-image: "http://blackdogbikes.com/wp-content/uploads/2015/03/Logo_Large.png"
+purposes: [cycle]
 types: []
 countries: []
-logo: "http://blackdogbikes.com/wp-content/uploads/2015/03/Logo_Large.png"
 website: "http://blackdogbikes.com"
 shop: "http://blackdogbikes.com"
 store-finder: ~

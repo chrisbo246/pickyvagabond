@@ -2,12 +2,12 @@
 title: "REV'IT!"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [motorcycling]
+purposes: [motorcycle]
 types: []
 countries: []
-logo: ~
 website: "http://www.revitusa.com"
 shop: "http://www.revitusa.com"
 store-finder: ~

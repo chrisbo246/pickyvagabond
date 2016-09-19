@@ -9,81 +9,103 @@
 
 .radio,
 .checkbox {
-   label {
-      position: relative;
-      padding-left: 1em;
-   }
-   input[type=radio],
-   input[type=checkbox] {
-      position: absolute;
-      margin-left: -100em;
-      margin-right: 100em;
-      font-size: 1em;
-   }
-   input[type=radio]:before,
-   input[type=checkbox]:before {
-      font-family: 'Glyphicons Halflings';
-      content: "\f096";
-      position: relative;
-      position: absolute;
-      left: 99em;
-   }
-   &.disabled input[type=radio]:before,
-   &.disabled input[type=checkbox]:before {
-      color: $text-muted;
-      cursor: not-allowed;
-   }
+    label {
+        position: relative;
+        padding-left: 1em;
+    }
+    input[type=radio],
+    input[type=checkbox] {
+        position: absolute;
+        margin-left: -100em;
+        margin-right: 100em;
+        font-size: 1em;
+    }
+    input[type=radio]:before,
+    input[type=checkbox]:before {
+        font-family: 'Glyphicons Halflings';
+        content: "\f096";
+        position: relative;
+        position: absolute;
+        left: 99em;
+    }
+    &.disabled input[type=radio]:before,
+    &.disabled input[type=checkbox]:before {
+        color: $text-muted;
+        cursor: not-allowed;
+    }
 
+}
+
+
+
+// Color -----------------------------------------------------------------------
+
+.radio-success,
+.checkbox-success {
+    input[type=radio]:before,
+    input[type=checkbox]:before {
+        color: $gray-lighter;
+    }
 }
 
 .radio-success,
 .checkbox-success {
-   input[type=radio]:checked,
-   input[type=checkbox]:checked {
-      color: $brand-success;
-   }
+    input[type=radio]:hover:before,
+    input[type=checkbox]:hover:before,
+    input[type=radio]:checked:hover:before,
+    input[type=checkbox]:checked:hover:before {
+        color: $brand-success;
+    }
 }
+
+.radio-success,
+.checkbox-success {
+    input[type=radio]:checked:hover:before,
+    input[type=checkbox]:checked:hover:before {
+        color: $brand-danger;
+    }
+}
+
+.radio-success,
+.checkbox-success {
+    input[type=radio]:checked:before,
+    input[type=checkbox]:checked:before {
+        color: $brand-success;
+    }
+}
+
+
+
+// Glyphicon -------------------------------------------------------------------
 
 .radio,
 .radio-glyphicon {
-   input[type=radio]:before {
-      content: "\e088";
-   }
-   input[type=radio]:checked:before {
-      content: "\e089";
-   }
+    input[type=radio]:before {
+        content: "\e088";
+    }
+    input[type=radio]:checked:before {
+        content: "\e089";
+    }
 }
 
 .checkbox,
 .checkbox-glyphicon {
-   input[type=checkbox]:before {
-      content: "\e157";
-   }
-   input[type=checkbox]:checked:before {
-      content: "\e067";
-   }
+    input[type=checkbox]:before {
+        //content: "\e157";
+        content: "\e081";
+    }
+    input[type=checkbox]:checked:before {
+        //content: "\e067";
+        content: "\e084";
+    }
 }
 
-.radio-fontawesome {
-   input[type=radio] {
-      &:before {
-         font-family: FontAwesome;
-         content: "\f10c";
-      }
-      &:checked:before {
-         content: "\f111";
-      }
-   }
-}
-
-.checkbox-fontawesome {
-   input[type=checkbox] {
-      &:before {
-         font-family: FontAwesome;
-         content: "\f096";
-      }
-      &:checked:before {
-         content: "\f046";
-      }
-   }
+.checkbox,
+.checkbox-glyphicon {
+    input[type=checkbox]:hover:before {
+        content: "\e081";
+    }
+    input[type=checkbox]:checked:hover:before {
+        content: "\e082";
+    }
 }

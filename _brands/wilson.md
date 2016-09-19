@@ -1,13 +1,13 @@
 ---
 title: Wilson Sporting Goods
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Wilson-sports_logo.png/220px-Wilson-sports_logo.png"
+image: "/images/brands/wilson.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Wilson-sports_logo.png/220px-Wilson-sports_logo.png"
 categories: []
 brands: [amer-sports]
-purposes: []
-types: [sportswear, footwear]
+purposes: [sportswear, footwear]
+types: []
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Wilson-sports_logo.png/220px-Wilson-sports_logo.png"
 website: "http://www.wilson.com/"
 shop: ~
 store-finder: ~

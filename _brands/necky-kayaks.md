@@ -2,12 +2,12 @@
 title: Necky Kayak
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [johnson-outdoors]
 purposes: []
 types: [kayak]
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

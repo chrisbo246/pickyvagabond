@@ -1,14 +1,14 @@
 ---
 title: Icebreaker
 description: ~
-image: ~
-purposes: []
-types: [outwear, sweater, t-shirt, merinos-wool]
+image: "/images/brands/icebreaker.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Icebreaker_logo.svg/1024px-Icebreaker_logo.svg.png"
+purposes: [mid-layer, shell-layer, merinos-wool]
+types: [sweater, t-shirt]
 countries: [new-zealand]
-logo: ~
-website: "http://eu.icebreaker.com"
-shop: "http://eu.icebreaker.com"
+website: "http://www.icebreaker.com/"
+shop: ~
 store-finder: ~
-about: "http://eu.icebreaker.com/about/"
-wiki: ~
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Icebreaker_(clothing)"
 ---

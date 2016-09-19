@@ -1,16 +1,16 @@
 ---
 title: TRIPLE ZERO
 description: ~
-image: ~
+image: "/images/brands/triplezero.png"
+remote-image: "http://www.triplezero.fr/bando/bando_logo.gif"
 categories: []
 brands: []
-purposes: []
-types: []
+purposes: [bivouac, mid-layer, shell-layer, down, down-insulation, mid-layer]
+types: [sleeping-bag, down-jacket, down-trousers, mittens, insulated-mittens, boots, insulated-boots]
 countries: [france]
-logo: ~
-website: "http://www.triplezero.fr"
-shop: "http://www.triplezero.fr"
+website: "http://www.triplezero.fr/eng/"
+shop: ~
 store-finder: ~
-about: "http://www.triplezero.fr/about/"
-wiki: "https://en.wikipedia.org/wiki/TRIPLE ZERO"
+about: ~
+wiki: ~
 ---

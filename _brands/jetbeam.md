@@ -1,14 +1,14 @@
 ---
 title: Jetbeam
 description: ~
-image: ~
+image: "/images/brands/jetbeamlighting.png"
+remote-image: "http://jetbeamlighting.com/skin/frontend/default/lightjunction/images/JetbeamLighting-logo-2.png"
 categories: []
 brands: []
-purposes: []
-types: [headlamp]
+purposes: [outdoor, camp, bicycle]
+types: [headlamp, flashlight, bicycle-light, battery, battery-charger]
 countries: [china]
-logo: ~
-website: ~
+website: "http://jetbeamlighting.com/"
 shop: ~
 store-finder: ~
 about: ~

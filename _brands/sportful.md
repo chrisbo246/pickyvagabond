@@ -2,12 +2,12 @@
 title: Sportful
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear]
+purposes: [mid-layer, shell-layer]
+types: [gloves]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

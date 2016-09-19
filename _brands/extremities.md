@@ -2,11 +2,11 @@
 title: Extremities
 description: ~
 image: ~
+remote-image: ~
 brands: terra-nova]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

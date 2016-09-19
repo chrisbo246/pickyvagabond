@@ -1,0 +1,8 @@
+{% if include.query %}
+{% assign query = include.query %}
+{% else %}
+{% assign query = post.title %}
+{% endif %}
+
+<a class="btn btn-primary btn-lg" href="https://www.google.com/search?hl=en&as_q={{ query | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank"><span class="glyphicon glyphicon-search"></span> Google</a>
+<a class="btn btn-default btn-lg" href="https://www.amazon.com/s/?field-keywords={{ query | url_encode }}" target="_blank"><span class="glyphicon glyphicon-shopping-cart"></span> Amazon</a>

@@ -2,12 +2,12 @@
 title: Billycan
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [portable-stove]
 countries: [canada]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

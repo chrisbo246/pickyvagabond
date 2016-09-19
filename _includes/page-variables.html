@@ -1,0 +1,19 @@
+
+{% if include.post %}
+{% assign post = include.post %}
+{% else %}
+{% assign post = page %}
+{% endif %}
+
+{% assign varnames = 'layout collection type slug permalink title date directory relative_directory url name path published output output_ext category categories tags' | split: ' ' %}
+
+<div class="alert alert-info" role="alert">
+    <h4>Page variables</h4>
+    <dl class="dl-horizontal">
+        {% for varname in varnames %}
+        {% if post[varname] %}
+        <dt>{{ varname }}</dt><dd>{{ post[varname] }}</dd>
+        {% endif %}
+        {% endfor %}
+    </dl>
+</div>

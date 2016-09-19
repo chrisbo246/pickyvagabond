@@ -2,12 +2,12 @@
 title: Outdoor Research
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [united-states]
-logo: ~
 website: "http://www.outdoorresearch.com/"
 shop: "http://www.outdoorresearch.com"
 store-finder: ~

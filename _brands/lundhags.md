@@ -2,12 +2,12 @@
 title: Lundhags
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [hiking-shoes, outerwear, rucksack]
+purposes: [mid-layer, shell-layer, hike]
+types: [hiking-shoes, backpack]
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

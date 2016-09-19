@@ -2,12 +2,12 @@
 title: Prana
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [columbia]
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

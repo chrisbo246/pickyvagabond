@@ -2,12 +2,12 @@
 title: Surly
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, bicycle-bag, bicycle-rack]
 countries: [united-states]
-logo: ~
 website: "http://surlybikes.com"
 shop: "http://surlybikes.com"
 store-finder: ~

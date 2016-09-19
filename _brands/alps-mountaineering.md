@@ -2,12 +2,12 @@
 title: ALPS Mountaineering
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, bivouac]
 types: [tent, backpack, sleeping-bag]
 countries: []
-logo: ~
 website: "http://www.alpsmountaineering.com/"
 shop: "http://www.alpsmountaineering.com/"
 store-finder: ~

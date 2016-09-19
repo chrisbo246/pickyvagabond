@@ -2,12 +2,12 @@
 title: Reelight
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-light]
 countries: []
-logo: ~
 website: "http://www.reelight.com"
 shop: "http://shop.reelight.com"
 shop-fr: "http://www.reelight.fr"

@@ -2,12 +2,12 @@
 title: Marechal
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [france]
-logo: ~
 website: "http://www.marechal.tm.fr"
 shop: "http://www.marechal.tm.fr"
 store-finder: ~

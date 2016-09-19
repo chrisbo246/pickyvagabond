@@ -2,12 +2,12 @@
 title: Dakine
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [bag, backpack]
 countries: []
-logo: ~
 website: "http://eu.dakine.com"
 shop: "http://eu.dakine.com"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Chinook 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [chinook-sports-company]
-purposes: []
-types: [tent, portable-stove, rucksack, sleeping-bag, trekking-pole]
+purposes: [hike, bivouac]
+types: [tent, portable-stove, backpack, sleeping-bag, trekking-pole]
 countries: [canada]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

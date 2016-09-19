@@ -2,12 +2,12 @@
 title: Cedar Crest 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [genesco]
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

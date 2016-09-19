@@ -1,16 +1,16 @@
 ---
-title: Mountain Hard Wear
+title: Mountain HardWear
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Mountain_Hardwear_logo.png/76px-Mountain_Hardwear_logo.png"
+image: "/images/brands/mountainhardwear.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/f/f6/Mountain_Hardwear_logo.png"
 categories: []
 brands: [columbia]
-purposes: []
-types: []
+purposes: [ ]
+types: [gloves, backpack, sleeping-bag]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Mountain_Hardwear_logo.png/76px-Mountain_Hardwear_logo.png"
 website: "http://www.mountainhardwear.com/"
 shop: "http://www.mountainhardwear.com/"
 store-finder: ~
-about: "http://www.mountainhardwear.com/about/"
+about: ~
 wiki: "https://en.wikipedia.org/wiki/Mountain_Hardwear"
 ---

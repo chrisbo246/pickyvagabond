@@ -2,12 +2,12 @@
 title: Zoot Sports
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: []
-types: [sportswear, footwear]
+purposes: [sportswear, footwear]
+types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

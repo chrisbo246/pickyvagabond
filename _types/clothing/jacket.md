@@ -1,8 +1,10 @@
 ---
 title: "Jacket"
 description: ~
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+image: "https://images-na.ssl-images-amazon.com/images/I/51sgNARJvIL.jpg"
 brands: []
-purposes: [dress]
+purposes: [mid-layer]
+qualities: []
 types: []
+wiki: "https://en.wikipedia.org/wiki/Jacket"
 ---

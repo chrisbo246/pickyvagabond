@@ -2,12 +2,12 @@
 title: Icebug
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [hiking-shoes]
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Strida
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: [france]
-logo: ~
 website: "http://strida.fr"
 shop: "http://strida.fr"
 store-finder: ~

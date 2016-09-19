@@ -2,12 +2,12 @@
 title: Bibler Tents
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [blackdiamondequipment]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

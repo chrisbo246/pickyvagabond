@@ -1,13 +1,13 @@
 ---
 title: "Atomic skis"
 description: ~
-image: "https://en.wikipedia.org/wiki/File:Logo-with-device01.jpg"
+image: "/images/brands/atomic.png"
+remote-image: "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo-with-device01.jpg/220px-Logo-with-device01.jpg"
 categories: []
 brands: [amer-sports]
-purposes: []
+purposes: [ski]
 types: []
 countries: [austria]
-logo: "https://en.wikipedia.org/wiki/File:Logo-with-device01.jpg"
 website: "http://www.atomic.com/"
 shop: ~
 store-finder: ~

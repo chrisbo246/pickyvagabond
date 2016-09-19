@@ -2,7 +2,7 @@
 layout: posts
 title: Posts
 permalink: /posts/
-menu: 1
-menu-position: 4
+menu: 2
+menu-position: 5
 collection: posts
 ---

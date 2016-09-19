@@ -2,12 +2,12 @@
 title: Linder
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [germany]
-logo: ~
 website: "http://www.linder.de"
 shop: "http://www.linder.de"
 store-finder: ~

@@ -1,16 +1,16 @@
 ---
 title: Leatherman
 description: ~
-image: ~
+image: "/images/brands/leatherman.png"
+remote-image: "http://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Leatherman_Logo.svg/230px-Leatherman_Logo.svg.png"
 categories: []
 brands: []
 purposes: []
-types: [multi-tool]
+types: [multi-tool, folding-knife]
 countries: [united-states]
-logo: ~
 website: "https://www.leatherman.com"
-shop: "https://www.leatherman.com"
+shop: ~
 store-finder: ~
-about: "https://www.leatherman.com/about/"
+about: ~
 wiki: "https://en.wikipedia.org/wiki/Leatherman"
 ---

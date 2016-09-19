@@ -2,12 +2,12 @@
 title: Dunlop Sport
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [camp]
 types: [gloves, sleeping-bag, tent]
 countries: [united-kingdom]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

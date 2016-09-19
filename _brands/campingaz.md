@@ -1,13 +1,13 @@
 ---
 title: Campingaz
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Camping_gaz.jpg/140px-Camping_gaz.jpg"
+image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: []
+types: [gas-can, camping-cooker, camping-lantern, camping-heater, camping-grill, camping-refrigerator, sleeping-bag]
 countries: [france]
-logo: ~
 website: "http://www.campingaz.com/"
 shop: ~
 store-finder: ~

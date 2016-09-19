@@ -2,12 +2,12 @@
 title: Hestra
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [gloves]
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

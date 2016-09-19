@@ -2,10 +2,10 @@
 title: ScottEvest
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.scottevest.com"
 shop: "http://www.scottevest.com"
 store-finder: ~

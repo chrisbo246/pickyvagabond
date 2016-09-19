@@ -2,12 +2,12 @@
 title: Fenix
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [headlamp]
 countries: [china]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

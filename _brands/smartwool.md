@@ -2,12 +2,12 @@
 title: SmartWool
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [vf-corporation]
-purposes: [cold-protection]
+purposes: [mid-layer]
 types: [t-shirt, sweater, tight, merinos-sweater, merinos-t-shirt]
 countries: [united-states]
-logo: ~
 website: "http://www.smartwool.com/"
 shop: ~
 store-finder: ~

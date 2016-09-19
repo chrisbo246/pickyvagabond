@@ -2,12 +2,12 @@
 title: Simond
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [crampons, ice-axe]
 countries: [france]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Jump
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [france]
-logo: ~
 website: "http://www.jump.fr"
 shop: "http://www.jump.fr"
 store-finder: ~

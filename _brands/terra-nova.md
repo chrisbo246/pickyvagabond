@@ -1,15 +1,15 @@
 ---
 title: Terra Nova
 description: ~
-image: ~
+image: "/images/brands/terra-nova.png"
+remote-image: "http://www.littleterra.co.uk/uploads/general/images/terra-nova/logo.jpg"
 brands: [extremities, wild-country]
-purposes: []
-types: [tent, bivy-bag, bag, rucksack]
+purposes: [hike, bivouac]
+types: [tent, bivvy-bag, bag, backpack]
 countries: [united-states]
-logo: ~
 website: "http://www.terra-nova.co.uk/"
-shop: "http://www.terra-nova.co.uk"
+shop: ~
 store-finder: ~
-about: "http://www.terra-nova.co.uk/about/"
+about: ~
 wiki: "https://en.wikipedia.org/wiki/Terra_Nova_Equipment"
 ---

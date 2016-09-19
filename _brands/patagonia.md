@@ -2,12 +2,12 @@
 title: Patagonia
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [wolverine-worldwide]
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [united-states]
-logo: ~
 website: "http://www.patagonia.com"
 shop: "http://www.patagonia.com"
 store-finder: ~

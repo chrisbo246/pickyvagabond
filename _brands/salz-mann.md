@@ -2,13 +2,13 @@
 title: Salzmann
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: [germany]
-logo: ~
 website: "http://www.salz-mann.com"
-shop: "http://www.salz-mann.com"
+shop: ~
 store-finder: ~
-about: "http://www.salz-mann.com/about/"
+about: ~
 wiki: ~
 ---

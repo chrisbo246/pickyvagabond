@@ -2,12 +2,12 @@
 title: Sealine
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [cascadedesigns]
 purposes: []
-types: [bag, rucksack, waterproof-bag]
+types: [bag, backpack, waterproof-bag]
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

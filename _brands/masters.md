@@ -2,12 +2,12 @@
 title: Masters
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [trekking-pole]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Macpac Outdoors
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [backpack, sleeping-bag, technical-clothing]
 countries: [new-zealand]
-logo: ~
 website: "http://www.macpac.co.nz/"
 shop: ~
 store-finder: ~

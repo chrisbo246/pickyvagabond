@@ -1,13 +1,13 @@
 ---
 title: "Völkl"
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/0/03/Volkl.png"
+image: "/images/brands/volkl.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/0/03/Volkl.png"
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [skis, racing-skis, tennis-racket, apparel]
 countries: [germany]
-logo: "https://upload.wikimedia.org/wikipedia/en/0/03/Volkl.png"
 website: "http://www.volkl.com/"
 shop: ~
 store-finder: ~

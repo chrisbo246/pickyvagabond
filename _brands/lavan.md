@@ -2,12 +2,12 @@
 title: Lavan
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [mountaineer]
 types: [mountaineering-boots]
 countries: [china]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

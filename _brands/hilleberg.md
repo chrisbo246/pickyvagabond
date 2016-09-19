@@ -1,13 +1,13 @@
 ---
 title: Hilleberg
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nammatjknoydart.jpg/220px-Nammatjknoydart.jpg"
+image: "/images/brands/hilleberg.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hilleberg_logo.svg/1280px-Hilleberg_logo.svg.png"
 categories: []
 brands: []
-purposes: []
-types: [rucksack, tent]
+purposes: [hike, bivouac]
+types: [backpack, tent]
 countries: [sweden]
-logo: ~
 website: "http://www.hilleberg.se/"
 shop: ~
 store-finder: ~

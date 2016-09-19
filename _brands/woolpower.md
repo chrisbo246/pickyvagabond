@@ -1,13 +1,13 @@
 ---
 title: Woolpower
 description: ~
-image: ~
+image: "/images/brands/woolpower.png"
+remote-image: ""
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [sweden]
-logo: ~
 website: "http://www.woolpower.se"
 shop: "http://www.woolpower.se"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Gaya
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, sleeping-bag, rucksack]
+purposes: [mid-layer, shell-layer, hike, bivouac]
+types: [gloves, sleeping-bag, backpack]
 countries: [china]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

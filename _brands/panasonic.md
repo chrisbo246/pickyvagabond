@@ -2,12 +2,12 @@
 title: Panasonic
 description: ~
 image: ~
+remote-image: ~
 categories: [home-appliance]
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.panasonic.com"
 shop: "http://www.panasonic.com"
 store-finder: ~

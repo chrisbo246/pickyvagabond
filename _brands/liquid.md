@@ -2,12 +2,12 @@
 title: Liquid
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [snowboard]
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

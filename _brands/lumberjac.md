@@ -2,12 +2,12 @@
 title: LumberJac
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://lumberjac.com"
 shop: "http://lumberjac.com"
 store-finder: ~

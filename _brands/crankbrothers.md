@@ -2,10 +2,10 @@
 title: Crank Brothers
 description: ~
 image: ~
-purposes: [cycling]
+remote-image: ~
+purposes: [cycle]
 types: [mtb, bicycle-component, pedals, wheel, stem, bicycle-tool]
 countries: []
-logo: ~
 website: "http://www.crankbrothers.com"
 shop: "http://www.crankbrothers.com"
 store-finder: ~

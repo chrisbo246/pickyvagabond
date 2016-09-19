@@ -2,10 +2,10 @@
 title: SIGG
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: [switzerland]
-logo: ~
 website: "https://www.sigg.com"
 shop: "https://www.sigg.com"
 store-finder: ~

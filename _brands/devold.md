@@ -2,12 +2,12 @@
 title: Devold
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear]
+purposes: [mid-layer, shell-layer]
+types: [gloves]
 countries: [norway]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

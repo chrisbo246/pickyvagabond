@@ -2,7 +2,6 @@
 {% assign post = include.post %}
 
 {% for collection in site.collections %}
-c-label: {{ collection.label }}
 
 {% if post[collection.label].size > 0 %}
 {% assign array = post[collection.label] %}

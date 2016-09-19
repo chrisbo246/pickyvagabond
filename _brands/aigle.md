@@ -1,13 +1,13 @@
 ---
 title: Aigle
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Aigle_%28logo%29.svg/110px-Aigle_%28logo%29.svg.png"
+image: "/images/brands/aigle.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Aigle_(logo).svg/822px-Aigle_(logo).svg.png"
 categories: []
 brands: []
 purposes: []
-types: [hiking-shoes, rucksack]
+types: [hiking-shoes, backpack]
 countries: [france]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Aigle_%28logo%29.svg/110px-Aigle_%28logo%29.svg.png"
 website: "http://www.aigle.com/"
 shop: ~
 store-finder: ~

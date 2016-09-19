@@ -2,12 +2,12 @@
 title: Montrail 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [columbia]
 purposes: []
 types: [hiking-shoes]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

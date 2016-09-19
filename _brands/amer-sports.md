@@ -1,13 +1,13 @@
 ---
 title: Amer Sports
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Amer_Sports.svg/180px-Amer_Sports.svg.png"
+image: "/images/brands/amer-sports.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Amer_Sports.svg/180px-Amer_Sports.svg.png"
 categories: []
-brands: [ atomic-skis, mavic, precor-usa, salomon, suunto, wilson-sporting-goods]
+brands: []
 purposes: []
 types: []
 countries: [finland]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Amer_Sports.svg/180px-Amer_Sports.svg.png"
 website: "http://www.amersports.com/"
 shop: ~
 store-finder: ~

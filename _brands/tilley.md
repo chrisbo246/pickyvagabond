@@ -2,12 +2,12 @@
 title: Tilley
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [australia]
-logo: ~
 website: "http://www.tilley.com"
 shop: "http://www.tilley.com"
 store-finder: ~

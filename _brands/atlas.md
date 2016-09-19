@@ -2,12 +2,12 @@
 title: Atlas
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [snowshoes]
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

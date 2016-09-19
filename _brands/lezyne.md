@@ -1,14 +1,14 @@
 ---
 title: Lezyne
 description: ~
-image: ~
-purposes: [cycling]
-types: []
+image: "/images/brands/lezyne.png"
+remote-image: "http://www.lezyne.com/images/logoblack.svg"
+purposes: [cycle]
+types: [bicycle-gps, bicycle-light, bicycle-pump, bicycle-floor-pump, bicycle-hand-pump, co2-pump, bicycle-bottle-cage, bicycle-tool, multi-tool]
 countries: []
-logo: ~
-website: "http://www.lezyne.com"
-shop: "http://www.lezyne.com"
+website: "http://www.lezyne.com/"
+shop: ~
 store-finder: ~
-about: "http://www.lezyne.com/about/"
+about: ~
 wiki: ~
 ---

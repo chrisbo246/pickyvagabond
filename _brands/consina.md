@@ -2,12 +2,12 @@
 title: Consina
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [mountaineering-boots, rucksack, tent, outerwear]
+purposes: [mid-layer, shell-layer, mountaineer, bivouac]
+types: [mountaineering-boots, backpack, tent]
 countries: [indonesia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

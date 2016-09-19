@@ -6,14 +6,14 @@
 
 {% if post.collection %}
 {% assign type = post.collection %}
-{% else if post.type %}
+{% elsif post.type %}
 {% assign type = post.type %}
 {% endif %}
 
 {% if post and type %}
 <div class="checkbox">
     <label>
-        <input type="checkbox" name="{{ type }}[]" value="{{ post.slug }}" title="Add to my selection" />
+        <input class="selection-checkbox" type="checkbox" name="{{ type }}.{{ post.slug }}" title="Add to my selection" />
     </label>
 </div>
 {% endif %}

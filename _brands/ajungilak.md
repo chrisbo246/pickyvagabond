@@ -1,13 +1,13 @@
 ---
-title: Ajungilak 
+title: Ajungilak
 description: ~
-image: ~
+image: "/images/brands/ajungilak.png"
+remote-image: "http://www.mctrek.de/logos/ajungilak.png"
 categories: []
 brands: [mammut]
 purposes: []
 types: [sleeping-bag]
 countries: [norway]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

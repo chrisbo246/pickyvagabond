@@ -1,16 +1,16 @@
 ---
 title: Bike Friday
 description: ~
-image: ~
+image: "/images/brands/bikefriday.png"
+remote-image: "https://store.bikefriday.com/images/content/Vector%20PDF%20Bike%20Friday%20Round%20Logo.jpg"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: "https://store.bikefriday.com/images/content/Vector%20PDF%20Bike%20Friday%20Round%20Logo.jpg"
 website: "https://www.bikefriday.com"
-shop: "https://www.bikefriday.com"
+shop: "https://store.bikefriday.com/"
 store-finder: ~
-about: "https://www.bikefriday.com/about/"
-wiki: "https://en.wikipedia.org/wiki/Bike Friday"
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Bike_Friday"
 ---

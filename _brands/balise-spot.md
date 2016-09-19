@@ -1,16 +1,16 @@
 ---
 title: Balise spot
 description: ~
-image: ~
+image: "/images/brands/balise-spot.png"
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [france]
-logo: ~
 website: "http://www.balise-spot.fr"
-shop: "http://www.balise-spot.fr"
+shop: ~
 store-finder: ~
-about: "http://www.balise-spot.fr/about/"
-wiki: "https://en.wikipedia.org/wiki/Balise spot"
+about: ~
+wiki: ~
 ---

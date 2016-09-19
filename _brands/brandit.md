@@ -1,11 +1,11 @@
 ---
 title: Brandit
 description: ~
-image: ~
+image: "/images/brands/brandit.png"
+remote-image: "http://www.brandit.cz/images/logo/BRA.png"
 purposes: []
 types: []
 countries: [czech-republic]
-logo: "http://www.brandit.cz/images/logo/BRA.png"
 website: "http://www.brandit.cz"
 shop: "http://www.brandit.cz"
 store-finder: ~

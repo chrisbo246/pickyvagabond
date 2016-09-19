@@ -2,11 +2,11 @@
 title: Outgo
 description: ~
 image: ~
+remote-image: ~
 brands: [mcnett]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

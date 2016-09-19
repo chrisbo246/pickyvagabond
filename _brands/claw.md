@@ -2,12 +2,12 @@
 title: Claw
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, outerwear]
+purposes: [mid-layer, shell-layer, hikk]
+types: [backpack]
 countries: [indonesia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

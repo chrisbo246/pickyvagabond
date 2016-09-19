@@ -2,12 +2,12 @@
 title: Weber
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
 countries: [germany]
-logo: ~
 website: "http://www.weber-products.de"
 shop: "http://www.weber-products.de"
 store-finder: ~

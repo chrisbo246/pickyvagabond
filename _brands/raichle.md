@@ -2,12 +2,12 @@
 title: Raichle
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [mammut]
 purposes: []
-types: []
-countries: []
-logo: ~
+types: [boots, mountaineering-boots, shoes, hiking-shoes]
+countries: [switzerland]
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Bergans
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, rucksack, sleeping-bag, tent]
+purposes: [mid-layer, shell-layer, bivouac]
+types: [gloves, backpack, sleeping-bag, tent]
 countries: [norway]
-logo: ~
 website: "http://bergans.com/"
 shop: ~
 store-finder: ~

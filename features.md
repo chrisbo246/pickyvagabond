@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: collection-list
 title: Features
 permalink: /features/
 menu: 0

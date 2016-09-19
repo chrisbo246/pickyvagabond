@@ -2,12 +2,12 @@
 title: Trimm
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: [outdoor]
 types: []
 countries: [czech-republic]
-logo: ~
 website: "http://www.trimm.cz"
 shop: "http://www.trimm.cz"
 store-finder: ~

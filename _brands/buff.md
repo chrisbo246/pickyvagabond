@@ -1,16 +1,16 @@
 ---
 title: Buff
 description: ~
-image: ~
+image: "/images/brands/buff.png"
+remote-image: "http://www.buff.eu/whatshakesyourlifeline/images/buff_logo_grande.png"
 categories: []
 brands: []
-purposes: []
-types: []
-countries: []
-logo: "http://www.buff.eu/whatshakesyourlifeline/images/buff_logo_grande.png"
+purposes: [sportswear]
+types: [multifunction-headwear, neck-warmer, headband, bandana, balaclava, scarf, helmet-liner, face-mask, neck-gaiter]
+countries: [spain]
 website: "http://www.buff.eu"
 shop: "http://www.buff.eu"
 store-finder: ~
-about: "http://www.buff.eu/about/"
-wiki: "https://en.wikipedia.org/wiki/Buff"
+about: ~
+wiki: ~
 ---

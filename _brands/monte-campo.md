@@ -2,12 +2,12 @@
 title: Monte Campo
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear, rucksack, sleeping-bag, sleeping-mattress, tent]
+purposes: [mid-layer, shell-layer, hike, bivouac]
+types: [backpack, sleeping-bag, sleeping-mattress, tent]
 countries: [portugal]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

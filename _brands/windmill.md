@@ -2,12 +2,12 @@
 title: WINDMILL
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.windmill.co.jp"
 shop: "http://www.windmill.co.jp"
 store-finder: ~

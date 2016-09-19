@@ -2,12 +2,12 @@
 title: Gronell 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [mountaineer]
 types: [mountaineering-boots]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

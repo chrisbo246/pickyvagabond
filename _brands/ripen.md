@@ -2,12 +2,12 @@
 title: Ripen 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [arai-tent]
-purposes: []
+purposes: [bivouac]
 types: [sleeping-bag, tent]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

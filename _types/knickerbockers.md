@@ -3,6 +3,8 @@ title: "Knickerbockers"
 description: ~
 image: ~
 brands: []
-purposes: [dress, cold-protection]
+purposes: [cloth, mid-layer]
+qualities: []
 types: [jacket]
+wiki: ~
 ---

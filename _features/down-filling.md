@@ -11,4 +11,5 @@ cons: ~
   - Absorbs moisture (if no waterproof treatment)
   - Long drying
   - very gentle wash
+wiki: ~
 ---

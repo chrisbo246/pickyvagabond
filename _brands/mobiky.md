@@ -2,12 +2,12 @@
 title: Mobiky
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: [france]
-logo: ~
 website: "http://www.mobiky.fr"
 shop: "http://www.mobiky.fr"
 store-finder: ~

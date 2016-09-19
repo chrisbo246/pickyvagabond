@@ -9,34 +9,25 @@ layout: default
 {% endif %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <form data-persist="garlic" method="post">
+    <div -data-persist="garlic" -method="post">
         {% include post-header.html %}
         <div class="container-fluid">
-            <!--
-            <header class="post-header clearfix">
-                <h1 class="post-title pull-left">{{ page.title }}</h1>
-                <a class="btn btn-primary btn-sm pull-right" href="https://docs.google.com/forms/d/1ab_sGNpcn_hR6S67Y4Ih6VPOOx7mUt80CqGk1S__gyc/viewform?usp=send_form" target="_blank">Submit changes</a>
-                brand layout
-            </header>
-        -->
-
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs nav-justified" role="tablist">
-                    {% if page.content %}<li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>{% endif %}
-                    <li role="tab" data-toggle="tab"><a href="#wikipedia" data-toggle="tab">Wikipedia</a></li>
-                    {% if types.size > 0 %}<li><a href="#types" data-toggle="tab" role="tab" data-toggle="tab">Product types</a></li>{% endif %}
+                <ul class="nav nav-tabs -nav-justified" role="tablist">
+                    <li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>
                     {% if products.size > 0 %}<li><a href="#products" data-toggle="tab" role="tab" data-toggle="tab">Products</a></li>{% endif %}
-                    <li><a href="#tags" data-toggle="tab" role="tab" data-toggle="tab">Tags</a></li>
-                    <li role="tab" data-toggle="tab" class="contribute"><a href="#contribution" data-toggle="tab">Contribute</a></li>
+                    {% if types.size > 0 %}<li><a href="#types" data-toggle="tab" role="tab" data-toggle="tab">Product types</a></li>{% endif %}
+                    {% if purposes.size > 0 %}<li><a href="#purposes" data-toggle="tab" role="tab" data-toggle="tab">Purposes</a></li>{% endif %}
+                    {% if content != '' %}<li role="tab" data-toggle="tab"><a href="#tips" data-toggle="tab">Tips</a></li>{% endif %}
+                    {% if page.comments %}<li role="tab" data-toggle="tab"><a href="#comments" data-toggle="tab">{% include disqus-comment-count.html %}</a></li>{% endif %}
+                    <li role="tab" data-toggle="tab" class="pull-right contribute"><a href="#contribution" data-toggle="tab">More</a></li>
                 </ul>
                 <div class="tab-content">
 
                     <div id="overview" class="tab-pane fade active in" role="tabpanel">
-                        {% include brand-details.html %}
-                    </div>
-
-                    <div id="wikipedia" class="tab-pane fade" role="tabpanel">
-                        {% include wikipedia.html url=page.wiki query=page.title %}
+                        {% include brand-links.html %}
+                        <div class="mediawiki-container clearfix" data-url="{{ page.wiki }}"></div>
+                        <p class="mediawiki-mention text-muted">From Wikipedia, The Free Encyclopedia. <a href="{{ page.wiki }}" target="_blank">{{ page.wiki }}</a></p>
                     </div>
 
                     {% if types.size > 0 %}
@@ -51,17 +42,30 @@ layout: default
                     </div>
                     {% endif %}
 
-                    <div id="tags" class="tab-pane fade" role="tabpanel">
-                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
-                        {% include tags.html collections=collections %}
+                    {% if purposes.size > 0 %}
+                    <div id="purposes" class="tab-pane fade" role="tabpanel">
+                        {% include collection-list.html posts=purposes type="purposes" %}
                     </div>
+                    {% endif %}
+
+                    {% if content != '' %}
+                    <div id="tips" class="tab-pane fade" role="tabpanel">
+                        {{ content }}
+                    </div>
+                    {% endif %}
+
+                    {% if page.comments %}
+                    <div id="comments" class="tab-pane fade" role="tabpanel">
+                        {% include disqus-comments.html %}
+                    </div>
+                    {% endif %}
 
                     <div id="contribution" class="tab-pane fade" role="tabpanel">
-                    {% include search-links.html query=page.title %}
+                    {% include post-contribution.html query=page.title url=page.website %}
                     </div>
 
                 </div>
             </div>
         </div>
-    </form>
+    </div>
 </article>

@@ -1,14 +1,14 @@
 ---
 title: Victorinox
 description: ~
-image: ~
-purposes: []
-types: [multi-tool, headlamp, outerwear]
+image: "/images/brands/victorinox.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Victorinox_Logo.svg/300px-Victorinox_Logo.svg.png"
+purposes: [hike]
+types: [multi-tool, headlamp]
 countries: [switzerland]
-logo: ~
-website: "http://www.victorinox.com"
-shop: "http://www.victorinox.com"
+website: "http://www.victorinox.com/global/en/"
+shop: ~
 store-finder: ~
-about: "http://www.victorinox.com/about/"
-wiki: ~
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Victorinox"
 ---

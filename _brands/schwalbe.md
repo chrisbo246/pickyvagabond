@@ -2,10 +2,10 @@
 title: Schwalbe
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.schwalbe.com"
 shop: "http://www.schwalbe.com"
 store-finder: ~

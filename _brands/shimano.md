@@ -2,10 +2,10 @@
 title: Shimano
 description: ~
 image: ~
-purposes: [cycling]
+remote-image: ~
+purposes: [cycle]
 types: []
 countries: []
-logo: ~
 website: "http://www.shimano.com"
 website-fr: "http://www.shimano-france.com"
 shop: "http://www.shimano-france.com"

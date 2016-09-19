@@ -1,14 +1,14 @@
 ---
 title: Wowow
-description: ~
-image: ~
-purposes: [cycling]
+description: "/images/brands/wowow.png"
+image: "https://upload.wikimedia.org/wikipedia/fr/b/bb/Wowow.png"
+remote-image: ~
+purposes: [cycle]
 types: []
 countries: []
-logo: ~
-website: "http://www.wowow.be/f"
-shop: "http://wowowshop.be/"
+website: "http://www.wowow.be/"
+shop: ~
 store-finder: ~
-about: "http://www.wowow.be/f/about/"
+about: ~
 wiki: ~
 ---

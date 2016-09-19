@@ -2,12 +2,12 @@
 title: Eagle Creek
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [vf-corporation]
 purposes: []
 types: [bag, luggage]
 countries: [united-states]
-logo: ~
 website: "http://www.eaglecreek.com/"
 shop: ~
 store-finder: ~

@@ -1,0 +1,31 @@
+<div id="settings" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"><span class="glyphicon glyphicon-cog"></span> Settings</h4>
+      </div>
+      <div class="modal-body">
+          <form -data-persist="garlic">
+              <div class="form-group">
+                  <label for="user_country_code">
+                      Country
+                      <select id="user_country_code" class="form-control select2" placeholder="Website" title="Some dealers have multiple local websites. Display the approprate link.">
+                          <option value="" selected=""></option>
+                          {% include select-options-country.html %}
+                      </select>
+                  </label>
+                  <span class="help-block">This will be used to show you the appropriate links instead of the default intenational / English links.</span>
+              </div>
+          </form>
+          {% include page-variables.html %}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-warning pull-left destroy-local-storage"><span class="glyphicon glyphicon-warning-sign"></span> Reset everything</button>
+        <button type="button" class="btn btn-default hidden" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary hidden">Save</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>

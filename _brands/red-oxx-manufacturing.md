@@ -2,12 +2,12 @@
 title: Red Oxx Manufacturing
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: [travel]
 types: [bag, travel-bag]
 countries: [united-states]
-logo: ~
 website: "http://www.redoxx.com/"
 shop: ~
 store-finder: ~

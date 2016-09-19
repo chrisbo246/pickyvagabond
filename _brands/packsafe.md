@@ -2,12 +2,12 @@
 title: Pacsafe
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://pacsafe.com"
 shop: "http://pacsafe.com"
 store-finder: ~

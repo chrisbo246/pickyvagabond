@@ -2,12 +2,12 @@
 title: Osprey
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [united-states]
-logo: ~
 website: "http://www.ospreyeurope.com"
 shop: "http://www.ospreyeurope.com"
 store-finder: ~

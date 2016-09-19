@@ -1,13 +1,13 @@
 ---
 title: CAMP
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/b/b7/CAMP-logo.png"
+image: "/images/brands/camp.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/b/b7/CAMP-logo.png"
 categories: []
 brands: []
-purposes: [mountaineering]
-types: [ice-axe, crampons, ice-screw, piton, carabiner, nuts, tricam, camming-device, harnesse, helmet, rucksack, tent, ski-racing-clothing]
+purposes: [bivouac, mountaineer]
+types: [ice-axe, crampons, ice-screw, piton, carabiner, nuts, tricam, camming-device, climbing-harness, climbing-helmet, backpack, tent, ski-racing-clothing]
 countries: [italy]
-logo: "https://upload.wikimedia.org/wikipedia/en/b/b7/CAMP-logo.png"
 website: "http://www.camp.it/"
 shop: ~
 store-finder: ~

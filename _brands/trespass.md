@@ -2,12 +2,12 @@
 title: Trespass
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [hiking-shoes, rucksack, tent, mountaineering-boots]
+purposes: [hike, mountaineer, bivouac]
+types: [hiking-shoes, backpack, tent, mountaineering-boots]
 countries: [united-kingdom]
-logo: ~
 website: "http://www.trespass.com"
 shop: "http://www.trespass.com"
 store-finder: ~

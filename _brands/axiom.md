@@ -1,13 +1,13 @@
 ---
 title: Axiom
 description: ~
-image: ~
+image: "/images/brands/axiom.png"
+remote-image: "http://www.livetoplaysports.com/img/brands/axiom-gear-full.png"
 categories: []
 brands: []
 purposes: []
 types: [bicycle-bag]
 countries: []
-logo: "http://www.livetoplaysports.com/img/brands/axiom-gear-full.png"
 website: "http://www.axiomgear.com"
 shop: "http://www.axiomgear.com"
 store-finder: ~

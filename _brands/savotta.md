@@ -2,12 +2,12 @@
 title: Savotta
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [multi-tool, portable-stove, rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [multi-tool, portable-stove, backpack, sleeping-bag, tent]
 countries: [finland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

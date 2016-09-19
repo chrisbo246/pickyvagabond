@@ -2,12 +2,12 @@
 title: Grandking 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [caravan]
-purposes: []
+purposes: [mountaineer]
 types: [mountaineering-boots]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

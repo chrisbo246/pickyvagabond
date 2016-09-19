@@ -2,12 +2,12 @@
 title: PowerFilm
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [solar-charger, solar-panel]
 countries: []
-logo: ~
 website: "http://www.powerfilmsolar.com"
 shop: "http://www.powerfilmsolar.com"
 store-finder: ~

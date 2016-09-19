@@ -2,12 +2,12 @@
 title: Walkabout 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [lodge-co]
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

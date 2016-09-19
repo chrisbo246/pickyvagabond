@@ -1,13 +1,13 @@
 ---
 title: Ferrino
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/it/thumb/4/4e/Logo_Ferrino.png/200px-Logo_Ferrino.png"
+image: "/images/brands/ferrino.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/it/thumb/4/4e/Logo_Ferrino.png/200px-Logo_Ferrino.png"
 categories: []
 brands: []
-purposes: []
-types: [tent, rucksack, sleeping-bag, outerwear]
+purposes: [mid-layer, shell-layer, hike, bivouac]
+types: [tent, backpack, sleeping-bag]
 countries: [italy]
-logo: "https://upload.wikimedia.org/wikipedia/it/thumb/4/4e/Logo_Ferrino.png/200px-Logo_Ferrino.png"
 website: "http://www.ferrino.it/"
 shop: ~
 store-finder: ~

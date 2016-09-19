@@ -1,6 +1,8 @@
-
 {% if include.src %}
 {% assign src = include.src %}
+
+{% if src contains 'http://' or src contains 'https://' %}
+
 {% if include.src contains '.images-amazon.com/images/I/' or include.src contains '.ssl-images-amazon.com/images/I/' %}
 {% assign array = include.src | split: '._' %}
 {% if array.size > 1 %}
@@ -9,6 +11,12 @@
 {% if include.width %}
 {% assign src = src | replace: '.jpg', '._SS' | append: include.width | append: '_.jpg' %}
 {% endif %}
+{% endif %}
+
+{% else %}
+
+{% assign src = src | prepend: site.github.url %}
+
 {% endif %}
 
 <img data-src="{{ src }}" class="lazyload"
@@ -20,5 +28,6 @@
 {% if include.height %} height="{{ include.height }}"{% endif %}
 {% endcomment %}
 />
+{% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 
 {% endif %}

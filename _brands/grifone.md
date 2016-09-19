@@ -2,12 +2,12 @@
 title: Grifone
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [spain]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

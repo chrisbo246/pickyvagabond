@@ -2,12 +2,12 @@
 title: Cintamani
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, rucksack]
+purposes: [mid-layer, shell-layer, hikk]
+types: [gloves, backpack]
 countries: [iceland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -4,7 +4,7 @@
 {% capture image-md-src %}http://ecx.images-amazon.com/images/I/{{ post.amazon-image-id }}._SL160_.jpg{% endcapture %}
 {% capture image-lg-src %}http://ecx.images-amazon.com/images/I/{{ post.amazon-image-id }}._SL250_.jpg{% endcapture %}
 {% capture image-src %}http://ecx.images-amazon.com/images/I/{{ post.amazon-image-id }}.jpg{% endcapture %}
-{% else if post.image %}
+{% elsif post.image %}
 {% assign image-xs-src = post.image %}
 {% assign image-sm-src = post.image %}
 {% assign image-md-src = post.image %}

@@ -2,12 +2,12 @@
 title: Cassin
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [camp]
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

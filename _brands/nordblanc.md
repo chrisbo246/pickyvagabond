@@ -2,12 +2,12 @@
 title: NORDBLANC
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.nordblanc.com"
 shop: "http://www.nordblanc.com"
 store-finder: ~

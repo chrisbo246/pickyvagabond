@@ -1,14 +1,14 @@
 ---
 title: Karrimor
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Karrimor_Cropped.jpg/250px-Karrimor_Cropped.jpg"
-purposes: []
-types: [hiking-shoes, mountaineering-boots, rucksack]
+image: "/images/brands/karrimor.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/fa/9/95/Karrimor_logo.jpg"
+purposes: [bivouac, hike, mountaineer]
+types: [hiking-shoes, mountaineering-boots, backpack, tent, sleeping-bag]
 countries: [united-kingdom]
-logo: ~
 website: "http://www.karrimor.com"
-shop: "http://www.karrimor.com"
+shop: ~
 store-finder: ~
-about: "http://www.karrimor.com/about/"
+about: ~
 wiki: "https://en.wikipedia.org/wiki/Karrimor"
 ---

@@ -2,12 +2,12 @@
 title: Gregory 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [black-diamond]
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

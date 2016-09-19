@@ -3,6 +3,8 @@ title: "Top"
 description: ~
 image: # http://ecx.images-amazon.com/images/I/{id}.jpg
 brands: []
-purposes: [dress]
+purposes: [base-layer]
+qualities: []
 types: []
+wiki: ~
 ---

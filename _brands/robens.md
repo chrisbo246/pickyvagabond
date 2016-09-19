@@ -2,12 +2,12 @@
 title: Robens
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [bivouac]
 types: [sleeping-bag, tent]
 countries: [germany]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

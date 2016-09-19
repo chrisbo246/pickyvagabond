@@ -1,13 +1,13 @@
 ---
 title: Marmot
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Marmot_Logo.svg/150px-Marmot_Logo.svg.png"
+image: "/images/brands/marmot.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Marmot-Logo.svg/2000px-Marmot-Logo.svg.png"
 categories: []
 brands: [jarden]
-purposes: [mountaineering, skiing]
-types: [outwear, gloves, rucksack, tent, clothing]
+purposes: [mid-layer, shell-layer, bivouac, mountaineer, ski]
+types: [gloves, backpack, tent, sleeping-bag]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Marmot_Logo.svg/150px-Marmot_Logo.svg.png"
 website: "http://www.marmot.com/"
 shop: ~
 store-finder: ~

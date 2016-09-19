@@ -2,12 +2,12 @@
 title: Stanley
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: "http://www.shopstanley-pmi.com"
 store-finder: ~

@@ -1,8 +1,10 @@
 ---
 title: "Polo"
 description: ~
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+image: "https://images-na.ssl-images-amazon.com/images/I/41NEJsKwNLL.jpg"
 brands: []
-purposes: [dress]
+purposes: [mid-layer]
+qualities: []
 types: [shirt]
+wiki: ~
 ---

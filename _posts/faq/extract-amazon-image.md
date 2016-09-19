@@ -1,10 +1,10 @@
 ---
 ---
 Home page image example
-https://images-eu.ssl-images-amazon.com/images/I/41HyOmzou7L._AC_SY200_.jpg
+https://images-eu.ssl-images-amazon.com/images/I/41HyOmzou7L.jpg
 Product page thumbnail
-https://images-na.ssl-images-amazon.com/images/I/41HyOmzou7L._SS40_.jpg
-http://ecx.images-amazon.com/images/I/41dqkBeCVLL._SS160_.jpg
+https://images-na.ssl-images-amazon.com/images/I/41HyOmzou7L.jpg
+http://ecx.images-amazon.com/images/I/41dqkBeCVLL.jpg
 .[_{padding}]_{crop_method}{size}_.jpg
 {size} Image maximum size in pixel.
 {proportion}

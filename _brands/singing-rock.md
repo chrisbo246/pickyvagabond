@@ -2,12 +2,12 @@
 title: Singing Rock
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [carabiner, crampons, gloves, helmet, ice-axe, outerwear, piton, rope, rucksack]
+purposes: [mid-layer, shell-layer]
+types: [carabiner, crampons, gloves, helmet, ice-axe, piton, rope, backpack]
 countries: [czech-republic]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

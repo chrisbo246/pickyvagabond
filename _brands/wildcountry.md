@@ -1,13 +1,13 @@
 ---
 title: Wild Country
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/f/f0/Wildcountry-logo.png"
+image: "/images/brands/wildcountry.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/f/f0/Wildcountry-logo.png"
 categories: []
 brands: [terra-nova]
-purposes: [climbing]
-types: [harnesse, spring-loaded-camming-device]
+purposes: [climb]
+types: [climbing-harness, spring-loaded-camming-device]
 countries: []
-logo: "https://upload.wikimedia.org/wikipedia/en/f/f0/Wildcountry-logo.png"
 website: "http://www.wildcountry.com/"
 shop: ~
 store-finder: ~

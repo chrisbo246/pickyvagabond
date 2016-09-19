@@ -2,12 +2,12 @@
 title: South Field 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [alpen]
-purposes: []
-types: [carabiner, crampons, hiking-shoes, ice-axe, mountaineering-boots, rucksack, sleeping-bag, tent, trekking-pole]
+purposes: [bivouac, hike, mountaineer]
+types: [carabiner, crampons, hiking-shoes, ice-axe, mountaineering-boots, backpack, sleeping-bag, tent, trekking-pole]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

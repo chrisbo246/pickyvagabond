@@ -2,12 +2,12 @@
 title: Conquer
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, tent]
+purposes: [hike, bivouac]
+types: [backpack, tent]
 countries: [philippines]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,11 +2,11 @@
 title: Cushe
 description: ~
 image: ~
+remote-image: ~
 brands: [wolverine-worldwide]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Tracks
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [cascadedesigns]
-purposes: [hiking]
+purposes: [hike]
 types: [trekking-pole]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

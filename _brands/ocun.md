@@ -2,12 +2,12 @@
 title: "Ocún"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [carabiner, gloves, helmet, mountaineering-boots, outerwear, rope]
+purposes: [mid-layer, shell-layer, hike, mountaineer]
+types: [carabiner, gloves, helmet, mountaineering-boots, rope]
 countries: [czech-republic]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -1,16 +1,16 @@
 ---
 title: Garmin
 description: ~
-image: "https://buy.garmin.com/shop/store/m/g/hd-logo.jpg"
+image: "/images/brands/garmin.png"
+remote-image: "https://buy.garmin.com/shop/store/m/g/hd-logo.jpg"
 categories: []
 brands: []
 purposes: [navigation]
 types: [gps, car-gps, bicycle-gps, motorcycle-gps, hiking-gps]
 countries: []
-logo: "https://buy.garmin.com/shop/store/m/g/hd-logo.jpg"
-website: www.garmin.com
-shop: www.garmin.com
+website: "http://www.garmin.com/"
+shop: ~
 store-finder: ~
-about: www.garmin.com/about/
+about: ~
 wiki: "https://en.wikipedia.org/wiki/Garmin"
 ---

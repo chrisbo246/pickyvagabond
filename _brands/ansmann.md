@@ -1,16 +1,16 @@
 ---
 title: ANSMANN AG
 description: ~
-image: "http://www.ansmann.de/service/downloads/send/2-pressekit-press-kit/8-ansmann-logo-rgb-jpg"
+image: "/images/brands/ansmann.png"
+remote-image: "http://www.ansmann.de/service/downloads/send/2-pressekit-press-kit/8-ansmann-logo-rgb-jpg"
 categories: [electronic]
 brands: []
 purposes: []
 types: [battery, charger, flashlight, babyphone]
-countries: []
-logo: "http://www.ansmann.de/service/downloads/send/2-pressekit-press-kit/8-ansmann-logo-rgb-jpg"
+countries: [germany]
 website: "http://www.ansmann.de"
-shop: "http://www.e-shop-direct.com"
+shop: ~
 store-finder: ~
-about: "http://www.ansmann.de/about/"
-wiki: "https://en.wikipedia.org/wiki/ANSMANN"
+about: ~
+wiki: "https://de.wikipedia.org/wiki/Benutzer:Rinschemer/Ansmann_AG"
 ---

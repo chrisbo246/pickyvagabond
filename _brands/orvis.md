@@ -2,12 +2,12 @@
 title: Orvis
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.orvis.com"
 shop: "http://www.orvis.com"
 store-finder: ~

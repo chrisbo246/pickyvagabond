@@ -2,12 +2,12 @@
 title: Zero Point 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [montbell]
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

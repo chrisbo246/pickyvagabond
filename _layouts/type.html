@@ -12,43 +12,73 @@ layout: default
 {% endif %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <form data-persist="garlic" method="post">
+    <div -data-persist="garlic" -method="post">
         {% include post-header.html %}
         <div class="container-fluid">
             <div class="post-content" itemprop="articleBody">
-                <ul class="nav nav-tabs nav-justified" role="tablist">
+                <ul class="nav nav-tabs -nav-justified" role="tablist">
                     <li class="active" role="tab" data-toggle="tab"><a href="#overview" data-toggle="tab">Overview</a></li>
-                    <li role="tab" data-toggle="tab"><a href="#wikipedia" data-toggle="tab">Wikipedia</a></li>
                     {% if products.size > 0 %}<li role="tab" data-toggle="tab"><a href="#products" data-toggle="tab">Products</a></li>{% endif %}
                     {% if brands.size > 0 %}<li role="tab" data-toggle="tab"><a href="#brands" data-toggle="tab">Brands</a></li>{% endif %}
                     {% if purposes.size > 0 %}<li role="tab" data-toggle="tab"><a href="#purposes" data-toggle="tab">Purposes</a></li>{% endif %}
-                    {% if tips.size > 0 %}<li role="tab" data-toggle="tab"><a href="#tips" data-toggle="tab">Tips</a></li>{% endif %}
-                    <li role="tab" data-toggle="tab"><a href="#tags" data-toggle="tab">Tags</a></li>
-                    <li role="tab" data-toggle="tab" class="contribute"><a href="#contribution" data-toggle="tab">Contribute</a></li>
+                    {% if page.wiki %}<li role="tab" data-toggle="tab"><a href="#wiki" data-toggle="tab">Wiki</a></li>{% endif %}
+                    {% if content != '' %}<li role="tab" data-toggle="tab"><a href="#tips" data-toggle="tab">Tips</a></li>{% endif %}
+                    {% if page.comments %}<li role="tab" data-toggle="tab"><a href="#comments" data-toggle="tab">{% include disqus-comment-count.html %}</a></li>{% endif %}
+                    <li role="tab" data-toggle="tab" class="pull-right contribute"><a href="#contribution" data-toggle="tab">More</a></li>
                 </ul>
                 <div class="tab-content">
+
                     <div id="overview" class="tab-pane fade active in" role="tabpanel">
-                        <!--Traduction francaise
-                        Aspects pratiques
-                        Usages détournés
-                        Alternatives
-                        Marques (triées par popularité)
-                    -->
-                        {{ content }}
 
-                        <br/>
+                        <div class="row">
 
-                        {% if types.size > 0 %}
-                        {% include collection-list.html posts="types" title="Related product types" %}
+                            <div class="col-md-4 pull-right">
+                                <h2><span class="glyphicon glyphicon-search"></span> Quick search</h2>
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a class="btn btn-default btn-lg" href="https://www.google.com/search?hl=en&as_q={{ page.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Google</a></li>
+                                    <li><a class="btn btn-default btn-lg" href="https://www.amazon.com/s/?field-keywords={{ page.title | url_encode }}" target="_blank">Amazon</a></li>
+                                </ul>
+                                {% if post.aliases.size > 0 %}
+                                <br/>
+                                <div class="alert alert-info" role="alert">
+                                    <span class="pull-left text-2x glyphicon glyphicon-question-sign"></span> Think to make a search with the different namings like <strong>{{ post.aliases | join: '</strong>, <strong>'}}</strong>.
+                                </div>
+                                {% endif %}
+
+                            </div>
+                            <div class="col-md-8">
+
+                                {% comment %}
+                                {% if page.wiki %}
+                                {% include mediawiki.html url=page.wiki section=0 %}
+                                <div class="mediawiki-container clearfix" data-url="{{ page.wiki }}" data-section=0 ></div>
+                                <a class="mediawiki-mention" href="#wiki" data-toggle="tab">Read more...</a></li>
+                                {% endif %}
+                                {% endcomment %}
+
+                                {% if types.size > 0 or page.wiki-category %}
+                                <h2>{{ page.title }} subcategories</h2>
+                                {% if types.size %}
+                                {% include collection-list.html posts=types %}
+                                {% endif %}
+                                {% if page.wiki-category %}
+                                <p><a href="{{ page.wiki-category }}" target="_blank">{{ page.title }} categories</a> on Wikipedia.</p>
+                                {% endif %}
+                                {% endif %}
+
+                            </div>
+                        </div>
+
+                        {% comment %}
+                        {% if page.wiki-category %}
+                        <h2>Categories</h2>
+                        {% include mediawiki.html url=page.wiki-category %}
                         {% endif %}
+                        {% endcomment %}
 
                     </div>
 
-                    <div id="wikipedia" class="tab-pane fade" role="tabpanel">
-                        {% include wikipedia.html url=page.wiki query=page.title %}
-                    </div>
-
-                    {% if products.size > 0 %}
+                    {% if products.size %}
                     <div id="products" class="tab-pane fade" role="tabpanel">
                         {% include collection-list.html posts=products type="products" %}
                     </div>
@@ -66,23 +96,31 @@ layout: default
                     </div>
                     {% endif %}
 
-                    {% if tips.size > 0 %}
-                    <div id="tips" class="tab-pane fade" role="tabpanel">
-                        {% include collection-list.html posts=tips type="tips" %}
+                    {% if page.wiki %}
+                    <div id="wiki" class="tab-pane fade" role="tabpanel">
+                        <div class="mediawiki-container clearfix" data-url="{{ page.wiki }}"></div>
+                        <p class="mediawiki-mention text-muted">From Wikipedia, The Free Encyclopedia. <a href="{{ page.wiki }}" target="_blank">{{ page.wiki }}</a></p>
                     </div>
                     {% endif %}
 
-                    <div id="tags" class="tab-pane fade" role="tabpanel">
-                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
-                        {% include tags.html collections=collections %}
+                    {% if content != '' %}
+                    <div id="tips" class="tab-pane fade" role="tabpanel">
+                        {{ content }}
                     </div>
+                    {% endif %}
+
+                    {% if page.comments %}
+                    <div id="comments" class="tab-pane fade" role="tabpanel">
+                        {% include disqus-comments.html %}
+                    </div>
+                    {% endif %}
 
                     <div id="contribution" class="tab-pane fade" role="tabpanel">
-                    {% include search-links.html query=page.title %}
+                    {% include post-contribution.html query=page.title %}
                     </div>
 
                 </div>
             </div>
         </div>
-    </form>
+    </div>
 </article>

@@ -2,12 +2,12 @@
 title: Bern Unlimited
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, helmet, outerwear]
+purposes: [mid-layer, shell-layer]
+types: [gloves, helmet]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

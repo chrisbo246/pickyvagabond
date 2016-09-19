@@ -2,12 +2,12 @@
 title: Eddie Bauer
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [dress]
-types: [pullover, reversible-pullover]
-countries: []
-logo: ~
+purposes: [cloth]
+types: [pullover, reversible-pullover, sleeping-bag]
+countries: [united-states]
 website: "http://www.eddiebauer.com"
 shop: "http://www.eddiebauer.com"
 store-finder: ~

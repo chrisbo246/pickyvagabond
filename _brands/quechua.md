@@ -2,12 +2,12 @@
 title: Quechua
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [tent]
+purposes: [hike, bivouac]
+types: [tent, sleeping-bag]
 countries: [france]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

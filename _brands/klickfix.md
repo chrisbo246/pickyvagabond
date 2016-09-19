@@ -1,16 +1,16 @@
 ---
 title: KLICKfix
 description: ~
-image: ~
+image: "/images/brands/klickfix.png"
+remote-image: "http://www.klickfix.com/images/klickfix_250.png"
 categories: []
 brands: [rixen-kaul]
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-bag]
 countries: [germany]
-logo: ~
 website: "http://www.klickfix.de"
 shop: "http://www.klickfix.de"
 store-finder: ~
-about: "http://www.klickfix.de/about/"
-wiki: "https://en.wikipedia.org/wiki/KLICKfix"
+about: ~
+wiki: ~
 ---

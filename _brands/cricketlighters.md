@@ -2,12 +2,12 @@
 title: Cricket Lighters
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [lighter]
 countries: []
-logo: ~
 website: "http://www.cricketlighters.com"
 shop: "http://www.cricketlighters.com"
 store-finder: ~

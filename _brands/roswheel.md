@@ -2,12 +2,12 @@
 title: ROSWHEEL
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-bag]
 countries: []
-logo: ~
 website: "http://www.roswheel.com"
 shop: "http://www.roswheel.com"
 store-finder: ~

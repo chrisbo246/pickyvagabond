@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: collection-list
 title: Matters
 permalink: /matters/
 menu: 3

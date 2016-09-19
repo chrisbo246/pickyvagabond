@@ -2,12 +2,12 @@
 title: Sierra Designs 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [kellwood-company]
-purposes: []
-types: [rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

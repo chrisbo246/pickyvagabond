@@ -1,13 +1,13 @@
 ---
 title: Pacific Cycles
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/2/26/PacificCyclesLogo.jpg"
+image: "/images/brands/pacific-cycles.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/2/26/PacificCyclesLogo.jpg"
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [taiwan]
-logo: "https://upload.wikimedia.org/wikipedia/en/2/26/PacificCyclesLogo.jpg"
 shop: ~
 store-finder: ~
 about: ~

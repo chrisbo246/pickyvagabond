@@ -2,12 +2,12 @@
 title: Eton
 description: ~
 image: ~
+remote-image: ~
 categories: [audio-visual]
 brands: []
 purposes: [audio-visual]
 types: [radio]
 countries: []
-logo: ~
 website: "http://www.etoncorp.com"
 shop: "http://www.etoncorp.com"
 store-finder: ~

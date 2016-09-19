@@ -11,7 +11,6 @@ email: pickyvagabond@gmail.com
 description: >
   You think of the great escape but do not know where to start your packing list?
   Follow the guide to save time and money!
-locale: en
 
 #baseurl: "" # the subpath of your site, e.g. /blog
 #baseurl: "/pickyvagabond"
@@ -21,14 +20,12 @@ locale: en
 #twitter_username: pickyvagabond
 #github_username:  chrisbo246
 
-# jekyll-github-metadata
-repository: chrisbo246/pickyvagabond
-
-# github
-#github:
-#  url: http://localhost:4000
-
+# Custom variables
+locale: en
 array: []
+headers:
+  api-user-agent: pickyvagabond/1.0
+  origin: https://chrisbo246.github.io/pickyvagabond
 
 # Build settings
 markdown: kramdown
@@ -45,25 +42,11 @@ keep_files:
   - scripts
 
 
-
-# https://pages.github.com/versions/
-gems:
-  - jekyll-github-metadata
-#  - jekyll-mentions
-#  - jekyll-picture-tag
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-  - wdm
-
-
-
-
 collections:
   brands:
     title: "Brands"
     output: true
+    permalink: /brands/:title.html
   countries:
     title: "Countries"
     output: false
@@ -73,24 +56,28 @@ collections:
   helps:
     title: "Helps"
     output: true
+    permalink: /helps/:title.html
   matters:
     title: "Matters"
     output: false
   products:
     title: "Products"
     output: true
+    permalink: /products/:title.html
   purposes:
     title: "Purposes"
     output: true
+    permalink: /purposes/:title.html
   qualities:
     title: "Qualities"
     output: false
   tips:
     title: "Tips"
-    output: true
+    output: false
   types:
     title: "Product types"
     output: true
+    permalink: /types/:title.html
   users:
     title: "Users"
     output: false
@@ -103,62 +90,105 @@ defaults:
       layout: "default"
       author: chrisavelo
       lang: "en"
+      comments: true
+      image-path: "/images"
   - scope:
       path: ""
       type: brands
     values:
-      layout: brand
+      layout: collection-item
+      related-collections: [products, types, purposes]
+      image-path: "/images/brands"
   - scope:
       path: ""
       type: countries
     values:
-      layout: country
+#      layout: country
+      image-path: "/images/countries"
   - scope:
       path: ""
       type: helps
     values:
       layout: help
+      image-path: "/images/helps"
   - scope:
       path: ""
       type: features
     values:
       layout: feature
+      image-path: "/images/features"
   - scope:
       path: ""
       type: matters
     values:
-      layout: matter
+#      layout: matter
+      image-path: "/images/matters"
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
   - scope:
       path: ""
       type: products
     values:
-      layout: product
+      layout: collection-item
+      related-collections: [brands, purposes]
+      image-path: "/images/products"
   - scope:
       path: ""
       type: purposes
     values:
-      layout: purpose
+      layout: collection-item
+      related-collections: [types, products]
+      image-path: "/images/purposes"
   - scope:
       path: ""
       type: qualities
     values:
-      layout: quality
+#      layout: quality
+      image-path: "/images/qualities"
   - scope:
       path: ""
       type: tips
     values:
       layout: tip
+      image-path: "/images/tips"
   - scope:
       path: ""
       type: types
     values:
-      layout: type
+      layout: collection-item
+      related-collections: [products, purposes, brands, tips]
+      image-path: "/images/types"
   - scope:
       path: ""
       type: users
     values:
-      layout: user
+#      layout: user
+      image-path: "/images/users"
 
+
+
+# ------------------------------------------------------------------------------
+# plugins
+# ------------------------------------------------------------------------------
+
+# https://pages.github.com/versions/
+gems:
+  - jekyll-github-metadata
+#  - jekyll-mentions
+#  - jekyll-picture-tag
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+  - wdm
+
+# jekyll-github-metadata
+repository: chrisbo246/pickyvagabond
+github:
+  url: http://127.0.0.1:4000
 
 # jekyll-seo-tag
 logo: /assets/images/logo.jpg
@@ -196,3 +226,7 @@ picture:
         width: "160"
       source_default:
         width: "250"
+
+disqus:
+  forum: pickyvagabond
+  developer: 1

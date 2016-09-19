@@ -1,12 +1,7 @@
-{% if include.posts and include.posts.size > 0 %}
-<form class="radio-glyphicon checkbox-success" data-persist="garlic" method="post">
+{% if include.posts.size > 0 %}
 {% for post in include.posts %}
 
 <div class="media filter-item" {% include filter-item-class.html %} >
-
-    <div class="pull-left">
-        {% include selection-checkbox.html post=post %}
-    </div>
     <div class="media-left">
         <a href="{{ post.url | prepend: site.github.url }}" class="img-wrapper img-wrapper-xs -img-wrapper-cover">
             {% if post.image %}
@@ -30,5 +25,4 @@
 </div>
 
 {% endfor %}
-</form>
 {% endif %}

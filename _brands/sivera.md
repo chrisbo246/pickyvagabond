@@ -2,12 +2,12 @@
 title: Sivera
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, sleeping-bag, tent]
+purposes: [mid-layer, shell-layer, bivouac]
+types: [gloves, sleeping-bag, tent]
 countries: [russia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

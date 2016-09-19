@@ -2,10 +2,10 @@
 title: Ultra Light Designs
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.ultralightdesigns.com"
 shop: "http://www.ultralightdesigns.com"
 store-finder: ~

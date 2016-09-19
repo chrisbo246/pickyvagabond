@@ -2,12 +2,12 @@
 title: Airnimal
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: "http://www.airnimalfoldingbikes.com"
 shop: "http://www.airnimalfoldingbikes.com"
 store-finder: ~

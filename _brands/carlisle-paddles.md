@@ -2,12 +2,12 @@
 title: Carlisle paddles
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [johnson-outdoors]
 purposes: []
 types: [paddle]
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

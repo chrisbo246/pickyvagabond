@@ -1,13 +1,13 @@
 ---
 title: Merrel
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Merrell_Logo.png/200px-Merrell_Logo.png"
+image: "/images/brands/merrell.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Merrell_Logo.png/200px-Merrell_Logo.png"
 categories: []
 brands: [wolverine-worldwide]
-purposes: []
-types: [footwear, shoes]
+purposes: [footwear]
+types: [shoes]
 countries: []
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Merrell_Logo.png/200px-Merrell_Logo.png"
 website: "http://www.merrell.com"
 shop: "http://www.merrell.com"
 store-finder: ~

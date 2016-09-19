@@ -2,12 +2,12 @@
 title: Retki
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [headlamp, multi-tool, portable-stove, rucksack, sleeping-bag, sleeping-mattress, tent]
+purposes: [camp, bivouac, hike]
+types: [headlamp, multi-tool, portable-stove, backpack, sleeping-bag, sleeping-mattress, tent]
 countries: [finland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

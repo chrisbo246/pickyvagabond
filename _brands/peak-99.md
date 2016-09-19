@@ -2,12 +2,12 @@
 title: PEAK-99
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, rucksack, sleeping-bag, sleeping-mattress, tent]
+purposes: [mid-layer, shell-layer, hike, bivouac]
+types: [gloves, backpack, sleeping-bag, sleeping-mattress, tent]
 countries: [russia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -4,38 +4,31 @@
 {% assign post = page %}
 {% endif %}
 
-{% unless post.website or post.shop or post.wiki or post.image %}
-<dl class="dl-horizontal contribute">
-    <dt>Missing</dt>
-    <dd>
-        <ul class="list-inline">
-            {% unless post.website %}
-            <li>
-                <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Website</a>
-            </li>
-            {% endunless %}
-            {% unless post.shop %}
-            <li>
-                <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Shop</a>
-            </li>
-            {% endunless %}
-            {% unless post.wiki %}
-            <li>
-                <a class="contribute" href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=wikipedia.org&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Wikipedia</a>
-            </li>
-            {% endunless %}
-            {% unless post.image %}
-            <li>
-                {% if post.type == 'brands' %}
-                <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q={{ post.title | url_encode }}+logo&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch={% if post.website %}{{ post.website }}{% endif %}&safe=images&as_filetype=&as_rights=" target="_blank">Logo (Google)</a>
-                /
-                <a href="https://www.google.com/search?as_st=y&tbm=isch&as_q={{ post.title | url_encode }}+logo&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch=wikimedia.org&safe=images&as_filetype=&as_rights=" target="_blank">Logo (wiki)</a>
-                /
-                <a href="https://www.amazon.com/s/?field-keywords={{ post.title | url_encode }}" target="_blank">Product image</a>
-                {% endif %}
-            <li>
-            {% endunless %}
-        </ul>
-    </dd>
-</dl>
+{% unless post.website and post.shop and post.wiki and post.image %}
+<ul class="list-unstyled">
+    {% unless post.website %}
+    <li>
+        <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Search website</a>
+    </li>
+    {% endunless %}
+    {% unless post.shop %}
+    <li>
+        <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Search dealers</a>
+    </li>
+    {% endunless %}
+    {% unless post.wiki %}
+    <li>
+        <a href="https://www.google.com/search?hl=en&as_q={{ post.title | url_encode }}&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=wikipedia.org&as_occt=any&safe=images&as_filetype=&as_rights=" target="_blank">Search wikipedia</a>
+    </li>
+    {% endunless %}
+    {% unless post.image %}
+        {% if post.type == 'brands' %}
+        <li><a href="https://www.google.com/search?as_st=y&tbm=isch&as_q={{ post.title | url_encode }}+logo&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch={% if post.website %}{{ post.website }}{% endif %}&safe=images&as_filetype=&as_rights=" target="_blank">Search logo</a></li>
+        <li><a href="https://www.google.com/search?as_st=y&tbm=isch&as_q={{ post.title | url_encode }}+logo+site:wikipedia.org+OR+site:wikimedia.org&as_epq=&as_oq=&as_eq=&imgsz=&imgar=&imgc=&imgcolor=&imgtype=&cr=&as_sitesearch=&safe=images&as_filetype=&as_rights=" target="_blank">Search logo on Wikipedia</a></li>
+        {% endif %}
+        {% if post.type == 'products' or post.type == 'types' or post.type == 'purposes' %}
+        <li><a href="https://www.amazon.com/s/?rh=n%2Cp_n_shipping_option-bin%3A3242350011%2Cp_n_is_free_international_shipping%3A10236242011%2Cp_n_condition-type%3A6461716011&field-keywords={{ post.title | url_encode }}" target="_blank">Search on Amazon</a></li>
+        {% endif %}
+    {% endunless %}
+</ul>
 {% endunless %}

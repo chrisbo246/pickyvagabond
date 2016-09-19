@@ -2,12 +2,12 @@
 title: Carry Freedom
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
 countries: []
-logo: ~
 website: "http://www.carryfreedom.com"
 shop: "http://www.carryfreedom.com"
 store-finder: ~

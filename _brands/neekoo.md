@@ -2,12 +2,12 @@
 title: Neekoo
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [iran]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

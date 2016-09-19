@@ -2,12 +2,12 @@
 title: Go Travel
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.go-travelproducts.com"
 shop: "http://www.go-travelproducts.com"
 store-finder: ~

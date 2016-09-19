@@ -2,12 +2,12 @@
 title: Viking
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [hiking-shoes]
 countries: [norway]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

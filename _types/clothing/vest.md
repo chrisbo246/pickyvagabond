@@ -1,8 +1,10 @@
 ---
 title: "Vest"
 description: ~
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+image: "https://images-na.ssl-images-amazon.com/images/I/419pZv3s5ML.jpg"
 brands: []
-purposes: [dress]
+purposes: [cloth]
+qualities: []
 types: []
+wiki: "https://en.wikipedia.org/wiki/Vest"
 ---

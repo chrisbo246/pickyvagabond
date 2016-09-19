@@ -2,12 +2,12 @@
 title: Rukka
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [finland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -9,21 +9,15 @@ layout: default
 {% endif %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <form data-persist="garlic" method="post">
+    <div -data-persist="garlic" -method="post">
         {% include post-header.html %}
         <div class="container-fluid">
-            <!--
-            <header class="post-header clearfix">
-                <h1 class="post-title pull-left">{{ page.title }}</h1>
-                <a class="btn btn-primary btn-sm pull-right" href="https://docs.google.com/forms/d/1GkW8fvEJrjKBelEMq2GdcGmVDu22_IwNBJQ74eXV6QI/viewform?usp=send_form" target="_blank">Submit changes</a>
-            </header>
-        -->
             <div class="post-content" itemprop="articleBody">
                 <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li class="active" role="tab" data-toggle="tab"><a href="#home" data-toggle="tab">Overview</a></li>
                     {% if brands.size > 0 %}<li role="tab" data-toggle="tab"><a href="#brands" data-toggle="tab">Brand</a></li>{% endif %}
                     {% if purposes.size > 0 %}<li><a href="#purposes" data-toggle="tab" role="tab" data-toggle="tab">Purposes</a></li>{% endif %}
-                    <li role="tab" data-toggle="tab"><a href="#tags" data-toggle="tab">Tags</a></li>
+                    {% if page.comments %}<li role="tab" data-toggle="tab"><a href="#comments" data-toggle="tab">{% include disqus-comment-count.html %}</a></li>{% endif %}
                     <li role="tab" data-toggle="tab" class="contribute"><a href="#contribution" data-toggle="tab">Contribute</a></li>
                 </ul>
                 <div class="tab-content">
@@ -45,17 +39,18 @@ layout: default
                     </div>
                     {% endif %}
 
-                    <div id="tags" class="tab-pane fade" role="tabpanel">
-                        {% assign collections = 'tags categories purposes types brands users' | split: ' ' %}
-                        {% include tags.html collections=collections %}
+                    {% if page.comments %}
+                    <div id="comments" class="tab-pane fade" role="tabpanel">
+                        {% include disqus-comments.html %}
                     </div>
+                    {% endif %}
 
                     <div id="contribution" class="tab-pane fade" role="tabpanel">
-                    {% include search-links.html query=page.title %}
+                    {% include post-contribution.html query=page.title %}
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-    </form>
+    </div>
 </article>

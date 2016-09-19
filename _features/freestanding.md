@@ -6,4 +6,5 @@ types: [tent]
 pros: ~
   - Can be moved easily
 cons: ~
+wiki: ~
 ---

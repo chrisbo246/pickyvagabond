@@ -2,12 +2,12 @@
 title: Marker
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [skis, alpine-skis]
 countries: []
-logo: ~
 website: "http://www.markerusa.com/"
 shop: ~
 store-finder: ~

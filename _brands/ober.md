@@ -2,12 +2,12 @@
 title: Ober
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [lafuma]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Isuka
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [sleeping-bag]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

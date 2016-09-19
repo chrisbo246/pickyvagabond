@@ -2,12 +2,12 @@
 title: "Norrøna"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, rucksack]
+purposes: [mid-layer, shell-layer, hike]
+types: [gloves, backpack]
 countries: [norway]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

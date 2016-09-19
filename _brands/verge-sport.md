@@ -2,12 +2,12 @@
 title: Verge Sport
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [poland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

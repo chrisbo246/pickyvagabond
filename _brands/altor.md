@@ -1,13 +1,13 @@
 ---
 title: Altor Equity Partners
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/1/16/Altor_logo.png"
+image: "/images/brands/altor.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/1/16/Altor_logo.png"
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [sweden]
-logo: "https://upload.wikimedia.org/wikipedia/en/1/16/Altor_logo.png"
 website: "http://www.altor.com/"
 shop: ~
 store-finder: ~

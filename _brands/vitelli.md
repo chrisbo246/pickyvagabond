@@ -2,12 +2,12 @@
 title: Vitelli
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [bicycle-trailer]
 countries: [switzerland]
-logo: ~
 website: "http://www.vitelli.ch/shop/"
 shop: "http://www.vitelli.ch/shop/"
 store-finder: ~

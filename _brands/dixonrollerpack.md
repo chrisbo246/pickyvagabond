@@ -2,12 +2,12 @@
 title: Dixon Rollerpack
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://dixonrollerpack.com"
 shop: "http://dixonrollerpack.com"
 store-finder: ~

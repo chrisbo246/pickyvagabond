@@ -2,12 +2,12 @@
 title: "Härkila"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, hiking-shoes, outerwear, rucksack]
+purposes: [mid-layer, shell-layer, hike]
+types: [gloves, hiking-shoes, backpack]
 countries: [denmark]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

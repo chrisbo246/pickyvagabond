@@ -2,12 +2,12 @@
 title: Eagles Nest Outfitters
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [hammock]
 countries: [united-states]
-logo: ~
 website: "http://www.eaglesnestoutfittersinc.com/"
 shop: ~
 store-finder: "http://www.eaglesnestoutfittersinc.com/LOCATOR.html"

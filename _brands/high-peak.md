@@ -2,12 +2,12 @@
 title: High Peak
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack, sleeping-bag, tent]
+types: [backpack, sleeping-bag, tent]
 countries: [germany]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

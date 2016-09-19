@@ -2,12 +2,12 @@
 title: Tecnica 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

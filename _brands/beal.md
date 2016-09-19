@@ -1,14 +1,14 @@
 ---
 title: Beal
 description: ~
-image: ~
+image: "/images/brands/beal.png"
+remote-image: "http://www.beal-pro.com/2014-2/img/logos/LOG_BEAL_pro_jaune.jpg"
 categories: []
 brands: []
-purposes: []
-types: [rope]
+purposes: [climb]
+types: [rope, climbing-rope, climbing-lanyard, climbing-harness, climbing-helmet, karabiner, headlamp, lantern, climbing-sling, climbing-tape]
 countries: [france]
-logo: ~
-website: ~
+website: "http://www.beal-planet.com/"
 shop: ~
 store-finder: ~
 about: ~

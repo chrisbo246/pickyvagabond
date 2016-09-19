@@ -1,16 +1,16 @@
 ---
 title: Tatonka
 description: ~
-image: ~
+image: "/images/brands/tatonka.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/de/4/48/TATONKA-Logo.gif"
 categories: []
 brands: []
-purposes: []
-types: [hiking-shoes, rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [hiking-shoes, backpack, sleeping-bag, tent]
 countries: [germany]
-logo: ~
-website: "http://www.tatonka.com"
-shop: "http://www.tatonka.com"
+website: "http://www.tatonka.com/"
+shop: ~
 store-finder: ~
-about: "http://www.tatonka.com/about/"
-wiki: "https://en.wikipedia.org/wiki/Tatonka"
+about: ~
+wiki: "https://de.wikipedia.org/wiki/Tatonka"
 ---

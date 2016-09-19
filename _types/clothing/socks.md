@@ -1,8 +1,10 @@
 ---
 title: "Socks"
 description: ~
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+image: "https://images-na.ssl-images-amazon.com/images/I/41mFNzV4sNL.jpg"
 brands: []
-purposes: [dress]
+purposes: [base-layer, footwear]
+qualities: []
 types: []
+wiki: ~
 ---

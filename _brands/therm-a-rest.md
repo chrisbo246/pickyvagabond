@@ -1,13 +1,13 @@
 ---
 title: Therm-A-Rest
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/4/44/Thermarest_logo.png"
+image: "/images/brands/therm-a-rest.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/4/44/Thermarest_logo.png"
 categories: []
 brands: [cascadedesigns]
 purposes: []
-types: []
+types: [sleeping-bag, sleeping-pad, camp-chair, hammock, cot, pillow]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/en/4/44/Thermarest_logo.png"
 website: "http://www.cascadedesigns.com/therm-a-rest"
 shop: "http://www.cascadedesigns.com/therm-a-rest"
 store-finder: ~

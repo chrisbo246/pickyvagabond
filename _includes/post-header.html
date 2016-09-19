@@ -1,17 +1,23 @@
 
 <div class="container-fluid">
-    {% if page.image %}
     <div class="img-wrapper img-wrapper-sm pull-right">
-        {% include image.html src=page.image width=80 height=80 alt=page.title %}
+        {% if page.countries.size > 0 %}
+            {% assign countries = site.countries | where_exp: 'item', 'page.countries contains item.slug' %}
+            {% for country in countries %}
+            <span class="flag-icon flag-icon-{{ country.iso2-code | downcase }} flag-icon-squared text-lg" title="{{ country.title }}"></span>
+            {% endfor %}
+        {% endif %}
+        {% if page.image %}
+        {% include image.html path=page.image-path src=page.image width=80 height=80 alt=page.title %}
+        {% endif %}
     </div>
-    {% endif %}
     {% comment %}
     <ul class="list-inline pull-right">
         <li>
             <a href="http://prose.io/#{{site.repository}}/edit/master/{{page.path}}" target="_blank" title="Github account required">
             <span class="glyphicon glyphicon-edit"></span> Editor</a>
         </li>
-        {% unless page.image %}
+        {% unless image-src %}
         <li>
             <a href="https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords={{ page.title | url_encode }}" target="_blank" title="Search images on Amazon">
             <span class="glyphicon glyphicon-search"></span> Image</a>
@@ -21,18 +27,19 @@
     {% endcomment %}
     <div class="-page-header clearfix">
         <div class="pull-left">
-            <form class="radio-glyphicon checkbox-success" data-persist="garlic" method="post">
+            <form class="checkbox-glyphicon checkbox-success text-2x" data-persist="garlic" method="post">
                 {% include selection-checkbox.html post=page %}
             </form>
         </div>
-        <h1>
-            {{ page.title }}
-            {% if post.alt-names %}<small>(also {{ post.alt-names | join: ', '}})</small>{% endif %}
-        </h1>
-        {% if page.description %}
-        <p class="lead">{{ page.description }}</p>
-        {% endif %}
-
+        <div class="pull-left">
+            <h1>
+                {{ page.title }}
+                {% if post.aliases.size > 0 %}<small>(also called {{ post.aliases | join: ', '}})</small>{% endif %}
+            </h1>
+            {% if page.description %}
+            <p class="lead animated zoomInDown">{{ page.description }}</p>
+            {% endif %}
+        </div>
     </div>
 </div>
 
@@ -40,8 +47,6 @@
 <small class="image-credit text-muted">Image source:
 <a href="{{ page.image.credit-link }}">{{ page.image.credit }}</a></small>
 {% endif %}
-
-
 
 {% comment%}
 <!--

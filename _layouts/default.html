@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale }}">
 {% include head.html %}
 <body>
-    {% include header.html %}
+    {% include navbar.html %}
     {% comment %}{% include breadcrumbs.html %}{% endcomment %}
     {{ content }}
     {% include footer.html %}
-    <a href="#top" class="btn btn-default btn-lg hidden" title=" Back to Top" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
+    <a href="#top" class="btn btn-default btn-lg hidden" title="Back to Top" data-spy="affix" data-offset-top="100" data-offset-bottom="0">
         <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
-    {% include styles.html %}
+    {% include settings-modal.html %}
     {% include scripts.html %}
 </body>
 </html>

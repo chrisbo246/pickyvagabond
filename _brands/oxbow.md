@@ -2,12 +2,12 @@
 title: Oxbow
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [lafuma]
-purposes: [dress]
+purposes: [cloth]
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

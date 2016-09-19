@@ -1,8 +1,10 @@
 ---
 title: "Pants"
 description: ~
-image: # http://ecx.images-amazon.com/images/I/{id}.jpg
+image: "https://images-na.ssl-images-amazon.com/images/I/414Wy8Q6m5L.jpg"
 brands: []
-purposes: [dress]
+purposes: [mid-layer]
+qualities: []
 types: []
+wiki: ~
 ---

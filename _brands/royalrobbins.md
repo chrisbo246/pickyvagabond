@@ -2,12 +2,12 @@
 title: Royal Robbins
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [travel, dress]
+purposes: [travel, cloth]
 types: [pants]
 countries: []
-logo: ~
 website: "http://www.royalrobbins.com"
 shop: "http://www.royalrobbins.com"
 store-finder: ~

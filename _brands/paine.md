@@ -2,12 +2,12 @@
 title: Paine 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [ici-ishii-sports]
-purposes: []
-types: [rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

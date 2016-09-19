@@ -2,12 +2,12 @@
 title: Sir Joseph
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [czech-republic]
-logo: ~
 website: "http://www.sirjoseph.cz"
 shop: "http://www.sirjoseph.cz"
 store-finder: ~

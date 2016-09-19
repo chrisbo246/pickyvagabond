@@ -2,12 +2,12 @@
 title: Splav
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, hiking-shoes, outerwear, rucksack, sleeping-bag, sleeping-mattress, tent, trekking-pole]
+purposes: [mid-layer, shell-layer, bivouac]
+types: [gloves, hiking-shoes, backpack, sleeping-bag, sleeping-mattress, tent, trekking-pole]
 countries: [russia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

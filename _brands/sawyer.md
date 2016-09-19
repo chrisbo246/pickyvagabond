@@ -2,12 +2,12 @@
 title: Sawyer International
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://sawyer.com"
 shop: "http://sawyer.com"
 store-finder: ~

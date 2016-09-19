@@ -2,12 +2,12 @@
 title: Regatta
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [united-kingdom]
-logo: ~
 website: "http://www.en.regatta.com"
 shop: "http://www.en.regatta.com"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: One Planet
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [australia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

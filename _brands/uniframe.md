@@ -2,12 +2,12 @@
 title: Uniframe
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [portable-stove]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

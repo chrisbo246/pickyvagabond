@@ -1,0 +1,99 @@
+.mediawiki-excerpt,
+.mediawiki-container {
+
+    a[href="#top"],
+    a[href*="#cite_note-"],
+    .references,
+    .Template-Fact,
+    .mw-editsection,
+    .hatnote,
+    .metadata,
+    .navbox,
+    .navbox-abovebelow,
+    .infobox caption {
+        display: none;
+    }
+
+
+
+    /* Hide some sections */
+
+    #siteNotice,
+    #section_SpokenWikipedia,
+    #toc {
+        display: none;
+    }
+
+    h2, h3 {
+        #External_links,
+        #Further_reading,
+        #Citations,
+        #References,
+        #Sources {
+            & {
+                display: none;
+            }
+            & ~ ul,
+            & ~ ol,
+            & ~ table,
+            & ~ div {
+                display: none;
+            }
+        }
+    }
+
+
+
+    /* Wikipedia layout */
+    .infobox {
+        float: right;
+        margin-left: $grid-gutter-width / 2;
+    }
+
+    .thumb {
+        padding: $thumbnail-padding;
+        margin-bottom: $line-height-computed;
+        line-height: $line-height-base;
+        background-color: $thumbnail-bg;
+        border: 1px solid $thumbnail-border;
+        border-radius: $thumbnail-border-radius;
+        > img,
+        a > img {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .thumbcaption {
+          padding: $thumbnail-caption-padding;
+          color: $thumbnail-caption-color;
+        }
+    }
+
+    .tright {
+        float: right;
+        clear: right;
+        margin-top: $grid-gutter-width / 2;
+        margin-bottom: $grid-gutter-width;
+        margin-left: $grid-gutter-width;
+    }
+
+    .tleft {
+        float: left;
+        clear: left;
+        margin-top: $grid-gutter-width / 2;
+        margin-bottom: $grid-gutter-width;
+        margin-right: $grid-gutter-width;
+    }
+
+    ul.gallery {
+        display: block;
+        li.gallerybox {
+            vertical-align: top;
+            display: inline-block;
+        }
+    }
+
+    .gallery-packed {
+        text-align: center;
+    }
+
+}

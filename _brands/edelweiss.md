@@ -2,12 +2,12 @@
 title: Edelweiss
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [rope]
 countries: [france]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

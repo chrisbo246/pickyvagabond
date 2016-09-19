@@ -1,16 +1,16 @@
 ---
 title: CROOZER
 description: ~
-image: ~
+image: "/images/brands/croozer.png"
+remote-image: "http://croozer.info/wp-content/themes/croozer/img/logo.png"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
-countries: []
-logo: ~
-website: "http://croozer.fr"
-shop: "http://croozer.fr"
-store-finder: ~
-about: "http://croozer.fr/about/"
-wiki: "https://en.wikipedia.org/wiki/CROOZER"
+countries: [germany]
+website: "http://croozer.info"
+shop: "https://uk.croozer.com/"
+store-finder: "http://croozer.info/service/retailer-search/"
+about: ~
+wiki: ~
 ---

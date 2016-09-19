@@ -2,12 +2,12 @@
 title: New Balance
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

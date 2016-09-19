@@ -2,10 +2,10 @@
 title: ProViz
 description: ~
 image: ~
-purposes: [cycling]
+remote-image: ~
+purposes: [cycle]
 types: []
 countries: []
-logo: ~
 website: "http://www.provizsports.com"
 shop: "http://www.provizsports.com"
 store-finder: ~

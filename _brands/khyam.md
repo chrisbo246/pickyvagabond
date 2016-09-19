@@ -2,12 +2,12 @@
 title: Khyam
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [france]
-logo: ~
 website: "http://www.khyam.fr"
 shop: "http://www.khyam.fr"
 store-finder: ~

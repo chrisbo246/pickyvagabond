@@ -2,12 +2,12 @@
 title: Blurr
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [canada]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

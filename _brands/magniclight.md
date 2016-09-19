@@ -2,10 +2,10 @@
 title: Magnic Light
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.magniclight.com"
 shop: "http://www.magniclight.com"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Granite Gear
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [backpack, rucksack, tent]
+purposes: [hike, bivouac]
+types: [backpack, backpack, tent]
 countries: [united-states]
-logo: ~
 website: ~
 shop: "http://www.granitegear.com/"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: ORTLIEB
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.ortlieb.com"
 shop: "http://www.ortlieb.com"
 store-finder: ~

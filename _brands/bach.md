@@ -2,12 +2,12 @@
 title: Bach
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [ireland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

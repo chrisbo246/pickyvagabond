@@ -1,0 +1,180 @@
+---
+layout: default
+title: Github
+menu: 4
+menu-position: 3
+---
+
+<!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
+
+
+<div class="container-fluid">
+    <header class="page-header">
+        <h1>{{ site.github.project_title }}'s on Github</h1>
+    </header>
+    <div class="row">
+        <div class="col-md-12">
+
+            {% if site.github %}
+
+            <h2>Website</h2>
+            <dl class="dl-horizontal">
+                <dt>Link</dt><dd><a href="{{ site.github.url }}" target="_blank">Website</a></dd>
+                {% if site.github.show_downloads %}<dt>Download</dt><dd><a href="{{ site.github.zip_url }}" target="_blank">ZIP</a> <a href="{{ site.github.tar_url }}" target="_blank">TAR</a></dd>{% endif %}
+            </dl>
+
+            <h2>Repository</h2>
+            <dl class="dl-horizontal">
+                <dt>Name</dt><dd><a href="{{ site.github.repository_url }}" target="_blank">{{ site.github.repository_name }}</a></dd>
+                <dt>NWO</dt><dd>{{ site.github.repository_nwo }}</dd>
+                <dt>Links</dt><dd><a href="{{ site.github.releases_url }}" target="_blank">Releases</a> <a href="{{ site.github.issues_url }}" target="_blank">Issues</a> <a href="{{ site.github.wiki_url }}" target="_blank">Wiki</a></dd>
+                <dt>Contribute</dt><dd><a href="{{ site.github.clone_url }}" target="_blank">Clone</a></dd>
+                <dt>Owner</dt>
+                <dd>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="{{ site.github.owner_url }}" class="img-wrapper img-wrapper-xs">
+                                <img src="{{ site.github.owner_gravatar_url }}" alt="{{ site.github.owner_name }} gravatar" width="40" height="40"/>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <a href="{{ site.github.owner_url }}" target="_blank">{{ site.github.owner_name }}</a>
+                            </h4>
+                            {% if site.github.owner_bio %}<p>{{ site.github.owner_bio }}</p>{% endif %}
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+
+            {% if site.github.organization_members.size > 0 %}
+            <h2>Organization members</h2>
+            <ul class="list-unstyled">
+                {% for member in site.github.organization_members %}
+                <li>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="{{ member.url }}" class="img-wrapper img-wrapper-xs">
+                                <img src="{{ member.gravatar_url }}" alt="{{ member.name }} gravatar" width="80" height="80"/>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <a href="{{ member.url }}" target="_blank">{{ member.name }}</a>
+                            </h4>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if site.github.contributors.size > 0 %}
+            <h2>Contributors</h2>
+            <ul class="list-unstyled">
+                {% for contributor in site.github.contributors %}
+                <li>
+                    <div class="media" data-id="{{ contributor.id }}" data-login="{{ contributor.login }}">
+                        <div class="media-left">
+                            <a href="{{ contributor.url }}" class="img-wrapper img-wrapper-xs">
+                                <img src="{{ contributor.avatar_url }}" alt="{{ contributor.name }} gravatar" width="80" height="80"/>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">
+                                <a href="{{ contributor.url }}" target="_blank">{{ contributor.name }}</a>
+                            </h4>
+                            {% if contributor.bio %}<p>{{ contributor.bio }}</p>{% endif %}
+                            <dl class="dl-horizontal">
+                                <dt>Profil</dt><dd><a href="{{ contributor.html_url }}" target="_blank">{{ contributor.login }}</a></dd>
+                                {% if contributor.gravatar_id %}<dt>Gravatar</dt><dd><a href="https://www.gravatar.com/{{ contributor.gravatar_id }}" target="_blank">Profil</a></dd>{% endif %}
+                                <dt>Repos</dt><dd><a href="{{ contributor.repos_url }}" target="_blank">Repos</a></dd>
+                                <dt>Profil</dt><dd><a href="{{ contributor.events_url }}" target="_blank">Events</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% comment %}
+            {% if site.github.public_repositories.size > 0 %}
+            <h2>Repositories</h2>
+            <ul class="list-unstyled">
+                {% for repository in site.github.public_repositories %}
+                <li>
+                    <h4>
+                        <a href="{{ repository.url }}" target="_blank">{{ repository.name }}</a>
+                    </h4>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endcomment %}
+
+            {% if site.github.releases.size > 0 %}
+            <h2>Releases</h2>
+            <ul class="list-unstyled">
+                {% for release in site.github.releases %}
+                <li>
+                    <h4>
+                        <a href="{{ release.url }}" target="_blank">{{ release.name }}</a>
+                    </h4>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <h2>Github config</h2>
+            <ul class="dl-horizontal">
+                <dt>hostname</dt><dd>{{ site.github.hostname }}</dd>
+                <dt>pages_hostname</dt><dd>{{ site.github.pages_hostname }}</dd>
+                <dt>api_url</dt><dd>{{ site.github.api_url }}</dd>
+                <dt>environment</dt><dd>{{ site.github.environment }}</dd>
+                <dt>build_revision</dt><dd>{{ site.github.build_revision }}</dd>
+                <dt>language</dt><dd>{{ site.github.language }}</dd>
+                <dt>is_user_page</dt><dd>{{ site.github.is_user_page }}</dd>
+                <dt>is_project_page</dt><dd>{{ site.github.is_project_page }}</dd>
+                <dt>show_downloads</dt><dd>{{ site.github.show_downloads }}</dd>
+            </dl>
+
+            {% endif %}
+
+        </div>
+    </div>
+</div>
+
+{{ site.github.public_repositories }}
+{{ site.github.releases }}
+{{ site.github.contributors }}
+{{ site.github.organization_members }}
+
+{% comment %}
+site.github.hostname           github.com
+site.github.pages_hostname     github.io
+site.github.api_url            https://api.github.com
+site.github.environment        dotcom
+site.github.build_revision     784812c2fbc4c6af71e8b6df011816b1edb1b231
+site.github.project_title      pickyvagabond
+site.github.project_tagline    A jekyll blog about bikepacker gear.
+site.github.owner_name         chrisbo246
+site.github.owner_url          https://github.com/chrisbo246
+site.github.owner_gravatar_url https://github.com/chrisbo246.png
+site.github.repository_url     https://github.com/chrisbo246/pickyvagabond
+site.github.repository_nwo     chrisbo246/pickyvagabond
+site.github.repository_name    pickyvagabond
+site.github.zip_url            https://github.com/chrisbo246/pickyvagabond/zipball/gh-pages
+site.github.tar_url            https://github.com/chrisbo246/pickyvagabond/tarball/gh-pages
+site.github.clone_url          https://github.com/chrisbo246/pickyvagabond.git
+site.github.releases_url       https://github.com/chrisbo246/pickyvagabond/releases
+site.github.issues_url         https://github.com/chrisbo246/pickyvagabond/issues
+site.github.wiki_url           https://github.com/chrisbo246/pickyvagabond/wiki
+site.github.language           HTML
+site.github.is_user_page       false
+site.github.is_project_page    true
+site.github.show_downloads     true
+site.github.url                http://localhost:4000
+site.github.public_repositories
+site.github.contributors
+{% endcomment %}

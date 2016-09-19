@@ -2,12 +2,12 @@
 title: Johnson Outdoors
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [mid-layer, shell-layer, outdoor, watercraft, div, navigation]
 types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

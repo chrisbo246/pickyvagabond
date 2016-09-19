@@ -2,12 +2,12 @@
 title: Vertical
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [france]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -5,4 +5,5 @@ image: # http://ecx.images-amazon.com/images/I/{id}.jpg
 types: [tent]
 pros: ~
 cons: ~
+wiki: ~
 ---

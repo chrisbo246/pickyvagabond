@@ -2,12 +2,12 @@
 title: Primus camping
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://primuscamping.com"
 shop: "http://primuscamping.com"
 store-finder: ~

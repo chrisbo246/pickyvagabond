@@ -2,12 +2,12 @@
 title: Baldas
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [ferrino]
 purposes: []
 types: [snowshoes]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: iXi bike
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: "http://ixibike.com"
 shop: "http://ixibike.com"
 store-finder: ~

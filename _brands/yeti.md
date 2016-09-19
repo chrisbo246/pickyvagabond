@@ -1,13 +1,13 @@
 ---
 title: YETI
 description: ~
-image: ~
+image: "/images/brands/yeti.png"
+remote-image: "http://yetiworld.com/graphics/yeti-logo.png"
 categories: []
 brands: [yet-warmth-unlimited]
 purposes: []
 types: []
 countries: [poland]
-logo: ~
 website: "http://www.yetiworld.com"
 shop: "http://www.yetiworld.com"
 store-finder: ~

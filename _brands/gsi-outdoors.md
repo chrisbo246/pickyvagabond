@@ -2,12 +2,12 @@
 title: GSI Outdoors
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [camping, backpacking, cookware]
+purposes: [outdoor, cook, pack, backpack, camp]
 types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

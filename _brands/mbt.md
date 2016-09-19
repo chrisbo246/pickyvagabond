@@ -2,12 +2,12 @@
 title: MBT 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [masai-barefoot-technology]
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [switzerland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

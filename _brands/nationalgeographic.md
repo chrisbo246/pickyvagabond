@@ -2,12 +2,12 @@
 title: National Geographic
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://shop.nationalgeographic.com"
 shop: "http://shop.nationalgeographic.com"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: BioLite
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [portable-stove]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

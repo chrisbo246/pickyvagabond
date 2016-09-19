@@ -2,12 +2,12 @@
 title: Puma
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [hiking-shoes]
 countries: [germany]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

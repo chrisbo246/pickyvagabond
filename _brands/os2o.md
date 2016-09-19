@@ -2,12 +2,12 @@
 title: OS2O
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [osso-outdoor]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

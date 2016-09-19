@@ -2,12 +2,12 @@
 title: Caravan
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [hiking-shoes, mountaineering-boots]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

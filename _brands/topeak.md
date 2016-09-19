@@ -1,14 +1,14 @@
 ---
 title: Topeak
 description: ~
-image: ~
-purposes: [cycling]
+image: "/images/brands/topeak.png"
+remote-image: ""
+purposes: [cycle]
 types: [cycling-accessories]
 countries: []
-logo: ~
-website: "http://www.topeak.com"
-shop: "http://www.topeak.com"
+website: "https://www.topeak.com/global/en/"
+shop: ~
 store-finder: ~
-about: "http://www.topeak.com/about/"
+about: ~
 wiki: ~
 ---

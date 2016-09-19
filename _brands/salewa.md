@@ -2,12 +2,12 @@
 title: Salewa
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [carabiner, crampons, gloves, ice-axe, piton, rucksack, sleeping-bag]
+types: [carabiner, crampons, gloves, ice-axe, piton, backpack, sleeping-bag]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

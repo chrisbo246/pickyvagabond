@@ -2,12 +2,12 @@
 title: Sinano
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [trekking-pole]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

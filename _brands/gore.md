@@ -2,12 +2,12 @@
 title: Gore
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling, running]
+purposes: [cycle, runn]
 types: []
 countries: []
-logo: ~
 website: "http://www.goreapparel.eu/"
 shop: ~
 store-finder: ~

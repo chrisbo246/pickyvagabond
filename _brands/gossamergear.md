@@ -2,12 +2,12 @@
 title: Gossamer Gear
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://gossamergear.com"
 shop: "http://gossamergear.com"
 store-finder: ~

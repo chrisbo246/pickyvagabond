@@ -2,12 +2,12 @@
 title: Oakley
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [germany]
-logo: ~
 website: ~
 shop: "http://www.oakstore.de"
 store-finder: ~

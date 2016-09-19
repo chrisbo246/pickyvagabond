@@ -1,16 +1,16 @@
 ---
 title: CAO-camping
 description: ~
-image: ~
+image: "/images/brands/cao-camping.png"
+remote-image: "http://www.cao-camping.com/medias/images/logo.png"
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
-website: "http://www.cao-camping.com"
-shop: "http://www.cao-camping.com"
+website: "http://www.cao-camping.com/en/"
+shop: ~
 store-finder: ~
-about: "http://www.cao-camping.com/about/"
+about: ~
 wiki: "https://en.wikipedia.org/wiki/CAO-camping"
 ---

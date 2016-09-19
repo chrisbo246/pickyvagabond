@@ -1,13 +1,13 @@
 ---
 title: "Busch & Müller"
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/de/thumb/8/8b/Busch_%26_M%C3%BCller_Logo.svg/250px-Busch_%26_M%C3%BCller_Logo.svg.png"
+image: "/images/brands/bumm.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/de/thumb/8/8b/Busch_%26_M%C3%BCller_Logo.svg/739px-Busch_%26_M%C3%BCller_Logo.svg.png"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-light]
 countries: [germany]
-logo: "https://upload.wikimedia.org/wikipedia/de/thumb/8/8b/Busch_%26_M%C3%BCller_Logo.svg/250px-Busch_%26_M%C3%BCller_Logo.svg.png"
 website: "http://www.bumm.de"
 shop: "http://www.bumm.de"
 store-finder: ~

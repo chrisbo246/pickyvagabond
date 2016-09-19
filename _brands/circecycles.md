@@ -2,12 +2,12 @@
 title: Circe Cycles
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: "http://www.circecycles.com"
 shop: "http://www.circecycles.com"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Raleigh
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: ~
 shop-fr: "http://www.raleigh-france.fr"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Dr Alex Moulton
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: [united-kingdom]
-logo: ~
 website: "http://www.alexmoulton.co.uk"
 shop: "http://www.alexmoulton.co.uk"
 store-finder: ~

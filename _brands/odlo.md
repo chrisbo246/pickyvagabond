@@ -2,12 +2,12 @@
 title: Odlo
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: []
 countries: [france]
-logo: ~
 website: "http://www.odlo.fr"
 shop: "http://www.boutiqueodlo.fr"
 store-finder: ~

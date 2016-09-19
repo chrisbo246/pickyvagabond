@@ -2,12 +2,12 @@
 title: Radical Design
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
 countries: [netherlands]
-logo: ~
 website: "https://www.radicaldesign.nl"
 shop: "https://www.radicaldesign.nl"
 store-finder: ~

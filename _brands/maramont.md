@@ -2,12 +2,12 @@
 title: Maramont
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [carabiner, outerwear, rucksack, sleeping-bag, trekking-pole]
+purposes: [mid-layer, shell-layer, mountaineer, bivouac]
+types: [carabiner, backpack, sleeping-bag, trekking-pole]
 countries: [romania]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

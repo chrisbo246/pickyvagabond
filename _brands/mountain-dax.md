@@ -2,12 +2,12 @@
 title: Mountain Dax
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

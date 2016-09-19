@@ -2,12 +2,12 @@
 title: Bailo
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [snowshoes]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

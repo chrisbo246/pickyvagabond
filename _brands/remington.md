@@ -2,12 +2,12 @@
 title: Remington
 description: ~
 image: ~
+remote-image: ~
 categories: [home-appliance]
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://en.remington-europe.com"
 shop: "http://en.remington-europe.com"
 store-finder: ~

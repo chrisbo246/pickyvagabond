@@ -2,12 +2,12 @@
 title: Climbing Technology
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [carabiner, crampons, headlamp, helmet, ice-axe, piton, rope, rucksack, trekking-pole]
+types: [carabiner, crampons, headlamp, helmet, ice-axe, piton, rope, backpack, trekking-pole]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Touratech
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [motorcycling]
+purposes: [motorcycle]
 types: [motorcycle-bag]
 countries: [france]
-logo: ~
 website: "http://shop.touratech.fr"
 shop: "http://shop.touratech.fr"
 store-finder: ~

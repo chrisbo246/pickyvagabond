@@ -1,23 +1,21 @@
 ---
-title: Carinthia brenta
-description: "Military grade winter sleeping bag (-5° confort)."
-features: [synthetic-filling, poly-lining]
-name: Brenta
+title: "Carinthia brenta"
+description: "Military grade winter sleeping bag (-5°C confort)."
+image: "http://ecx.images-amazon.com/images/I/41-u2-8TLkL.jpg"
 brands: [carinthia]
 features: [synthetic-filling, poly-lining]
 purposes: [sleep]
+qualities: []
 types: [sleeping-bag]
-image: "http://ecx.images-amazon.com/images/I/41-u2-8TLkL.jpg"
+product-sheet: "http://www.carinthia.eu/bags/en/shop/Outdoor-equipment/Outdoor/Schlafsack/Brenta/?card=1162"
 pros:
- - Compact and discrete
- - High door
- - full inner wall
- - Easy mounting
+  - Space
+  - Real comfort up to -5°C
+  - Comfy lining
+  - Efficient stuff sack
+  - Two way zipper
+cons:
+  - Relatively bulky
 dealers:
- - url: "http://www.amazon.com/Vaude-Campo-Compact-2P-Tente/dp/B00IDYNGLA"
-   name: "amazon.com"
- - url: "http://www.expe.fr/fr/tente-campo-compact-2p.html"
-   name: "expe.fr"
-price-eur: 162
+  - "https://www.amazon.com/Carinthia-Brenta-Sleeping-Right-Olive/dp/B01GT6CX3U/"
 ---
-The Vaude Campo Compact tent is an entry-level model of the well-know Dutch brand. Fairly basic on paper, we note that it very simple design provides a tent quite spacious, light and reliable for a very good price.

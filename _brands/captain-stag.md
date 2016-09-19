@@ -2,12 +2,12 @@
 title: Captain Stag
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [bivouac, mountaineer]
 types: [carabiner, portable-stove, tent, trekking-pole]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

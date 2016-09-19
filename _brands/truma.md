@@ -2,12 +2,12 @@
 title: Truma
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: [camping-car, caravan, motorhome]
 types: []
 countries: [germany]
-logo: ~
 website: "http://www.truma.com/int/en/home/index.php"
 shop: ~
 store-finder: ~

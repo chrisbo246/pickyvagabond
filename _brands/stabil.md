@@ -2,12 +2,12 @@
 title: Stabil
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [crampons]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

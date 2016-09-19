@@ -2,12 +2,12 @@
 title: Mountain Designs
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [australia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

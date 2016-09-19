@@ -2,12 +2,12 @@
 title: Montane
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [mountaineering]
-types: [gloves, outerwear, rucksack]
+purposes: [mid-layer, shell-layer, hike, mountaineer]
+types: [gloves, backpack]
 countries: [united-kingdom]
-logo: ~
 website: "https://www.montane.co.uk"
 shop: "https://www.montane.co.uk"
 store-finder: ~

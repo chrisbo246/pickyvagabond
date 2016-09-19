@@ -1,12 +1,12 @@
 ---
 title: Timberland
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Timberland.svg/200px-Timberland.svg.png"
+image: "/images/brands/timberland.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Timberland.svg/200px-Timberland.svg.png"
 brands: [vf-corporation]
-purposes: []
-types: [footwear, shoes, boots, hiking-shoes]
+purposes: [footwear, hikk]
+types: [shoes, boots, hiking-shoes]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Timberland.svg/200px-Timberland.svg.png"
 website: "http://www.timberland.com/"
 shop: "http://www.timberland.com/"
 store-finder: ~

@@ -1,14 +1,14 @@
 ---
 title: Cumulus
 description: ~
-image: ~
+image: "/images/brands/cumulus.png"
+remote-image: "http://sacsdecouchage.fr/thumbnail.php?crop=0&file=207"
 categories: []
 brands: []
-purposes: []
-types: []
+purposes: [bivouac, down]
+types: [sleeping-bag, down-sleeping-bag, sleeping-pad, insulated-jacket, down-jacket]
 countries: [poland]
-logo: ~
-website: ~
+website: "http://cumulus.pl/"
 shop: ~
 shop-fr: "http://sacsdecouchage.fr"
 store-finder: ~

@@ -1,10 +1,13 @@
-{% if include.filters and include.filters.size > 0 %}
-<form class="-form-inline radio-glyphicon checkbox-success" data-persist="garlic">
+{% if include.filters.size > 0 %}
+<form class="-form-inline radio-glyphicon checkbox-success" action="." method="get" -data-persist="garlic">
+    <div class="form-group">
+        <input type="text" name="query" class="form-control search-filter" placeholder="Search">
+    </div>
     {% for label in include.filters %}
     <div class="form-group">
         {% assign collection = site.collections | where: 'label', label | first %}
-        <label for="{{ label }}_filter">{{ collection.title }}</label>
-        <select id="{{ label }}_filter" data-filter="{{ label }}" class="form-control input-sm filter" multiple="multiple">
+        <label for="{{ label }}_filter visible-lg-inline">{{ collection.title }}</label>
+        <select id="{{ label }}_filter" data-filter="{{ label }}" placeholder="{{ collection.title }}" name="{{ label }}[]" class="form-control input-sm filter" multiple="multiple">
             <!--<option value="" selected>All</option>-->
             {% assign docs = site[label] %}
             {% for doc in docs %}
@@ -15,10 +18,18 @@
     {% endfor %}
     <div class="form-group">
         <label>
-            <input type="checkbox" class="selection-filter" />
+            <input type="checkbox" class="selection-filter" name="selection-filter" />
             My selection
         </label>
     </div>
-    <button type="button" class="btn btn-primary pull-right filter-reset"><span class="glyphicon glyphicon-remove"></span> Reset</button>
+
+    <div class="btn-group btn-group-justified" role="group" aria-label="">
+        <div class="btn-group" role="group">
+            <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-filter"></span> Filter</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default filter-reset"><span class="glyphicon glyphicon-remove"></span> Reset</button>
+        </div>
+    </div>
 </form>
 {% endif %}

@@ -3,21 +3,24 @@ var filtersModule = (function () {
 
     var data = {},
     $reset,
-    $filters,
-    $selectionFilter,
+    $collectionFilters,
+    $searchFilter,
     $items;
 
 
 
     /**
-     * Filter items using selected values
+     * Filter items using selected collections
      */
-    var filter = function () {
+    var filterCollections = function ($visibleItems) {
+
+        var $inputs = $collectionFilters;
 
         var $input, filter, values;
         var selector = '';
 
-        $filters.each(function () {
+        $inputs.each(function () {
+
             $input = $(this);
             filter = $input.data('filter');
             values = $input.val();
@@ -33,16 +36,80 @@ var filtersModule = (function () {
 
         });
 
-        var $visibleItems = $items;
-        $visibleItems.hide();
         if (selector !== '') {
             $visibleItems = $visibleItems.filter(selector);
+            console.log('Filtered', selector);
         }
-        if ($selectionFilter.is(':checked')) {
-            $visibleItems = $visibleItems.has('input[type="checkbox"]:checked')
+
+        return $visibleItems;
+
+    };
+
+
+    /**
+     * Filter items from input query
+     */
+    var filterSearch = function ($visibleItems) {
+
+        var $input = $searchFilter;
+
+        return $visibleItems;
+
+    };
+
+
+
+    /**
+     * Init collection filters
+     */
+    var initCollectionFilters = function () {
+
+        var $inputs = $collectionFilters;
+        if (!$inputs) {
+            return false;
         }
-        $visibleItems.show();
-        console.log('Filtered', selector);
+
+        // Save filters default values in a data attribute
+        var $input, value;
+        $inputs.each(function () {
+            $input = $(this);
+            value = $input.val();
+            $input.attr('data-default', value);
+        });
+
+        // When a collection filter change, display matching posts
+        $inputs.on('change', function () {
+            console.log('Collection filter changed');
+            filterItems();
+        });
+
+        // Apply filter when input values restored from the local storage
+        $inputs.garlic({
+            onRetrieve: function (elem, retrievedValue) {
+                console.log('Collection filter retrieved', retrievedValue);
+                filterItems();
+            }
+        });
+
+    };
+
+
+
+
+    /**
+     * Init search filter
+     */
+    var initSearchFilter = function () {
+
+        var $input = $searchFilter;
+        if (!$input) {
+            return false;
+        }
+
+        // When the selection filter change, display matching posts
+        $input.on('keyup', function () {
+            filterItems();
+        });
 
     };
 
@@ -53,19 +120,36 @@ var filtersModule = (function () {
      */
     var reset = function () {
 
-        var $input, value;
+        var value;
 
-        $filters.each(function () {
-            $input = $(this);
-            value = $input.data('default');
-            $input.val(value).trigger('change');
-        });
+        var $inputs = $collectionFilters;
+        if ($inputs) {
+            $inputs.each(function () {
+                $input = $(this);
+                value = $input.data('default');
+                $input.val(value).trigger('change');
+            });
+        }
 
-        $input = $selectionFilter;
-        value = $input.data('default');
-        $input.prop('checked', value);
+    };
 
-        //filter();
+
+    /**
+     * Filter items using selected values
+     */
+    var filterItems = function () {
+
+        var $visibleItems = $items;
+
+        //$visibleItems.hide();
+        //$visibleItems.css('opacity', 0.2);
+        $visibleItems = filterCollections($visibleItems);
+        $visibleItems = filterSearch($visibleItems);
+        //$visibleItems.show();
+        //$visibleItems.css('opacity', 1);
+
+        $items.not($visibleItems).addClass('hidden');
+        $visibleItems.removeClass('hidden');
 
     };
 
@@ -74,32 +158,14 @@ var filtersModule = (function () {
     $(function() {
 
         $reset = $('.filter-reset');
-        $filters = $('.filter'); //.filter('[data-filter]');
-        $selectionFilter = $('.selection-filter');
+        $collectionFilters = $('.filter');
+        $searchFilter = $('.search-filter');
         $items = $('.filter-item');
 
-        // Save filters default values
-        var $input, value;
-        $filters.each(function () {
-            $input = $(this);
-            value = $input.val();
-            $input.attr('data-default', value);
-        });
-        $input = $selectionFilter;
-        value = $input.prop('checked');
-        $input.attr('data-default', value);
+        initCollectionFilters();
+        initSearchFilter();
 
-        // When a collection filter change, display matching posts
-        $filters.on('change', function () {
-            filter();
-        });
-
-        // When the selection filter change, display matching posts
-        $selectionFilter.on('change', function () {
-            filter();
-        });
-
-        // Reset button
+        // Init reset button
         $reset.on('click', function () {
             reset();
         });

@@ -2,12 +2,12 @@
 title: Condor Outdoor
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.condoroutdoor.com"
 shop: "http://www.condoroutdoor.com"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Sprayway
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [UK]
 countries: [united-kingdom]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

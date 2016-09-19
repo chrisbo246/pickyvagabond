@@ -2,12 +2,12 @@
 title: Brooks-Range
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Ibex
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

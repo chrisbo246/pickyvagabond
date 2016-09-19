@@ -1,12 +1,12 @@
 ---
 title: Cushe
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Saucony-brand.svg/221px-Saucony-brand.svg.png"
+image: "/images/brands/saucony.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Saucony-brand.svg/221px-Saucony-brand.svg.png"
 brands: [wolverine-worldwide]
-purposes: []
-types: [footwear, shoes]
+purposes: [footwear]
+types: [shoes]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Saucony-brand.svg/221px-Saucony-brand.svg.png"
 website: "http://www.saucony.com/"
 shop: ~
 store-finder: ~

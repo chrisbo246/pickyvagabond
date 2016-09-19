@@ -1,13 +1,13 @@
 ---
 title: FAIV
 description: ~
-image: ~
+image: "/images/brands/faiv.png"
+remote-image: "http://www.faiv.de/bilder/faiv.gif"
 categories: []
 brands: []
 purposes: []
 types: [bicycle-bag, bicycle-rack]
 countries: [germany]
-logo: ~
 website: "http://www.faiv.de"
 shop: "http://www.faiv.de"
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Arcade Cycles
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: "http://www.arcadecycles.eu"
 shop: "http://www.arcadecycles.eu"
 store-finder: ~

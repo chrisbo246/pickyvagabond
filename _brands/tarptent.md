@@ -1,16 +1,16 @@
 ---
 title: Tarptent
 description: ~
-image: ~
+image: "/images/brands/tarptent.png"
+remote-image: "https://www.tarptent.com/images/ttlogo_50px.png"
 categories: []
 brands: []
 purposes: []
 types: [tarp]
 countries: []
-logo: ~
-website: "http://www.tarptent.com"
-shop: "http://www.tarptent.com"
+website: "http://www.tarptent.com/"
+shop: ~
 store-finder: ~
-about: "http://www.tarptent.com/about/"
-wiki: "https://en.wikipedia.org/wiki/Tarptent"
+about: ~
+wiki: ~
 ---

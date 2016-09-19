@@ -1,13 +1,13 @@
 ---
 title: "FJÄLLRÄVEN"
 description: ~
-image: "http://www.fenixoutdoor.se/wp-content/uploads/2016/04/fjallraven.png"
+image: "/images/brands/fjallraven.png"
+remote-image: "http://www.fenixoutdoor.se/wp-content/uploads/2016/04/fjallraven.png"
 categories: []
 brands: [fenixoutdoor]
-purposes: []
-types: [outwear, rucksack, sleeping-bag, tent]
+purposes: [mid-layer, shell-layer, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [sweden]
-logo: "http://www.fenixoutdoor.se/wp-content/uploads/2016/04/fjallraven.png"
 website: "http://www.fjallraven.com"
 shop: "http://www.fjallraven.com"
 shop-fr: "http://www.fjallraven.fr"

@@ -2,12 +2,12 @@
 title: Trangia 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [trangia-ab]
 purposes: []
 types: [portable-stove]
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

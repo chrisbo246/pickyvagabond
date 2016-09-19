@@ -1,14 +1,17 @@
 
 <script>
 var baseurl = '{{ site.github.url }}';
+var apiUserAgent = '{{ site.headers.api-user-agent }}';
+var origin = '{{ site.headers.origin }}';
 </script>
+<script src="//{{ site.disqus.forum }}.disqus.com/count.js" id="dsq-count-scr" async></script>
 <script src="{{ site.github.url }}/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="{{ site.github.url }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="{{ site.github.url }}/bower_components/garlicjs/dist/garlic.min.js"></script>
 <script src="{{ site.github.url }}/bower_components/select2/dist/js/select2.min.js"></script>
-<script src="{{ site.github.url }}/bower_components/lazysizes/lazysizes.min.js"></script>
+<script src="{{ site.github.url }}/bower_components/lazysizes/lazysizes.min.js" async></script>
+<script src="{{ site.github.url }}/scripts/filters.js" async></script>
+<script src="{{ site.github.url }}/scripts/selection.js" async></script>
+<script src="{{ site.github.url }}/scripts/mediawiki.js" async></script>
 <script src="{{ site.github.url }}/scripts/dealerLocalizer.js"></script>
-<script src="{{ site.github.url }}/scripts/filters.js"></script>
-<script src="{{ site.github.url }}/scripts/geolocation.js"></script>
-<script src="{{ site.github.url }}/scripts/wikipedia.js"></script>
 <script src="{{ site.github.url }}/scripts/main.js"></script>

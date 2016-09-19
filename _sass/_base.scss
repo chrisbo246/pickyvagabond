@@ -22,12 +22,20 @@ body {
 }
 
 .navbar {
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAXCAMAAABDEo1gAAAALVBMVEUREREMDAwSEhIUFBQQEBAODg4TExMPDw8XFxcVFRUWFhYNDQ0LCwsKCgoJCQmoaA8gAAAB5klEQVR42k2TW4IkIQgEUUQLofb+x91At2b2x1eFaZJ0i7TWdTQTnastfaa1ob4lQraPlmtvy5z7nGvR7h5vyjMDfjOKF+2lYk1UlnjRiAh0X12SeTR4Lx2D1s48Z9Rjl0ZEZGvL0HloWZyin4mTzOz76Y31R6dwN7LJ3tCd8/LTGV0zl47pnScv3eBiYIa3cdt1+uWn1TGu6wH4S8cIobBaYrtT97r8o+htaj843KFld+EuG0ZE4+WrkufNba6Tr/3QruKH58VAxzImfHIX6qsD+gQrNmRCVlbF06kw+JapeyT0l0m1i+aEmBZvgoB115PPCPO5PnpDR4vpqyXVoZxv872K1Bq1/5eQznKyiu/GDE+SBR5+ROj+6BxYq0b5oKxnivIBAYdekHL8yEc3eXh6eVeOTR9BNdCHZpTMUB/RLo1lmy4LO2UdXvQE3W/Yau/bH/noMZHsvjUqqt7SxHBkR06XyVzMv5ncpPRkiusgGSt9FntmmjrcR1PShDdc0BLD2BLWuBhR1zPHvyKKdjKx0+PjIA1XgrJd/1OF/taCYqHJ7g3Xo6fQqh3cWbHHwukv9LPaCy2sjxnUjjaD+DPy8OvyydcK4v4Gi65uNuiZf5rgINhdfb9/DLF+aS/6sXjtRiB/AetLF9OdGDz6AAAAAElFTkSuQmCC');
+    background-image: url(../assets/images/barcode-bg.png);
+    background-repeat: repeat-x;
+    background-position: left center;
+    //background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAXCAMAAABDEo1gAAAALVBMVEUREREMDAwSEhIUFBQQEBAODg4TExMPDw8XFxcVFRUWFhYNDQ0LCwsKCgoJCQmoaA8gAAAB5klEQVR42k2TW4IkIQgEUUQLofb+x91At2b2x1eFaZJ0i7TWdTQTnastfaa1ob4lQraPlmtvy5z7nGvR7h5vyjMDfjOKF+2lYk1UlnjRiAh0X12SeTR4Lx2D1s48Z9Rjl0ZEZGvL0HloWZyin4mTzOz76Y31R6dwN7LJ3tCd8/LTGV0zl47pnScv3eBiYIa3cdt1+uWn1TGu6wH4S8cIobBaYrtT97r8o+htaj843KFld+EuG0ZE4+WrkufNba6Tr/3QruKH58VAxzImfHIX6qsD+gQrNmRCVlbF06kw+JapeyT0l0m1i+aEmBZvgoB115PPCPO5PnpDR4vpqyXVoZxv872K1Bq1/5eQznKyiu/GDE+SBR5+ROj+6BxYq0b5oKxnivIBAYdekHL8yEc3eXh6eVeOTR9BNdCHZpTMUB/RLo1lmy4LO2UdXvQE3W/Yau/bH/noMZHsvjUqqt7SxHBkR06XyVzMv5ncpPRkiusgGSt9FntmmjrcR1PShDdc0BLD2BLWuBhR1zPHvyKKdjKx0+PjIA1XgrJd/1OF/taCYqHJ7g3Xo6fQqh3cWbHHwukv9LPaCy2sjxnUjjaD+DPy8OvyydcK4v4Gi65uNuiZf5rgINhdfb9/DLF+aS/6sXjtRiB/AetLF9OdGDz6AAAAAElFTkSuQmCC');
     //background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAXCAMAAABDEo1gAAAALVBMVEXu7u7z8/Pt7e3r6+vv7+/x8fHs7Ozw8PDo6Ojq6urp6eny8vL09PT19fX29vbJGhcbAAAB5klEQVR42k2TW4IkIQgEUUQLofb+x91At2b2x1eFaZJ0i7TWdTQTnastfaa1ob4lQraPlmtvy5z7nGvR7h5vyjMDfjOKF+2lYk1UlnjRiAh0X12SeTR4Lx2D1s48Z9Rjl0ZEZGvL0HloWZyin4mTzOz76Y31R6dwN7LJ3tCd8/LTGV0zl47pnScv3eBiYIa3cdt1+uWn1TGu6wH4S8cIobBaYrtT97r8o+htaj843KFld+EuG0ZE4+WrkufNba6Tr/3QruKH58VAxzImfHIX6qsD+gQrNmRCVlbF06kw+JapeyT0l0m1i+aEmBZvgoB115PPCPO5PnpDR4vpqyXVoZxv872K1Bq1/5eQznKyiu/GDE+SBR5+ROj+6BxYq0b5oKxnivIBAYdekHL8yEc3eXh6eVeOTR9BNdCHZpTMUB/RLo1lmy4LO2UdXvQE3W/Yau/bH/noMZHsvjUqqt7SxHBkR06XyVzMv5ncpPRkiusgGSt9FntmmjrcR1PShDdc0BLD2BLWuBhR1zPHvyKKdjKx0+PjIA1XgrJd/1OF/taCYqHJ7g3Xo6fQqh3cWbHHwukv9LPaCy2sjxnUjjaD+DPy8OvyydcK4v4Gi65uNuiZf5rgINhdfb9/DLF+aS/6sXjtRiB/AetLF9OdGDz6AAAAAElFTkSuQmCC');
 }
 
 .navbar-brand img {
     margin-top: -9px;
+}
+
+.nav-tabs > li {
+    min-width: 15%;
+    text-align: center;
 }
 
 .featured-image {
@@ -73,6 +81,19 @@ border-radius: $thumbnail-border-radius;
     font-size: 6em;
 }
 
+.alert {
+    & > .glyphicon {
+        &.pull-left {
+           margin-right: $grid-gutter-width / 2;
+           margin-bottom: $grid-gutter-width / 2;
+        }
+        &.pull-right {
+           margin-left: $grid-gutter-width / 2;
+           margin-bottom: $grid-gutter-width / 2;
+        }
+    }
+}
+
 a[href="#top"] {
     position: fixed;
     right: 10px;
@@ -107,6 +128,15 @@ a[href="#top"] {
     width: auto;
 }
 
+.img-wrapper .flag-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    //opacity: .5;
+    z-index: 1;
+    //border-bottom-left-radius: 100%;
+}
 
 .label-post {
   @include label-variant($label-default-bg);
@@ -126,4 +156,43 @@ a[href="#top"] {
 
 .label-product {
   @include label-variant($label-warning-bg);
+}
+
+// Fix
+
+.select2-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+// Hide images until they are .lazyloaded
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+// Checkbox
+
+.selection-item {
+    .selection-checkbox:checked {
+        & {
+            background-color: $alert-success-bg;
+            border-color: $alert-success-border;
+            color: $alert-success-text;
+            hr {
+              border-top-color: darken($alert-success-border, 5%);
+            }
+            .alert-link {
+              color: darken($alert-success-text, 10%);
+            }
+        }
+    }
+
+    &.fadded {
+        opacity: .2;
+    }
 }

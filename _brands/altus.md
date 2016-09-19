@@ -1,13 +1,13 @@
 ---
 title: Altus
 description: ~
-image: "http://www.altusbrands.com/design/themes/altus/media/images/logo.png"
+image: "/images/brands/altus.png"
+remote-image: "http://www.altusbrands.com/design/themes/altus/media/images/altus.jpg"
 categories: []
 brands: []
-purposes: []
-types: [rucksack, sleeping-bag, tent]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [spain]
-logo: "http://www.altusbrands.com/design/themes/altus/media/images/logo.png"
 website: "http://www.altusbrands.com/"
 shop: ~
 store-finder: ~

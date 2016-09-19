@@ -1,13 +1,13 @@
 ---
 title: Holden Outdoor
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Holden_small.jpg"
+image: "/images/brands/holdenouterwear.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Holden_small.jpg"
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [ski-pants, ski-jacket, snowboard-pants, snowboard-jacket]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Holden_small.jpg"
 website: "http://www.holdenouterwear.com/"
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Moser
 description: ~
 image: ~
+remote-image: ~
 categories: [home-appliance]
 brands: []
 purposes: []
 types: [trimmer, beard-trimmer, hair-trimmer]
 countries: [germany]
-logo: ~
 website: "http://www.moser-profiline.de"
 shop: "http://www.moser-profiline.de"
 store-finder: ~

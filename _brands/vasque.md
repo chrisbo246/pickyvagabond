@@ -2,12 +2,12 @@
 title: Vasque
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, mountaineer]
 types: [mountaineering-boots]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

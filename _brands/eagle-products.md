@@ -2,12 +2,12 @@
 title: EAGLE Products
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, multi-tool, outerwear, portable-stove, rucksack, sleeping-mattress, snowshoes]
+purposes: [mid-layer, shell-layer, hike, bivouac, ski]
+types: [gloves, multi-tool, portable-stove, backpack, sleeping-mattress, snowshoes]
 countries: [norway]
-logo: ~
 website: "http://www.ae.com/"
 shop: ~
 store-finder: ~

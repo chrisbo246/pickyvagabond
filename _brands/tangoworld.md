@@ -2,12 +2,12 @@
 title: Trangoworld
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.trangoworld.com"
 shop: "http://www.trangoworld.com"
 store-finder: ~

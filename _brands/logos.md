@@ -2,12 +2,12 @@
 title: Logos
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, sleeping-bag, tent, trekking-pole]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, tent, trekking-pole]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Treksta
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [south-korea-]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

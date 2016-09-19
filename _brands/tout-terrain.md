@@ -2,10 +2,10 @@
 title: Tout terrain
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: [germany]
-logo: ~
 website: "http://www.en.tout-terrain.de"
 shop: "http://www.en.tout-terrain.de"
 store-finder: ~

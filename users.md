@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: collection-list
 title: Users
 permalink: /users/
 menu: 3

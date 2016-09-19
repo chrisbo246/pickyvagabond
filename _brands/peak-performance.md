@@ -2,12 +2,12 @@
 title: Peak Performance
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, helmet, outerwear, rucksack]
+purposes: [mid-layer, shell-layer]
+types: [gloves, helmet, backpack]
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

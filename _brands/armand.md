@@ -2,12 +2,12 @@
 title: Armand
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, mountaineer]
 types: [hiking-shoes, mountaineering-boots]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Di Blasi
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: "http://diblasi.it/"
 shop: "http://diblasi.it/"
 store-finder: ~

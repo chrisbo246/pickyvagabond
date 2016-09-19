@@ -2,12 +2,12 @@
 title: Bailesu
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack, sleeping-bag]
+types: [backpack, sleeping-bag]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

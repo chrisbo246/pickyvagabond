@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: collection-list
 title: Qualities
 permalink: /qualities/
 menu: 3

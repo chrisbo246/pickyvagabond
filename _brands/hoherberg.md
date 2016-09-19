@@ -2,12 +2,12 @@
 title: Hoherberg
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [ice-axe]
 countries: [germany]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

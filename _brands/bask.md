@@ -2,12 +2,12 @@
 title: BASK
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, outerwear, rucksack, sleeping-bag, tent]
+purposes: [mid-layer, shell-layer, hike, bivouac]
+types: [gloves, backpack, sleeping-bag, tent]
 countries: [russia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

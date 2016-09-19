@@ -1,22 +1,19 @@
 ---
-title: Vaude Campo Compact tent
-description: An basic but spacious and relatively reliable tent with a very affordable price.
+title: "Vaude Campo Compact tent"
+description: "An basic but spacious and relatively reliable tent with a very affordable price."
+image: "https://images-na.ssl-images-amazon.com/images/I/31WZHc5i4kL.jpg"
 brands: [vaude]
-name: Campo Compact
+features: [freestanding, double-wall, alloy-poles, alloy-pegs]
 types: [tent]
 purposes: [shelter]
-features: [freestanding, double-wall, alloy-poles, alloy-pegs]
-image: "http://ecx.images-amazon.com/images/I/319N6G7TPzL.jpg"
+qualities: []
+product-sheet: "http://www.vaude.com/en-GB/Products/Tents/Campo-Compact-2P-linen.html"
 pros:
- - Compact and discrete
- - High door
- - full inner wall
- - Easy mounting
+  - Compact and discrete
+  - High door
+  - full inner wall
+  - Easy mounting
 dealers:
- - url: "http://www.amazon.com/Vaude-Campo-Compact-2P-Tente/dp/B00IDYNGLA"
-   name: amazon.com
- - url: "http://www.expe.fr/fr/tente-campo-compact-2p.html"
-   name: expe.fr
-price-eur: 162
+  - "https://www.amazon.com/Vaude-Campo-dome-Compact-green/dp/B009ZRLXSM/"
 ---
 The Vaude Campo Compact tent is an entry-level model of the well-know Dutch brand. Fairly basic on paper, we note that it very simple design provides a tent quite spacious, light and reliable for a very good price.

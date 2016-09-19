@@ -2,12 +2,12 @@
 title: Jahti Jakt
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [gloves, hiking-shoes, multi-tool, outerwear, rucksack, sleeping-bag, snowshoes]
+purposes: [mid-layer, shell-layer, hike, bivouac, ski]
+types: [gloves, hiking-shoes, multi-tool, backpack, sleeping-bag, snowshoes]
 countries: [finland]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

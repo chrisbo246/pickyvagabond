@@ -1,13 +1,13 @@
 ---
-title: EMS
+title: EMS (Eastern Mountain Sports)
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [Eastern Mountain Sports (Ascent outerwear, EMS tents, Techwick baselayers, etc.)]
+purposes: [mid-layer, shell-layer, bivouac]
+types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

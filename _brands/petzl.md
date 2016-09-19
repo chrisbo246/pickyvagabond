@@ -2,12 +2,12 @@
 title: Petzl
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [headlamp]
 countries: [france]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

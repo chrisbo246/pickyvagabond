@@ -1,14 +1,14 @@
 ---
 layout: default
+title: Search results
 ---
 <div class="container-fluid">
     <header class="page-header">
         <h1>{{ page.title }}</h1>
     </header>
-
-    {% comment %}
     <div class="row">
         <div class="col-md-12">
+            {% comment %}
             <div class="well">
                 <form class="form-inline" action="{{ site.github.url }}/search.html" method="get">
                     <div class="form-group">
@@ -28,11 +28,11 @@ layout: default
                     </div>
                 </form>
             </div>
+            {% endcomment %}
             <ul id="search-results" class="list-unstyled"></ul>
         </div>
     </div>
 </div>
-{% endcomment %}
 
 <script>
 window.store = {

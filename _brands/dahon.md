@@ -1,16 +1,16 @@
 ---
 title: DAHON
 description: ~
-image: ~
+image: "/images/brands/dahon.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dahon_Logo_-_freedom_unfolds.jpg"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle, bicycle-tour]
 types: [bicycle, folding-bicycle]
-countries: []
-logo: ~
-website: "http://dahon.com"
-shop: "http://dahon.com"
+countries: [united-states]
+website: "http://dahon.com/"
+shop: ~
 store-finder: ~
-about: "http://dahon.com/about/"
-wiki: "https://en.wikipedia.org/wiki/DAHON"
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Dahon"
 ---

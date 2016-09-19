@@ -2,12 +2,12 @@
 title: SolarJOOS
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [solar-charger]
 countries: []
-logo: ~
 website: "http://solarjoos.com"
 shop: "http://solarjoos.com"
 store-finder: ~

@@ -2,10 +2,10 @@
 title: Nikwax
 description: ~
 image: ~
-purposes: [waterproofing, cleaning, conditioning-products]
+remote-image: ~
+purposes: [waterproof, clean, conditioning-products]
 types: [waterproofing-treatment]
 countries: []
-logo: ~
 website: "http://www.nikwax.com"
 shop: "http://www.nikwax.com"
 store-finder: ~

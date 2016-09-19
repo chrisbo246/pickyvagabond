@@ -2,12 +2,12 @@
 title: Boreal 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [hiking-shoes, mountaineering-boots, rucksack]
+purposes: [hike, mountaineer]
+types: [hiking-shoes, mountaineering-boots, backpack]
 countries: [spain]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Cerro Torre
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [south-korea-]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

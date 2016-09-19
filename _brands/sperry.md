@@ -1,12 +1,12 @@
 ---
 title: Sperry
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Sperry_Top-Sider_logo.png/220px-Sperry_Top-Sider_logo.png"
+image: "/images/brands/sperry.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Sperry_Top-Sider_logo.png/220px-Sperry_Top-Sider_logo.png"
 brands: [wolverine-worldwide]
-purposes: [dress, boating]
-types: [footweat, sportswear, boating-shoes]
+purposes: [cloth, footweat, sportswear, boat]
+types: [shoes, boating-shoes]
 countries: [united-states]
-logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Sperry_Top-Sider_logo.png/220px-Sperry_Top-Sider_logo.png"
 website: "http://www.sperry.com/"
 shop: ~
 store-finder: ~

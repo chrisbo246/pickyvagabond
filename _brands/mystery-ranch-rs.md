@@ -2,12 +2,12 @@
 title: Mystery Ranch-RS
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

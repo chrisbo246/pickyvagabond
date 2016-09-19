@@ -1,13 +1,13 @@
 ---
 title: Burley
 description: ~
-image: "https://upload.wikimedia.org/wikipedia/en/5/53/Burley_logo.JPG"
+image: "/images/brands/burley.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/5/53/Burley_logo.JPG"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
-countries: []
-logo: "https://upload.wikimedia.org/wikipedia/en/5/53/Burley_logo.JPG"
+countries: [united-states]
 website: "https://www.burley.com"
 shop: "https://www.burley.com"
 store-finder: ~

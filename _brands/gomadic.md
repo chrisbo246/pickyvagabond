@@ -2,12 +2,12 @@
 title: "Gomadic Corp."
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [solar-charger]
 countries: []
-logo: ~
 website: "http://www.gomadic.com"
 shop: "http://www.gomadic.com"
 store-finder: ~

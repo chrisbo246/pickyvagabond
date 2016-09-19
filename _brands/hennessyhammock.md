@@ -1,16 +1,16 @@
 ---
 title: Hennessy Hammock
 description: ~
-image: ~
+image: "/images/brands/hennessyhammock.png"
+remote-image: "https://pbs.twimg.com/profile_images/661941336627507200/6rS4doPQ.jpg"
 categories: []
 brands: []
-purposes: []
-types: []
+purposes: [bivouac, camp, hammock-camp]
+types: [hammock, tarp]
 countries: []
-logo: ~
-website: "http://hennessyhammock.com"
-shop: "http://hennessyhammock.com"
+website: "http://hennessyhammock.com/"
+shop: ~
 store-finder: ~
-about: "http://hennessyhammock.com/about/"
-wiki: "https://en.wikipedia.org/wiki/Hennessy Hammock"
+about: ~
+wiki: ~
 ---

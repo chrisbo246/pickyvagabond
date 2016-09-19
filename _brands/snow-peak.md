@@ -2,12 +2,12 @@
 title: Snow Peak
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [hike, bivouac]
 types: [portable-stove, tent]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

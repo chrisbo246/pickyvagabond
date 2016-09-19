@@ -1,16 +1,16 @@
 ---
 title: "JACK & JONES"
 description: ~
-image: ~
+image: "/images/brands/jackjones.png"
+remote-image: "http://www.jackjones.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw7c02de06/jj/images/logo.svg"
 categories: []
-brands: []
+brands: [bestseller]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://jackjones.com"
-shop: "http://jackjones.com"
+shop: ~
 store-finder: ~
-about: "http://jackjones.com/about/"
-wiki: "https://en.wikipedia.org/wiki/JACK &amp; JONES"
+about: ~
+wiki: ~
 ---

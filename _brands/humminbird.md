@@ -2,12 +2,12 @@
 title: HumminBird
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [johnson-outdoors]
 purposes: []
 types: []
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

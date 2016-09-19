@@ -2,12 +2,12 @@
 title: MONOWALKER
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
 countries: []
-logo: ~
 website: "http://monowalker.com"
 shop: "http://monowalker.com"
 store-finder: ~

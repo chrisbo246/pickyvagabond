@@ -2,12 +2,12 @@
 title: Full Tilt
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [ski-boots]
 countries: []
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

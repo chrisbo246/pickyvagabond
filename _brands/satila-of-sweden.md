@@ -2,12 +2,12 @@
 title: "Sätila of Sweden"
 description: ~
 image: ~
-categories: ~
-brands: ~
-purposes: ~
-types: [outwear]
-country: sweden
-logo: ~
+remote-image: ~
+categories: []
+brands: []
+purposes: [mid-layer, shell-layer]
+types: []
+countries: [sweden]
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: "Klättermusen"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear, rucksack]
+purposes: [mid-layer, shell-layer]
+types: [bag, backpack]
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

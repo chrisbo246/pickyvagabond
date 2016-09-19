@@ -1,13 +1,13 @@
 ---
 title: Tierra
 description: ~
-image: "http://www.fenixoutdoor.se/wp-content/uploads/2016/04/tierra.png"
+image: "/images/brands/tierra.png"
+remote-image: "http://www.fenixoutdoor.se/wp-content/uploads/2016/04/tierra.png"
 categories: []
 brands: [fenixoutdoor]
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [sweden]
-logo: "http://www.fenixoutdoor.se/wp-content/uploads/2016/04/tierra.png"
 website: "http://www.tierra.com/"
 shop: "http://www.tierra.com/"
 store-finder: http://www.tierra.com/find-a-store

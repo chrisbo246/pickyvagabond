@@ -2,10 +2,10 @@
 title: SRAM
 description: ~
 image: ~
-purposes: [cycling]
+remote-image: ~
+purposes: [cycle]
 types: []
 countries: []
-logo: ~
 website: "https://www.sram.com"
 shop: "https://www.sram.com"
 store-finder: ~

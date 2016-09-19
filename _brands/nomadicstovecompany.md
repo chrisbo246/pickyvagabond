@@ -2,12 +2,12 @@
 title: Nomadic Stove Company
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://www.nomadicstovecompany.com"
 shop: "http://www.nomadicstovecompany.com"
 store-finder: ~

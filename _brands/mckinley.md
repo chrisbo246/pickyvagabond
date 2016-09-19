@@ -2,12 +2,12 @@
 title: McKinley
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear, rucksack, sleeping-bag, tent]
+purposes: [mid-layer, shell-layer, bivouac]
+types: [backpack, sleeping-bag, tent]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

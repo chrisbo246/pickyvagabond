@@ -1,13 +1,13 @@
 ---
 title: Beecyclo
 description: ~
-image: ~
+image: "/images/brands/beecyclo.png"
+remote-image: "http://www.beecyclo.fr/wp-content/themes/beecyclo/images/beecyclo.svg"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-trailer]
 countries: [france]
-logo: "http://www.beecyclo.fr/wp-content/themes/beecyclo/images/beecyclo.svg"
 website: "http://www.beecyclo.fr"
 shop: "http://www.beecyclo.fr"
 store-finder: ~

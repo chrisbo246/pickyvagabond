@@ -2,10 +2,10 @@
 title: Bluff Works
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: []
 countries: []
-logo: ~
 website: "http://shop.bluffworks.com"
 shop: "http://shop.bluffworks.com"
 store-finder: ~

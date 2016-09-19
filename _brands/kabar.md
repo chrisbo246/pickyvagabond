@@ -2,12 +2,12 @@
 title: KA-BAR
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [knife]
 countries: []
-logo: ~
 website: "http://www.kabar.com"
 shop: "http://www.kabar.com"
 store-finder: ~

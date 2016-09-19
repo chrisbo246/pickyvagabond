@@ -2,12 +2,12 @@
 title: "Carradice of Nelson"
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle-bag]
 countries: [united-kingdom]
-logo: ~
 website: "https://carradice.co.uk"
 shop: "https://carradice.co.uk"
 store-finder: ~

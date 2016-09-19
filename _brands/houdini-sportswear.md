@@ -2,12 +2,12 @@
 title: Houdini Sportswear
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [sweden]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

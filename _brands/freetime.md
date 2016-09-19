@@ -2,12 +2,12 @@
 title: Freetime
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [france]
-logo: ~
 website: "http://www.freetime.fr"
 shop: "http://www.freetime.fr"
 store-finder: ~

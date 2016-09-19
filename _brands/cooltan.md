@@ -2,10 +2,10 @@
 title: Cooltan
 description: ~
 image: ~
+remote-image: ~
 purposes: []
 types: [tan-through-clothes]
 countries: []
-logo: ~
 website: "http://www.cooltan.com"
 shop: "http://www.cooltan.com"
 store-finder: ~

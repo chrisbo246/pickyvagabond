@@ -2,12 +2,12 @@
 title: Descente
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer]
+types: []
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

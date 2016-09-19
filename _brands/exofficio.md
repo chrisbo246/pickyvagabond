@@ -2,12 +2,12 @@
 title: ExOfficio
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: [dress, safari, fishing, adventure, outdoor, camping, hiking, sun-protection, travel]
-types: [insect-repellent, sun-protection, travel-clothing, shirt, pants, shorts, outerwear, underwear]
+purposes: [outwear, cloth, safari, fish, adventure, outdoor, camp, hike, sun-protection, travel]
+types: [insect-repellent, sun-protection, travel-clothing, shirt, pants, shorts, underwear]
 countries: []
-logo: ~
 website: "http://www.exofficio.com"
 shop: "http://www.exofficio.com"
 store-finder: ~

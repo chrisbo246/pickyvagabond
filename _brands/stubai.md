@@ -2,12 +2,12 @@
 title: Stubai
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [austria]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

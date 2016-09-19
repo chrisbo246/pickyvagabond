@@ -2,12 +2,12 @@
 title: Flashed 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [calgary]
 purposes: []
 types: [AB]
 countries: [canada]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

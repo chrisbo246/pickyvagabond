@@ -2,12 +2,12 @@
 title: Snugpak 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [tent, sleeping-bag, rucksack, gloves]
+purposes: [hike, bivouac]
+types: [tent, sleeping-bag, backpack, gloves]
 countries: [united-kingdom]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

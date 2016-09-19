@@ -2,12 +2,12 @@
 title: Avtech
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, outerwear]
+purposes: [mid-layer, shell-layer, hike]
+types: [backpack]
 countries: [indonesia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Evernew
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

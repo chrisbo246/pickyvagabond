@@ -2,12 +2,12 @@
 title: OR 
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [outdoor-research]
 purposes: []
-types: [gloves, rucksack]
+types: [gloves, backpack]
 countries: [united-states]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

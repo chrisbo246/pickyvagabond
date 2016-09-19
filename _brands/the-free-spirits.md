@@ -2,12 +2,12 @@
 title: The Free Spirits
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [bivouac]
 types: [tent]
 countries: [china]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

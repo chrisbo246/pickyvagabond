@@ -2,12 +2,12 @@
 title: SunPower
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [solar-charger]
 countries: [france]
-logo: ~
 website: "http://www.sunpower.fr"
 shop: "http://www.sunpower.fr"
 store-finder: ~

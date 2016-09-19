@@ -2,12 +2,12 @@
 title: Madshus
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [jarden]
-purposes: [skiing]
+purposes: [ski]
 types: [skis, cross-country-skis]
 countries: [norway]
-logo: ~
 website: "http://www.madshus.com/"
 shop: ~
 store-finder: ~

@@ -2,12 +2,12 @@
 title: Cozmeed
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, sleeping-bag, tent, outerwear]
+purposes: [mid-layer, shell-layer, bivouac, hikkung]
+types: [backpack, sleeping-bag, tent]
 countries: [indonesia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

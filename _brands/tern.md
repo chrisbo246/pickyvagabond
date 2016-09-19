@@ -1,16 +1,16 @@
 ---
 title: Tern
 description: ~
-image: ~
+image: "/images/brands/tern.png"
+remote-image: "https://upload.wikimedia.org/wikipedia/en/5/57/Tern-logo-horizontal-250w.png"
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: []
-logo: ~
 website: "http://www.ternbicycles.com"
-shop: "http://www.ternbicycles.com"
+shop: ~
 store-finder: ~
-about: "http://www.ternbicycles.com/about/"
-wiki: "https://en.wikipedia.org/wiki/Tern"
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Tern_(company)"
 ---

@@ -2,12 +2,12 @@
 title: Esperia
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: [cycling]
+purposes: [cycle]
 types: [bicycle, folding-bicycle]
 countries: [australia]
-logo: ~
 website: "http://esperia.com"
 shop: "http://esperia.com"
 store-finder: ~

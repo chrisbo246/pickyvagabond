@@ -2,12 +2,12 @@
 title: Outwell
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [camp, bivouac]
 types: [multi-tool, portable-stove, sleeping-bag, sleeping-mattress, tent]
 countries: [denmark]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

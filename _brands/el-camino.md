@@ -2,12 +2,12 @@
 title: El Camino
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
-types: [rucksack]
+types: [backpack]
 countries: [indonesia]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

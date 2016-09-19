@@ -2,12 +2,12 @@
 title: Tendon
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: [carabiner, rope]
 countries: [czech-republic]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

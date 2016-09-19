@@ -1,16 +1,16 @@
 ---
 title: Aclima
 description: ~
-image: "http://www.aclima.no/media/site/logo.png"
+image: "/images/brands/aclima.png"
+remote-image: "http://www.aclima.no/media/site/logo.png"
 categories: []
 brands: []
-purposes: []
-types: [outwear]
+purposes: [mid-layer, shell-layer, merinos-wool]
+types: []
 countries: [norway]
-logo: "http://www.aclima.no/media/site/logo.png"
 website: "http://www.aclima.no/"
 shop: ~
-store-finder: ~
-about: ~
+store-finder: "http://www.aclima.no/find-store"
+about: "http://www.aclima.no/about-us"
 wiki: ~
 ---

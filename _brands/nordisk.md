@@ -2,12 +2,12 @@
 title: Nordisk
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [rucksack, sleeping-bag, sleeping-mattress, tent]
+purposes: [hike, bivouac]
+types: [backpack, sleeping-bag, sleeping-mattress, tent]
 countries: [denmark]
-logo: ~
 website: "http://www.nordisk.eu"
 shop: "http://www.nordisk.eu"
 store-finder: ~

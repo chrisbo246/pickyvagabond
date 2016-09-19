@@ -2,12 +2,12 @@
 title: Promonte
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
+purposes: [mountaineer, bivouac]
 types: [crampons, sleeping-bag, tent]
 countries: [japan]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

@@ -2,11 +2,19 @@
     <div class="form-group">
         <div class="input-group">
             <input type="text" id="search-box" name="query" class="form-control" placeholder="Search">
-            <!--
+            {% comment %}
+            <span class="input-group-addon">
+                <select id="search-collection" name="collection" class="form-control">
+                    <option value="" selected="">All</option>
+                    {% for collection in site.collections %}
+                    <option value="{{ collection.label }}">{{ collection.title }}</option>
+                    {% endfor %}
+                </select>
+            </span>
             <span class="input-group-btn">
                 <button type="submit" class="btn btn-default">Search</button>
             </div>
-        -->
+            {% endcomment %}
         </div>
     </div>
 </form>

@@ -2,12 +2,12 @@
 title: Rock Slave
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
-purposes: []
-types: [outwear, rucksack]
+purposes: [mid-layer, shell-layer]
+types: [backpack]
 countries: [italy]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

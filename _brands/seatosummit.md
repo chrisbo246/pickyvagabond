@@ -2,12 +2,12 @@
 title: Sea To Summit
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [australia]
-logo: ~
 website: "http://www.se"
 shop: "http://www.se"
 store-finder: ~

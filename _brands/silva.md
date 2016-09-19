@@ -2,15 +2,15 @@
 title: SILVA
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: [fiskars, johnson-outdoors]
-purposes: []
-types: [headlamp, multi-tool, outerwear, trekking-pole]
+purposes: [mid-layer, shell-layer]
+types: [headlamp, multi-tool, trekking-pole]
 countries: [sweden]
-logo: ~
 website: "http://silva.se"
-shop: "http://silva.se"
+shop: ~
 store-finder: ~
-about: "http://silva.se/about/"
-wiki: "https://en.wikipedia.org/wiki/SILVA"
+about: ~
+wiki: "https://en.wikipedia.org/wiki/Silva_compass"
 ---

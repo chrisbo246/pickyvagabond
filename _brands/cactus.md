@@ -2,12 +2,12 @@
 title: Cactus
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [new-zealand]
-logo: ~
 website: ~
 shop: ~
 store-finder: ~

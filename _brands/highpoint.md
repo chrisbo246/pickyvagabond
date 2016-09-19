@@ -2,12 +2,12 @@
 title: HIGH POINT
 description: ~
 image: ~
+remote-image: ~
 categories: []
 brands: []
 purposes: []
 types: []
 countries: [czech-republic]
-logo: ~
 website: "http://www.highpoint.cz"
 shop: "http://www.highpoint.cz"
 store-finder: ~

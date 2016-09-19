@@ -2,10 +2,10 @@
 title: "RCP / Red (Red Cycling Parts)"
 description: ~
 image: ~
-purposes: [cycling]
+remote-image: ~
+purposes: [cycle]
 types: []
 countries: [germany]
-logo: ~
 website: "http://www.redcycling.de"
 shop: "http://www.redcycling.de"
 store-finder: ~
