@@ -196,11 +196,11 @@ var dealerLocalizerModule = (function () {
             $.getJSON(baseurl + '/assets/json/shops.json', function (json) {
                 shopsData = json;
                 console.log('Loaded', 'shops.json');
-            }),
+            })/*,
             $.getJSON(baseurl + '/assets/json/countries.json', function (json) {
                 countriesData = json;
                 console.log('Loaded', 'countries.json');
-            })
+            })*/
         );
 
     };

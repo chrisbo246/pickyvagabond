@@ -1,0 +1,29 @@
+
+.text-lg {
+    font-size: 1.5em;
+}
+.text-2x {
+    font-size: 2em;
+}
+.text-3x {
+    font-size: 3em;
+}
+.text-4x {
+    font-size: 4em;
+}
+.text-6x {
+    font-size: 6em;
+}
+
+.alert {
+    & > .glyphicon {
+        &.pull-left {
+           margin-right: $grid-gutter-width / 2;
+           margin-bottom: $grid-gutter-width / 2;
+        }
+        &.pull-right {
+           margin-left: $grid-gutter-width / 2;
+           margin-bottom: $grid-gutter-width / 2;
+        }
+    }
+}

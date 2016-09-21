@@ -4,7 +4,6 @@
 }
 
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
@@ -65,34 +64,6 @@ border-radius: $thumbnail-border-radius;
     max-height: 100px;
 }
 */
-.text-lg {
-    font-size: 1.5em;
-}
-.text-2x {
-    font-size: 2em;
-}
-.text-3x {
-    font-size: 3em;
-}
-.text-4x {
-    font-size: 4em;
-}
-.text-6x {
-    font-size: 6em;
-}
-
-.alert {
-    & > .glyphicon {
-        &.pull-left {
-           margin-right: $grid-gutter-width / 2;
-           margin-bottom: $grid-gutter-width / 2;
-        }
-        &.pull-right {
-           margin-left: $grid-gutter-width / 2;
-           margin-bottom: $grid-gutter-width / 2;
-        }
-    }
-}
 
 a[href="#top"] {
     position: fixed;
@@ -156,23 +127,6 @@ a[href="#top"] {
 
 .label-product {
   @include label-variant($label-warning-bg);
-}
-
-// Fix
-
-.select2-container {
-    width: 100%;
-    max-width: 100%;
-}
-
-// Hide images until they are .lazyloaded
-.lazyload,
-.lazyloading {
-    opacity: 0;
-}
-.lazyloaded {
-    opacity: 1;
-    transition: opacity 300ms;
 }
 
 // Checkbox
