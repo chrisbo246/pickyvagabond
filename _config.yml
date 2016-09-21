@@ -187,8 +187,8 @@ gems:
 
 # jekyll-github-metadata
 repository: chrisbo246/pickyvagabond
-github:
-  url: http://127.0.0.1:4000
+#github:
+#  url: http://127.0.0.1:4000
 
 # jekyll-seo-tag
 logo: /assets/images/logo.jpg
